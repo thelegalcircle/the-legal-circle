@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">The Legal Circle — Connect. Contribute. Grow.</title>
+  <desc id="desc">A branded social sharing card with concentric black and green circles.</desc>
+  <rect width="1200" height="630" fill="#f8f7f2"/>
+  <g fill="none" stroke="#171717" stroke-width="4" transform="translate(1020 315)">
+    <circle r="105"/><circle r="170"/><circle r="235"/><circle r="300"/><circle r="365"/>
+  </g>
+  <g fill="none" stroke="#7cf000" stroke-width="12" stroke-linecap="round" transform="translate(1020 315)">
+    <path d="M 0 -105 A 105 105 0 0 1 74 -74"/>
+    <path d="M -147 -85 A 170 170 0 0 1 -85 -147"/>
+    <path d="M 166 166 A 235 235 0 0 1 0 235"/>
+    <path d="M 0 -300 A 300 300 0 0 1 212 -212"/>
+  </g>
+  <circle cx="1020" cy="315" r="44" fill="#7cf000"/>
+  <g fill="#101010" font-family="Arial, Helvetica, sans-serif">
+    <text x="76" y="115" font-size="25" font-weight="800" letter-spacing="8">THE LEGAL CIRCLE</text>
+    <text x="70" y="290" font-size="80" font-weight="900" letter-spacing="-3">Connect.</text>
+    <text x="70" y="380" font-size="80" font-weight="900" letter-spacing="-3">Contribute.</text>
+    <text x="70" y="470" font-size="80" font-weight="900" letter-spacing="-3" fill="#4f9700">Grow.</text>
+  </g>
+</svg>
