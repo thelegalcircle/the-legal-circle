@@ -23,8 +23,8 @@ body { margin: 0; background: #f8f7f2; }
 
 .tlc-header { position: sticky; z-index: 100; top: 0; display: grid; grid-template-columns: minmax(118px, 170px) 1fr auto; align-items: center; min-height: 84px; padding: 8px clamp(20px, 4vw, 68px); border-bottom: 1px solid #d8d8d0; background: rgba(248, 247, 242, .96); backdrop-filter: blur(16px); }
 .tlc-brand { display: inline-flex; width: max-content; }
-.tlc-logo { display: grid; width: 96px; height: 66px; place-items: center; overflow: hidden; }
-.tlc-logo img { display: block; width: 82px; height: 82px; object-fit: contain; }
+.tlc-logo { display: grid; width: 80px; height: 58px; place-items: center; overflow: hidden; }
+.tlc-logo img { display: block; width: 62px; height: 62px; object-fit: contain; }
 .tlc-nav { display: flex; justify-content: center; gap: clamp(20px, 3vw, 48px); }
 .tlc-nav a, .tlc-footer nav a { font-size: 12px; font-weight: 800; letter-spacing: .1em; text-decoration: none; text-transform: uppercase; }
 .tlc-nav a:hover, .tlc-nav a:focus-visible, .tlc-footer a:hover, .tlc-footer a:focus-visible { color: #4f9700; }
@@ -130,8 +130,8 @@ body { margin: 0; background: #f8f7f2; }
 
 @media (max-width: 680px) {
   .tlc-header { min-height: 76px; padding: 5px 16px; }
-  .tlc-logo { width: 72px; height: 58px; }
-  .tlc-logo img { width: 70px; height: 70px; }
+  .tlc-logo { width: 64px; height: 52px; }
+  .tlc-logo img { width: 56px; height: 56px; }
   .tlc-button-small { min-height: 40px; padding: 0 12px; font-size: 9px; }
   .tlc-hero-copy { padding: 52px 20px 48px; }
   .tlc-hero h1 { max-width: 100%; margin-top: 22px; font-size: clamp(42px, 12vw, 60px); line-height: .94; }
