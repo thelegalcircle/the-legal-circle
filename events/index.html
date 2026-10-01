@@ -17,7 +17,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Finance &amp; Law: When the Numbers Meet the Law | Event">
   <meta name="twitter:description" content="Join The Legal Circle and Plov Talks for a November 2026 networking evening exploring finance, law and business over good food and new connections.">
-  <link rel="stylesheet" href="/styles.css?v=20261001-legal">
+  <link rel="stylesheet" href="/styles.css?v=20261001-event-response">
   <link rel="stylesheet" href="/events.css?v=20260930-10">
 </head>
 <body>
@@ -88,6 +88,28 @@
     </main>
     <footer class="tlc-footer"><span class="tlc-logo tlc-logo-footer"><img src="/assets/the-legal-circle-logo.png" alt="The Legal Circle"></span><p>Website built by <a href="https://magneo.ca/" target="_blank" rel="noopener noreferrer">Magneo.ca</a>.</p><nav aria-label="Legal Circle footer"><a href="/">Home</a><a href="/news/">News</a><a href="/events/">Events</a><a href="/get-featured/">Get Featured</a><a href="/privacy-policy/">Privacy Policy</a><a href="/terms-of-use/">Website Terms of Use</a><a href="/contact/">Contact</a><a href="https://www.linkedin.com/groups/40976138/" target="_blank" rel="noopener noreferrer">LinkedIn group</a></nav></footer>
   </div><script charset="utf-8" type="text/javascript" src="https://js-na3.hsforms.net/forms/embed/v2.js"></script>
-  <script>hbspt.forms.create({portalId:"342767601",formId:"4246ac37-1954-408f-aafb-d3528b9fb87c",region:"na3",target:"#finance-law-registration-form"});</script>
+  <script>
+    window.showFinanceLawConfirmation = function () {
+      var target = document.getElementById("finance-law-registration-form");
+      if (!target) return;
+      target.innerHTML = '<div class="tlc-form-confirmation" role="status" tabindex="-1"><p>Thank you for your interest in Finance &amp; Law! We’ll email you once the date, venue and booking details are confirmed. We look forward to meeting you!</p></div>';
+      target.querySelector(".tlc-form-confirmation").focus();
+    };
+
+    window.addEventListener("message", function (event) {
+      var data = event.data;
+      if (data && data.type === "hsFormCallback" && data.eventName === "onFormSubmitted" && data.id === "4246ac37-1954-408f-aafb-d3528b9fb87c") {
+        window.showFinanceLawConfirmation();
+      }
+    });
+
+    hbspt.forms.create({
+      portalId: "342767601",
+      formId: "4246ac37-1954-408f-aafb-d3528b9fb87c",
+      region: "na3",
+      target: "#finance-law-registration-form",
+      onFormSubmitted: window.showFinanceLawConfirmation
+    });
+  </script>
 </body>
 </html>
