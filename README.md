@@ -14,6 +14,7 @@ Static GitHub Pages copy of The Legal Circle community landing page.
 
 1. Copy `_templates/article.html` into `news/article-slug/index.html`.
 2. Replace every `{{PLACEHOLDER}}`, add the approved article copy, author biography and sharing image.
+   For `{{ARTICLE_TAG_ITEMS}}`, use plain `<li>Topic</li>` items unless a matching topic archive exists. Replace the placeholder with nothing when an article has no tags; the empty row stays hidden.
 3. Keep each article at a clean directory URL such as `/news/article-slug/`.
 4. Add the published article to `news/index.html` with its title, short summary, author and publication date.
 5. Validate the canonical URL, metadata, Article structured data, links and mobile layout before publishing.

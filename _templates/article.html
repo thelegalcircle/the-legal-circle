@@ -59,6 +59,8 @@
           <h1>{{ARTICLE_TITLE}}</h1>
           <p class="tlc-article-dek">{{ARTICLE_SUMMARY}}</p>
           <div class="tlc-article-meta"><span>By {{AUTHOR_NAME}}</span><time datetime="{{ISO_DATE}}">{{DISPLAY_DATE}}</time><span>{{READING_TIME}} min read</span></div>
+          <!-- Replace with <li>Topic</li> items. Use linked items only when a matching topic archive exists. Replace the placeholder with nothing when there are no tags. -->
+          <ul class="tlc-article-tags" aria-label="Article topics">{{ARTICLE_TAG_ITEMS}}</ul>
         </header>
 
         <figure class="tlc-article-image"><img src="/assets/{{FEATURE_IMAGE_PATH}}" alt="{{FEATURE_IMAGE_ALT}}"><figcaption>{{OPTIONAL_IMAGE_CAPTION}}</figcaption></figure>
