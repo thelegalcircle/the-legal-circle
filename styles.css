@@ -225,7 +225,7 @@ body { margin: 0; background: #f8f7f2; }
 
 /* Static article template */
 .tlc-article{background:#fff}
-.tlc-article-header{padding:clamp(64px,9vw,130px) clamp(28px,12vw,180px) clamp(40px,5vw,62px);background:var(--tlc-paper)}
+.tlc-article-header{padding:clamp(32px,4.5vw,65px) clamp(28px,12vw,180px) clamp(40px,5vw,62px);background:var(--tlc-paper)}
 .tlc-breadcrumbs{display:flex;gap:9px;margin-bottom:46px;color:#64645e;font-size:12px;font-weight:700;text-transform:uppercase}
 .tlc-breadcrumbs a{text-underline-offset:4px}
 .tlc-article-header h1{max-width:1100px;margin:22px 0 30px;font-family:Georgia,"Times New Roman",serif;font-size:clamp(54px,7.4vw,108px);font-weight:500;letter-spacing:-.055em;line-height:.94}
@@ -254,4 +254,4 @@ body { margin: 0; background: #f8f7f2; }
 .tlc-author-card h2{margin:16px 0;font:900 clamp(30px,3vw,44px)/1 "Arial Narrow","Helvetica Neue",sans-serif;text-transform:uppercase}
 .tlc-author-card>p:not(.tlc-eyebrow){max-width:700px;color:var(--tlc-muted);font-size:16px;line-height:1.7}
 .tlc-author-card>a{display:inline-block;margin-top:10px;color:#356b00!important;font-size:12px;font-weight:900;letter-spacing:.06em;text-transform:uppercase;text-underline-offset:5px}
-@media(max-width:760px){.tlc-article-header{padding:58px 20px 36px}.tlc-breadcrumbs{margin-bottom:34px}.tlc-article-header h1{font-size:clamp(42px,12vw,60px)}.tlc-article-tags{gap:6px;margin-top:16px}.tlc-article-tags a{min-height:26px;padding:4px 8px;font-size:9px}.tlc-article-layout{grid-template-columns:1fr;padding:42px 20px 60px}.tlc-article-aside{max-width:280px}.tlc-author-card{margin:0 20px 70px;padding:30px 24px}.tlc-topic-main{padding:46px 20px 70px}.tlc-topic-sections{margin-top:38px}.tlc-topic-section{padding:24px 20px}}
+@media(max-width:760px){.tlc-article-header{padding:29px 20px 36px}.tlc-breadcrumbs{margin-bottom:34px}.tlc-article-header h1{font-size:clamp(42px,12vw,60px)}.tlc-article-tags{gap:6px;margin-top:16px}.tlc-article-tags a{min-height:26px;padding:4px 8px;font-size:9px}.tlc-article-layout{grid-template-columns:1fr;padding:42px 20px 60px}.tlc-article-aside{max-width:280px}.tlc-author-card{margin:0 20px 70px;padding:30px 24px}.tlc-topic-main{padding:46px 20px 70px}.tlc-topic-sections{margin-top:38px}.tlc-topic-section{padding:24px 20px}}
