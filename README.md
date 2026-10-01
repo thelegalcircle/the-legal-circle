@@ -10,4 +10,14 @@ Static GitHub Pages copy of The Legal Circle community landing page.
 4. Commit the changes to the `main` branch and push them to GitHub.
 5. GitHub Pages redeploys automatically from the repository root.
 
+## Publishing News & Insights
+
+1. Copy `_templates/article.html` into `news/article-slug/index.html`.
+2. Replace every `{{PLACEHOLDER}}`, add the approved article copy, author biography and sharing image.
+3. Keep each article at a clean directory URL such as `/news/article-slug/`.
+4. Add the published article to `news/index.html` with its title, short summary, author and publication date.
+5. Validate the canonical URL, metadata, Article structured data, links and mobile layout before publishing.
+
+Do not create placeholder articles or list empty categories. The News landing page should only show article previews after genuine editorial content is approved.
+
 The page intentionally carries `noindex, nofollow`. Do not remove that directive until indexing is explicitly approved.
