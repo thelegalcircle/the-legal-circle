@@ -21,7 +21,7 @@
   <meta name="twitter:title" content="{{ARTICLE_TITLE}}">
   <meta name="twitter:description" content="{{META_DESCRIPTION}}">
   <meta name="twitter:image" content="https://thelegalcircle.ca/assets/{{SHARING_IMAGE}}">
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/styles.css?v=20261001-tags">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -60,6 +60,7 @@
           <p class="tlc-article-dek">{{ARTICLE_SUMMARY}}</p>
           <div class="tlc-article-meta"><span>By {{AUTHOR_NAME}}</span><time datetime="{{ISO_DATE}}">{{DISPLAY_DATE}}</time><span>{{READING_TIME}} min read</span></div>
           <!-- Replace with <li>Topic</li> items. Use linked items only when a matching topic archive exists. Replace the placeholder with nothing when there are no tags. -->
+          <!-- Use linked items when a matching topic archive exists: <li><a href="/news/topics/#tag-slug">#Tag name</a></li> -->
           <ul class="tlc-article-tags" aria-label="Article topics">{{ARTICLE_TAG_ITEMS}}</ul>
         </header>
 
