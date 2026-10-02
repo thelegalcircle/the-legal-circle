@@ -1,10 +1,10 @@
 <!doctype html>
-<!-- Internal authoring template. Copy this file to /news/article-slug/index.html and replace every {{PLACEHOLDER}} before publishing. -->
+<!-- Internal authoring template. Copy this file to /news/article-slug/index.html, write the body, add the article fields to /news/articles.json, then run: node scripts/build-news.mjs && node scripts/check-news.mjs. Metadata, tags, related stories and sitemaps are generated from the manifest. -->
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ARTICLE_TITLE}} | The Legal Circle</title>
+  <title>{{SEO_TITLE}}</title>
   <meta name="description" content="{{META_DESCRIPTION}}">
   <link rel="canonical" href="https://thelegalcircle.ca/news/{{ARTICLE_SLUG}}/">
   <link rel="icon" type="image/png" href="/assets/the-legal-circle-logo.png">
@@ -14,31 +14,23 @@
   <meta property="og:site_name" content="The Legal Circle">
   <meta property="og:url" content="https://thelegalcircle.ca/news/{{ARTICLE_SLUG}}/">
   <meta property="og:image" content="https://thelegalcircle.ca/assets/{{SHARING_IMAGE}}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{FEATURE_IMAGE_ALT}}">
   <meta property="article:published_time" content="{{ISO_DATE}}">
+  <meta property="article:modified_time" content="{{ISO_DATE}}">
+  <meta property="article:section" content="{{CATEGORY}}">
   <meta property="article:author" content="{{AUTHOR_NAME}}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ARTICLE_TITLE}}">
   <meta name="twitter:description" content="{{META_DESCRIPTION}}">
   <meta name="twitter:image" content="https://thelegalcircle.ca/assets/{{SHARING_IMAGE}}">
-  <link rel="stylesheet" href="/styles.css?v=20261001-consent">
+  <link rel="stylesheet" href="/styles.css?v=20261002-seo">
   <script src="/consent.js?v=20261001" defer></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "{{ARTICLE_TITLE}}",
-    "description": "{{META_DESCRIPTION}}",
-    "datePublished": "{{ISO_DATE}}",
-    "dateModified": "{{ISO_DATE}}",
-    "mainEntityOfPage": "https://thelegalcircle.ca/news/{{ARTICLE_SLUG}}/",
-    "image": "https://thelegalcircle.ca/assets/{{SHARING_IMAGE}}",
-    "author": {"@type": "Person", "name": "{{AUTHOR_NAME}}"},
-    "publisher": {
-      "@type": "Organization",
-      "name": "The Legal Circle",
-      "url": "https://thelegalcircle.ca/",
-      "logo": {"@type": "ImageObject", "url": "https://thelegalcircle.ca/assets/the-legal-circle-logo.png"}
-    }
+    "@graph": [{"@type": "Article", "headline": "{{ARTICLE_TITLE}}"}]
   }
   </script>
 </head>
@@ -64,7 +56,9 @@
           <ul class="tlc-article-tags" aria-label="Article topics">{{ARTICLE_TAG_ITEMS}}</ul>
         </header>
 
-        <figure class="tlc-article-image"><img src="/assets/{{FEATURE_IMAGE_PATH}}" alt="{{FEATURE_IMAGE_ALT}}"><figcaption>{{OPTIONAL_IMAGE_CAPTION}}</figcaption></figure>
+        <!-- FEATURED_IMAGE_START -->
+        <!-- Generated from featuredImage in news/articles.json when showInArticle is true. -->
+        <!-- FEATURED_IMAGE_END -->
 
         <div class="tlc-article-layout">
           <aside class="tlc-article-aside" aria-label="Article information"><span>{{CATEGORY}}</span><p>Published by The Legal Circle</p></aside>
@@ -75,14 +69,20 @@
             <blockquote><p>{{OPTIONAL_QUOTATION}}</p></blockquote>
             <h2>{{SECTION_HEADING}}</h2>
             <p>{{ARTICLE_PARAGRAPH}}</p>
+            <p class="tlc-primary-source"><strong>Primary sources:</strong> <a href="{{PRIMARY_SOURCE_URL}}" target="_blank" rel="noopener noreferrer">{{PRIMARY_SOURCE_NAME}} <span aria-hidden="true">↗</span></a></p>
           </div>
         </div>
 
+        <!-- RELATED_ARTICLES_START -->
+        <!-- Generated from related selections in news/articles.json. -->
+        <!-- RELATED_ARTICLES_END -->
+
         <footer class="tlc-author-card">
-          <p class="tlc-eyebrow">About the author</p>
-          <h2>{{AUTHOR_NAME}}</h2>
-          <p>{{AUTHOR_BIOGRAPHY}}</p>
-          <a href="{{AUTHOR_PROFILE_URL}}" target="_blank" rel="noopener noreferrer">View professional profile <span aria-hidden="true">↗</span></a>
+          <p class="tlc-eyebrow">Published by</p>
+          <h2><a href="/editorial/">The Legal Circle</a></h2>
+          <p>A media and networking platform for legal professionals, bringing together legal news, expert perspectives, marketing and business development insights.</p>
+          <a href="/get-featured/">Contribute to The Legal Circle <span aria-hidden="true">→</span></a>
+          <p class="tlc-corrections">Questions or corrections? Email <a href="mailto:networking@thelegalcircle.ca">networking@thelegalcircle.ca</a>.</p>
         </footer>
       </article>
     </main>

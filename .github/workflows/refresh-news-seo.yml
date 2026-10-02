@@ -1,0 +1,39 @@
+name: Refresh news SEO
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - news/articles.json
+      - scripts/build-news.mjs
+      - scripts/check-news.mjs
+      - _templates/article.html
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-news-seo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out site
+        uses: actions/checkout@v4
+      - name: Generate article metadata and sitemaps
+        run: node scripts/build-news.mjs
+      - name: Validate News SEO
+        run: node scripts/check-news.mjs
+      - name: Commit generated changes
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo "Generated News files are current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add news sitemap.xml news-sitemap.xml robots.txt
+          git commit -m "Refresh generated News SEO files"
+          git push

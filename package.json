@@ -1,0 +1,9 @@
+{
+  "name": "the-legal-circle-site",
+  "private": true,
+  "scripts": {
+    "news:build": "node scripts/build-news.mjs",
+    "news:check": "node scripts/check-news.mjs",
+    "news:publish-check": "node scripts/build-news.mjs && node scripts/check-news.mjs"
+  }
+}

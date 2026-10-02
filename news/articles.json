@@ -1,0 +1,143 @@
+[
+  {
+    "slug": "arceus-ai-supported-law-firm-17-million-funding",
+    "status": "published",
+    "headline": "Arceus Launches AI-Supported Law Firm With $17 Million in Total Funding",
+    "seoTitle": "Arceus Launches AI Law Firm With $17M in Funding",
+    "metaDescription": "Arceus has launched an AI-supported law firm backed by $17 million. Explore its flat-fee service model and lessons for Canadian law firms.",
+    "excerpt": "The firm combines licensed attorneys, AI agents, flat fees and an eight-hour contract-review guarantee. Its model raises practical questions for Canadian legal service providers.",
+    "contentType": "news",
+    "category": "Business & Practice Development",
+    "tags": [
+      {"name": "Legal AI", "slug": "legal-ai"},
+      {"name": "Law Firm Innovation", "slug": "law-firm-innovation"},
+      {"name": "Alternative Fees", "slug": "alternative-fees"},
+      {"name": "Practice Management", "slug": "practice-management"}
+    ],
+    "author": {"name": "The Legal Circle", "type": "Organization", "url": "https://thelegalcircle.ca/editorial/"},
+    "published": "2026-10-02",
+    "modified": "2026-10-02",
+    "jurisdiction": "United States; Canada",
+    "featuredImage": {"url": "/assets/the-legal-circle-social-card.png", "alt": "The Legal Circle — Connect. Contribute. Grow.", "width": 1200, "height": 630, "showInArticle": false},
+    "social": {"title": "Arceus Launches AI-Supported Law Firm With $17 Million in Total Funding", "description": "What Arceus’s AI-supported, flat-fee legal service model could mean for Canadian law firms and their clients.", "image": "/assets/the-legal-circle-social-card.png"},
+    "related": ["california-sb-574-lawyers-generative-ai-law", "westlaw-ross-ai-copyright-ruling-third-circuit"],
+    "correctionNote": ""
+  },
+  {
+    "slug": "ai-agents-canadian-government-website-transluce-report",
+    "status": "published",
+    "headline": "AI Agents Reportedly Probed a Canadian Government Website: What Is Known",
+    "seoTitle": "AI Agents Probed Canadian Website: Facts and Legal Questions",
+    "metaDescription": "Researchers report failed probes of Library and Archives Canada. Explore the evidence, attribution limits and legal questions for AI deployers.",
+    "excerpt": "Canada’s Cyber Centre says there is no indication that government systems were compromised. Researchers nevertheless report activity that raises questions about the boundaries of autonomous AI.",
+    "contentType": "news",
+    "category": "AI & Technology",
+    "tags": [
+      {"name": "AI Agents", "slug": "ai-agents"},
+      {"name": "Cybersecurity", "slug": "cybersecurity"},
+      {"name": "Autonomous AI", "slug": "autonomous-ai"},
+      {"name": "Canada", "slug": "canada"}
+    ],
+    "author": {"name": "The Legal Circle", "type": "Organization", "url": "https://thelegalcircle.ca/editorial/"},
+    "published": "2026-10-02",
+    "modified": "2026-10-02",
+    "jurisdiction": "Canada",
+    "featuredImage": {"url": "/assets/the-legal-circle-social-card.png", "alt": "The Legal Circle — Connect. Contribute. Grow.", "width": 1200, "height": 630, "showInArticle": false},
+    "social": {"title": "AI Agents Reportedly Probed a Canadian Government Website: What Is Known", "description": "What researchers reported about unsuccessful probes of Library and Archives Canada—and the questions the activity raises for AI deployers.", "image": "/assets/the-legal-circle-social-card.png"},
+    "related": ["california-sb-574-lawyers-generative-ai-law", "westlaw-ross-ai-copyright-ruling-third-circuit"],
+    "correctionNote": ""
+  },
+  {
+    "slug": "ontario-court-appeal-appointments-myers-harris-nishikawa-2026",
+    "status": "published",
+    "headline": "Ontario Court of Appeal Appoints Myers, Harris and Nishikawa",
+    "seoTitle": "Ontario Court of Appeal Appointments: Three New Judges",
+    "metaDescription": "Myers, Harris and Nishikawa join Ontario’s Court of Appeal. Meet the appellate appointees and five new Superior Court judges announced October 1.",
+    "excerpt": "Ontario’s appellate bench has three new members with experience spanning commercial disputes, criminal appeals and public law.",
+    "contentType": "news",
+    "category": "Legal Developments",
+    "tags": [
+      {"name": "Judicial Appointments", "slug": "judicial-appointments"},
+      {"name": "Ontario Courts", "slug": "ontario-courts"},
+      {"name": "Appellate Practice", "slug": "appellate-practice"}
+    ],
+    "author": {"name": "The Legal Circle", "type": "Organization", "url": "https://thelegalcircle.ca/editorial/"},
+    "published": "2026-10-02",
+    "modified": "2026-10-02",
+    "jurisdiction": "Ontario, Canada",
+    "featuredImage": {"url": "/assets/the-legal-circle-social-card.png", "alt": "The Legal Circle — Connect. Contribute. Grow.", "width": 1200, "height": 630, "showInArticle": false},
+    "social": {"title": "Ontario Court of Appeal Appoints Myers, Harris and Nishikawa", "description": "Meet Ontario’s three new appellate judges and five new Superior Court appointees.", "image": "/assets/the-legal-circle-social-card.png"},
+    "related": ["lawyer-civility-emails-alberta-smith-2026-abca-308"],
+    "correctionNote": ""
+  },
+  {
+    "slug": "california-sb-574-lawyers-generative-ai-law",
+    "status": "published",
+    "headline": "California’s SB 574 Sets New Rules for Lawyers Using Generative AI",
+    "seoTitle": "California SB 574: New Generative AI Rules for Lawyers",
+    "metaDescription": "California’s SB 574 introduces AI disclosure, verification and confidentiality duties for lawyers. Explore its significance for Canadian legal practice.",
+    "excerpt": "California has put lawyers’ use of generative AI into statute. For Canadian lawyers, the development offers a concrete comparison.",
+    "contentType": "news",
+    "category": "AI & Technology",
+    "tags": [
+      {"name": "Legal AI", "slug": "legal-ai"},
+      {"name": "Professional Conduct", "slug": "professional-conduct"},
+      {"name": "Confidentiality", "slug": "confidentiality"},
+      {"name": "Citation Verification", "slug": "citation-verification"}
+    ],
+    "author": {"name": "The Legal Circle", "type": "Organization", "url": "https://thelegalcircle.ca/editorial/"},
+    "published": "2026-10-02",
+    "modified": "2026-10-02",
+    "jurisdiction": "California, United States; Canada",
+    "featuredImage": {"url": "/assets/the-legal-circle-social-card.png", "alt": "The Legal Circle — Connect. Contribute. Grow.", "width": 1200, "height": 630, "showInArticle": false},
+    "social": {"title": "California SB 574: New Generative AI Rules for Lawyers", "description": "California’s new AI disclosure, verification and confidentiality duties—and their relevance for Canadian legal practice.", "image": "/assets/the-legal-circle-social-card.png"},
+    "related": ["westlaw-ross-ai-copyright-ruling-third-circuit", "ai-agents-canadian-government-website-transluce-report"],
+    "correctionNote": ""
+  },
+  {
+    "slug": "westlaw-ross-ai-copyright-ruling-third-circuit",
+    "status": "published",
+    "headline": "Westlaw–ROSS AI Copyright Ruling: Why Competition Mattered to the Third Circuit",
+    "seoTitle": "Westlaw–ROSS AI Copyright Ruling: Canadian Implications",
+    "metaDescription": "Explore the Third Circuit’s Westlaw–ROSS ruling, why competition mattered to fair use, and the questions Canadian legal AI teams should ask.",
+    "excerpt": "An AI product can introduce a new way to search without changing the legal questions surrounding the material used to build it.",
+    "contentType": "analysis",
+    "category": "AI & Technology",
+    "tags": [
+      {"name": "Copyright", "slug": "copyright"},
+      {"name": "Competition", "slug": "competition"},
+      {"name": "Legal AI", "slug": "legal-ai"}
+    ],
+    "author": {"name": "The Legal Circle", "type": "Organization", "url": "https://thelegalcircle.ca/editorial/"},
+    "published": "2026-10-01",
+    "modified": "2026-10-01",
+    "jurisdiction": "United States; Canada",
+    "featuredImage": {"url": "/assets/the-legal-circle-social-card.png", "alt": "The Legal Circle — Connect. Contribute. Grow.", "width": 1200, "height": 630, "showInArticle": false},
+    "social": {"title": "Westlaw–ROSS AI Copyright Ruling: Why Competition Mattered", "description": "Why competition mattered to fair use—and the questions Canadian legal AI teams should ask about training data.", "image": "/assets/the-legal-circle-social-card.png"},
+    "related": ["california-sb-574-lawyers-generative-ai-law", "ai-agents-canadian-government-website-transluce-report"],
+    "correctionNote": ""
+  },
+  {
+    "slug": "lawyer-civility-emails-alberta-smith-2026-abca-308",
+    "status": "published",
+    "headline": "Lawyer Civility Applies to Emails: Alberta Court Rejects a “Private Communications” Defence",
+    "seoTitle": "Lawyer Civility in Emails: Alberta’s Smith Ruling",
+    "metaDescription": "Alberta’s Court of Appeal confirms civility applies to emails between counsel. Explore the Smith ruling, its Groia context and practical implications.",
+    "excerpt": "An email to opposing counsel remains a professional communication when no judge is copied.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "tags": [
+      {"name": "Civility", "slug": "civility"},
+      {"name": "Advocacy", "slug": "advocacy"},
+      {"name": "Professional Conduct", "slug": "professional-conduct"}
+    ],
+    "author": {"name": "The Legal Circle", "type": "Organization", "url": "https://thelegalcircle.ca/editorial/"},
+    "published": "2026-10-01",
+    "modified": "2026-10-01",
+    "jurisdiction": "Alberta, Canada",
+    "featuredImage": {"url": "/assets/the-legal-circle-social-card.png", "alt": "The Legal Circle — Connect. Contribute. Grow.", "width": 1200, "height": 630, "showInArticle": false},
+    "social": {"title": "Lawyer Civility Applies to Emails: Alberta’s Smith Ruling", "description": "What Alberta’s Smith ruling means for civility in emails between opposing counsel—and for forceful advocacy.", "image": "/assets/the-legal-circle-social-card.png"},
+    "related": ["ontario-court-appeal-appointments-myers-harris-nishikawa-2026"],
+    "correctionNote": ""
+  }
+]
