@@ -12,7 +12,7 @@ The News pages are static HTML. Search metadata, article structured data, News c
    - content type: `news`, `analysis`, `opinion`, `explainer` or `interview`;
    - one approved primary category and optional tags;
    - genuine author name, type and biography/editorial URL;
-   - confirmed publication and modification dates;
+   - confirmed publication and modification timestamps in ISO 8601 format with a timezone (for example, `2026-10-02T10:46:16-04:00`);
    - jurisdiction where relevant;
    - image URL, descriptive alternative text, width and height;
    - social title, description and image;
@@ -36,4 +36,4 @@ The GitHub workflow repeats the build and validation when the manifest changes. 
 - Select only genuinely relevant related articles.
 - Label reporting, analysis, opinion, explainers and interviews accurately.
 
-If an exact publication time or article-specific image is unavailable, do not invent it. Use the confirmed date and approved branded sharing image, then record the missing asset for editorial follow-up.
+Do not invent a publication time or article-specific image. Capture the timestamp when the article is actually published; for migrated articles, use an evidence-based repository or CMS publication timestamp. Use the approved branded sharing image as a fallback, then record the missing article-specific asset for editorial follow-up.
