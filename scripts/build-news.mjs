@@ -27,7 +27,8 @@ function fail(message) { throw new Error(message); }
 function esc(value = '') { return String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
 function absolute(url) { return /^https?:\/\//i.test(url) ? url : `${SITE}${url.startsWith('/') ? '' : '/'}${url}`; }
 function articleUrl(article) { return `${SITE}/news/${article.slug}/`; }
-function displayDate(date) { return new Intl.DateTimeFormat('en-CA', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${date}T12:00:00Z`)); }
+function datePart(date) { return date.slice(0, 10); }
+function displayDate(date) { return new Intl.DateTimeFormat('en-CA', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(new Date(date)); }
 function clean(value) { return value.replace(/[ \t]+$/gm, '').replace(/\n{4,}/g, '\n\n\n'); }
 function replaceRequired(html, pattern, replacement, label) {
   if (!pattern.test(html)) fail(`Could not find ${label}`);
@@ -44,8 +45,9 @@ for (const article of articles) {
   seen.add(article.slug);
   if (!contentTypeLabels[article.contentType]) fail(`${article.slug} has unsupported contentType ${article.contentType}`);
   if (!categorySlugs[article.category]) fail(`${article.slug} has unsupported category ${article.category}`);
-  if (!/^\d{4}-\d{2}-\d{2}$/.test(article.published) || !/^\d{4}-\d{2}-\d{2}$/.test(article.modified)) fail(`${article.slug} must use YYYY-MM-DD dates`);
-  if (article.modified < article.published) fail(`${article.slug} modified date precedes publication`);
+  const timestampPattern = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:Z|[+-]\d{2}:\d{2})$/;
+  if (!timestampPattern.test(article.published) || !timestampPattern.test(article.modified)) fail(`${article.slug} must use ISO 8601 timestamps with a timezone`);
+  if (Date.parse(article.modified) < Date.parse(article.published)) fail(`${article.slug} modified timestamp precedes publication`);
   if (!article.author.name || !article.author.type || !article.author.url) fail(`${article.slug} has incomplete author information`);
   if (!article.featuredImage.url || !article.featuredImage.alt || !article.featuredImage.width || !article.featuredImage.height) fail(`${article.slug} has incomplete image information`);
   if (!article.social.title || !article.social.description || !article.social.image) fail(`${article.slug} has incomplete social metadata`);
@@ -310,7 +312,7 @@ const today = new Date();
 const utcToday = new Date(Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate()));
 const cutoff = new Date(utcToday); cutoff.setUTCDate(cutoff.getUTCDate() - 1);
 const cutoffDate = cutoff.toISOString().slice(0, 10);
-const newsEligible = sorted.filter((article) => article.contentType === 'news' && article.published >= cutoffDate && article.published <= utcToday.toISOString().slice(0, 10));
+const newsEligible = sorted.filter((article) => article.contentType === 'news' && datePart(article.published) >= cutoffDate && datePart(article.published) <= utcToday.toISOString().slice(0, 10));
 const newsSitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">\n${newsEligible.map((article) => `  <url>\n    <loc>${esc(articleUrl(article))}</loc>\n    <news:news>\n      <news:publication><news:name>${PUBLICATION}</news:name><news:language>en</news:language></news:publication>\n      <news:publication_date>${article.published}</news:publication_date>\n      <news:title>${esc(article.headline)}</news:title>\n    </news:news>\n  </url>`).join('\n')}\n</urlset>\n`;
 fs.writeFileSync(path.join(ROOT, 'news-sitemap.xml'), newsSitemap);
 
