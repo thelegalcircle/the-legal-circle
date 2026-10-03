@@ -1,5 +1,29 @@
 [
   {
+    "slug": "minnesota-ai-nudification-law-xai-appeal",
+    "status": "published",
+    "headline": "Minnesota AI “Nudification” Law Temporarily Halted in xAI Appeal",
+    "seoTitle": "Minnesota AI Nudification Law Halted in xAI Appeal",
+    "metaDescription": "The Eighth Circuit temporarily halted Minnesota’s AI nudification law during xAI’s appeal. Examine the provider duties and unresolved legal questions.",
+    "excerpt": "Who should bear legal responsibility when an AI service allows someone to create a synthetic intimate image of an identifiable person?",
+    "contentType": "news",
+    "category": "AI & Technology",
+    "tags": [
+      {"name": "AI Regulation", "slug": "ai-regulation"},
+      {"name": "Synthetic Intimate Images", "slug": "synthetic-intimate-images"},
+      {"name": "Platform Responsibility", "slug": "platform-responsibility"},
+      {"name": "First Amendment", "slug": "first-amendment"}
+    ],
+    "author": {"name": "The Legal Circle", "type": "Organization", "url": "https://thelegalcircle.ca/editorial/"},
+    "published": "2026-10-03T12:05:36-04:00",
+    "modified": "2026-10-03T12:05:36-04:00",
+    "jurisdiction": "Minnesota, United States; Canada",
+    "featuredImage": {"url": "/assets/the-legal-circle-social-card.png", "alt": "The Legal Circle — Connect. Contribute. Grow.", "width": 1200, "height": 630, "showInArticle": false},
+    "social": {"title": "Minnesota AI “Nudification” Law Temporarily Halted in xAI Appeal", "description": "Why Minnesota’s provider-focused AI nudification law—and the interim order halting it—matter to the debate over synthetic intimate images.", "image": "/assets/the-legal-circle-social-card.png"},
+    "related": ["ai-agents-canadian-government-website-transluce-report", "california-sb-574-lawyers-generative-ai-law"],
+    "correctionNote": ""
+  },
+  {
     "slug": "judge-ai-errors-junior-lawyer-training-concerns",
     "status": "published",
     "headline": "Judge Declines Sanctions Over AI Errors, Raises Junior Lawyer Training Concerns",
