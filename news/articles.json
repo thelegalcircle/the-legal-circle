@@ -1,5 +1,29 @@
 [
   {
+    "slug": "supreme-court-canada-cross-border-bitcoin-restraint-case",
+    "status": "published",
+    "headline": "Supreme Court of Canada to Hear Cross-Border Bitcoin Restraint Case",
+    "seoTitle": "Supreme Court to Hear Cross-Border Bitcoin Restraint Case",
+    "metaDescription": "The Supreme Court of Canada will hear Nest Exchange’s challenge concerning Ontario restraint orders affecting bitcoin held by an overseas exchange.",
+    "excerpt": "A Canadian fraud investigation traced bitcoin to an overseas exchange. How far can an Ontario court’s freezing order reach?",
+    "contentType": "news",
+    "category": "Legal Developments",
+    "tags": [
+      {"name": "Cryptocurrency", "slug": "cryptocurrency"},
+      {"name": "Cross-Border Jurisdiction", "slug": "cross-border-jurisdiction"},
+      {"name": "Supreme Court of Canada", "slug": "supreme-court-canada"},
+      {"name": "Criminal Property Orders", "slug": "criminal-property-orders"}
+    ],
+    "author": {"name": "The Legal Circle", "type": "Organization", "url": "https://thelegalcircle.ca/editorial/"},
+    "published": "2026-10-03T11:58:18-04:00",
+    "modified": "2026-10-03T11:58:18-04:00",
+    "jurisdiction": "Canada; Ontario; Seychelles",
+    "featuredImage": {"url": "/assets/the-legal-circle-social-card.png", "alt": "The Legal Circle — Connect. Contribute. Grow.", "width": 1200, "height": 630, "showInArticle": false},
+    "social": {"title": "Supreme Court of Canada to Hear Cross-Border Bitcoin Restraint Case", "description": "Why the Nest Exchange appeal matters for Canadian criminal property orders affecting cryptocurrency held abroad.", "image": "/assets/the-legal-circle-social-card.png"},
+    "related": [],
+    "correctionNote": ""
+  },
+  {
     "slug": "arceus-ai-supported-law-firm-17-million-funding",
     "status": "published",
     "headline": "Arceus Launches AI-Supported Law Firm With $17 Million in Total Funding",
