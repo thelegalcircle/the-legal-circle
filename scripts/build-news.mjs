@@ -147,7 +147,7 @@ function updateArticle(article) {
   html = replaceRequired(html, /<meta name="twitter:title" content="[^"]*">/, `<meta name="twitter:title" content="${esc(article.social.title)}">`, `${article.slug} Twitter title`);
   html = replaceRequired(html, /<meta name="twitter:description" content="[^"]*">/, `<meta name="twitter:description" content="${esc(article.social.description)}">`, `${article.slug} Twitter description`);
   html = replaceRequired(html, /<meta name="twitter:image" content="[^"]+">/, `<meta name="twitter:image" content="${image}">`, `${article.slug} Twitter image`);
-  html = replaceRequired(html, /<link rel="stylesheet" href="\/styles\.css\?v=[^"]+">/, '<link rel="stylesheet" href="/styles.css?v=20261003-aside-image">', `${article.slug} stylesheet version`);
+  html = replaceRequired(html, /<link rel="stylesheet" href="\/styles\.css\?v=[^"]+">/, '<link rel="stylesheet" href="/styles.css?v=20261003-circular-logo">', `${article.slug} stylesheet version`);
   html = replaceRequired(html, /<script type="application\/ld\+json">[\s\S]*?<\/script>/, `<script type="application/ld+json">\n${indentJson(buildArticleSchema(article))}\n  </script>`, `${article.slug} JSON-LD`);
 
   html = replaceRequired(html, /<article class="tlc-article"(?:\s+data-[^>]*)?>/, `<article class="tlc-article" data-content-type="${esc(article.contentType)}" data-category="${esc(article.category)}"${article.jurisdiction ? ` data-jurisdiction="${esc(article.jurisdiction)}"` : ''}>`, `${article.slug} article element`);
