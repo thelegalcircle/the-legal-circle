@@ -1,5 +1,29 @@
 [
   {
+    "slug": "law-firm-marketing-client-psychology-certainty",
+    "status": "published",
+    "headline": "Stop Selling Law. Start Selling Certainty.",
+    "seoTitle": "Law Firm Marketing: Stop Selling Law, Sell Certainty",
+    "metaDescription": "Improve law firm marketing with clear, empathetic messaging that addresses client fears, explains next steps and builds trust without promising outcomes.",
+    "excerpt": "The psychology behind better law firm marketing—and why prospective clients need clarity, direction and a credible next step.",
+    "contentType": "analysis",
+    "category": "Legal Marketing & PR",
+    "tags": [
+      {"name": "Law Firm Marketing", "slug": "law-firm-marketing"},
+      {"name": "Client Psychology", "slug": "client-psychology"},
+      {"name": "Website Copy", "slug": "website-copy"},
+      {"name": "Client Trust", "slug": "client-trust"}
+    ],
+    "author": {"name": "The Legal Circle", "type": "Organization", "url": "https://thelegalcircle.ca/editorial/"},
+    "published": "2026-10-03T12:52:58-04:00",
+    "modified": "2026-10-03T12:52:58-04:00",
+    "jurisdiction": "Ontario, Canada",
+    "featuredImage": {"url": "/assets/law-firm-marketing-client-psychology-certainty.jpg", "alt": "Illustration of a lawyer calmly handing a legal notice to an anxious reptile client, captioned The Reptile Mind: Why Clients Really Hire Lawyers", "width": 1200, "height": 1200, "showInArticle": true},
+    "social": {"title": "Stop Selling Law. Start Selling Certainty.", "description": "The psychology behind better law firm marketing—and how clear, empathetic messaging can help clients understand what happens next.", "image": "/assets/law-firm-marketing-client-psychology-certainty.jpg"},
+    "related": [],
+    "correctionNote": ""
+  },
+  {
     "slug": "minnesota-ai-nudification-law-xai-appeal",
     "status": "published",
     "headline": "Minnesota AI “Nudification” Law Temporarily Halted in xAI Appeal",
