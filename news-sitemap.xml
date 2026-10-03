@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thelegalcircle.ca/news/judge-ai-errors-junior-lawyer-training-concerns/</loc>
+    <news:news>
+      <news:publication><news:name>The Legal Circle</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-03T12:02:34-04:00</news:publication_date>
+      <news:title>Judge Declines Sanctions Over AI Errors, Raises Junior Lawyer Training Concerns</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thelegalcircle.ca/news/supreme-court-canada-cross-border-bitcoin-restraint-case/</loc>
     <news:news>
       <news:publication><news:name>The Legal Circle</news:name><news:language>en</news:language></news:publication>

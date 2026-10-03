@@ -1,5 +1,29 @@
 [
   {
+    "slug": "judge-ai-errors-junior-lawyer-training-concerns",
+    "status": "published",
+    "headline": "Judge Declines Sanctions Over AI Errors, Raises Junior Lawyer Training Concerns",
+    "seoTitle": "Judge Declines AI Sanctions, Questions Junior Lawyer Training",
+    "metaDescription": "A U.S. judge declined sanctions over AI-assisted filing errors but warned firms about verification and the future training of junior lawyers.",
+    "excerpt": "If AI writes the first draft, where does the next generation of lawyers learn to think through the case?",
+    "contentType": "news",
+    "category": "AI & Technology",
+    "tags": [
+      {"name": "Legal AI", "slug": "legal-ai"},
+      {"name": "Professional Conduct", "slug": "professional-conduct"},
+      {"name": "Lawyer Training", "slug": "lawyer-training"},
+      {"name": "Citation Verification", "slug": "citation-verification"}
+    ],
+    "author": {"name": "The Legal Circle", "type": "Organization", "url": "https://thelegalcircle.ca/editorial/"},
+    "published": "2026-10-03T12:02:34-04:00",
+    "modified": "2026-10-03T12:02:34-04:00",
+    "jurisdiction": "United States; Ontario, Canada",
+    "featuredImage": {"url": "/assets/the-legal-circle-social-card.png", "alt": "The Legal Circle — Connect. Contribute. Grow.", "width": 1200, "height": 630, "showInArticle": false},
+    "social": {"title": "Judge Declines Sanctions Over AI Errors, Raises Junior Lawyer Training Concerns", "description": "Why AI-assisted filing errors raise separate questions about verification and the development of junior lawyers’ judgment.", "image": "/assets/the-legal-circle-social-card.png"},
+    "related": ["california-sb-574-lawyers-generative-ai-law"],
+    "correctionNote": ""
+  },
+  {
     "slug": "supreme-court-canada-cross-border-bitcoin-restraint-case",
     "status": "published",
     "headline": "Supreme Court of Canada to Hear Cross-Border Bitcoin Restraint Case",
