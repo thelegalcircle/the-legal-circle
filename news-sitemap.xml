@@ -24,36 +24,4 @@
       <news:title>Supreme Court of Canada to Hear Cross-Border Bitcoin Restraint Case</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://thelegalcircle.ca/news/arceus-ai-supported-law-firm-17-million-funding/</loc>
-    <news:news>
-      <news:publication><news:name>The Legal Circle</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-02T10:46:16-04:00</news:publication_date>
-      <news:title>Arceus Launches AI-Supported Law Firm With $17 Million in Total Funding</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thelegalcircle.ca/news/ai-agents-canadian-government-website-transluce-report/</loc>
-    <news:news>
-      <news:publication><news:name>The Legal Circle</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-02T10:42:22-04:00</news:publication_date>
-      <news:title>AI Agents Reportedly Probed a Canadian Government Website: What Is Known</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thelegalcircle.ca/news/ontario-court-appeal-appointments-myers-harris-nishikawa-2026/</loc>
-    <news:news>
-      <news:publication><news:name>The Legal Circle</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-02T10:36:12-04:00</news:publication_date>
-      <news:title>Ontario Court of Appeal Appoints Myers, Harris and Nishikawa</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thelegalcircle.ca/news/california-sb-574-lawyers-generative-ai-law/</loc>
-    <news:news>
-      <news:publication><news:name>The Legal Circle</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-02T10:30:49-04:00</news:publication_date>
-      <news:title>California’s SB 574 Sets New Rules for Lawyers Using Generative AI</news:title>
-    </news:news>
-  </url>
 </urlset>
