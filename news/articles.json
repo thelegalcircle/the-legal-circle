@@ -1,4 +1,52 @@
 [
+{
+  "slug": "openai-david-robinson-resignation-ai-safety-governance",
+  "status": "published",
+  "headline": "OpenAI Safety Resignation Raises AI Governance Questions",
+  "seoTitle": "OpenAI Safety Resignation Raises AI Governance Questions",
+  "metaDescription": "David Robinson’s OpenAI departure raises questions about AI safety culture, internal controls and board oversight. What should Canadian lawyers examine?",
+  "excerpt": "What if the hardest AI-safety problem is the culture inside the company?",
+  "contentType": "analysis",
+  "category": "AI & Technology",
+  "tags": [
+    {
+      "name": "AI Governance",
+      "slug": "ai-governance"
+    },
+    {
+      "name": "AI Safety",
+      "slug": "ai-safety"
+    },
+    {
+      "name": "Board Oversight",
+      "slug": "board-oversight"
+    }
+  ],
+  "author": {
+    "name": "The Legal Circle",
+    "type": "Organization",
+    "url": "https://thelegalcircle.ca/editorial/"
+  },
+  "published": "2026-10-04T11:48:02-04:00",
+  "modified": "2026-10-04T11:48:02-04:00",
+  "jurisdiction": "United States; Canada",
+  "featuredImage": {
+    "url": "/assets/the-legal-circle-social-card.png",
+    "alt": "The Legal Circle — Connect. Contribute. Grow.",
+    "width": 1200,
+    "height": 630,
+    "showInArticle": false
+  },
+  "social": {
+    "title": "OpenAI Safety Resignation Raises AI Governance Questions",
+    "description": "David Robinson’s OpenAI departure raises questions about AI safety culture, internal controls and board oversight. What should Canadian lawyers examine?",
+    "image": "/assets/the-legal-circle-social-card.png"
+  },
+  "related": [
+    "ai-agents-canadian-government-website-transluce-report"
+  ],
+  "correctionNote": ""
+},
   {
     "slug": "law-firm-marketing-client-psychology-certainty",
     "status": "published",
