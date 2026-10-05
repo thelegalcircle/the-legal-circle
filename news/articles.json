@@ -1,5 +1,99 @@
 [
 {
+  "slug": "suncor-boulder-climate-lawsuit-us-supreme-court",
+  "status": "published",
+  "headline": "Suncor Climate Lawsuit Reaches U.S. Supreme Court: Can State Law Address Global Harm?",
+  "seoTitle": "Suncor Climate Lawsuit Reaches U.S. Supreme Court",
+  "metaDescription": "The U.S. Supreme Court considers Suncor and ExxonMobil’s challenge to Boulder’s climate claims, including federal pre-emption and jurisdiction.",
+  "excerpt": "Can a city use state tort law to make an energy company pay for climate-related harm—or does federal law prevent those claims from proceeding?",
+  "contentType": "news",
+  "category": "Legal Developments",
+  "tags": [
+    {
+      "name": "Climate Litigation",
+      "slug": "climate-litigation"
+    },
+    {
+      "name": "Federal Pre-emption",
+      "slug": "federal-pre-emption"
+    },
+    {
+      "name": "U.S. Supreme Court",
+      "slug": "u-s-supreme-court"
+    }
+  ],
+  "author": {
+    "name": "The Legal Circle",
+    "type": "Organization",
+    "url": "https://thelegalcircle.ca/editorial/"
+  },
+  "published": "2026-10-05T10:58:06-04:00",
+  "modified": "2026-10-05T10:58:06-04:00",
+  "jurisdiction": "United States; Canada",
+  "featuredImage": {
+    "url": "/assets/the-legal-circle-social-card.png",
+    "alt": "The Legal Circle — Connect. Contribute. Grow.",
+    "width": 1200,
+    "height": 630,
+    "showInArticle": false
+  },
+  "social": {
+    "title": "Suncor Climate Lawsuit Reaches U.S. Supreme Court: Can State Law Address Global Harm?",
+    "description": "The U.S. Supreme Court considers Suncor and ExxonMobil’s challenge to Boulder’s climate claims, including federal pre-emption and jurisdiction.",
+    "image": "/assets/the-legal-circle-social-card.png"
+  },
+  "related": [],
+  "correctionNote": ""
+},
+{
+  "slug": "sam-altman-ai-risk-regulation-who-bears-harm",
+  "status": "published",
+  "headline": "Sam Altman’s AI Risk Comments Raise a Legal Question: Who Bears the Harm?",
+  "seoTitle": "Sam Altman on AI Risk: Who Decides and Who Pays?",
+  "metaDescription": "Sam Altman’s AI risk comments raise questions about acceptable harm, corporate governance and liability. What should Canadian lawyers examine?",
+  "excerpt": "AI’s benefits may justify taking risks. But who decides which risks are acceptable—and who pays when they materialize?",
+  "contentType": "analysis",
+  "category": "AI & Technology",
+  "tags": [
+    {
+      "name": "AI Governance",
+      "slug": "ai-governance"
+    },
+    {
+      "name": "AI Liability",
+      "slug": "ai-liability"
+    },
+    {
+      "name": "AI Procurement",
+      "slug": "ai-procurement"
+    }
+  ],
+  "author": {
+    "name": "The Legal Circle",
+    "type": "Organization",
+    "url": "https://thelegalcircle.ca/editorial/"
+  },
+  "published": "2026-10-05T10:58:06-04:00",
+  "modified": "2026-10-05T10:58:06-04:00",
+  "jurisdiction": "United States; Canada",
+  "featuredImage": {
+    "url": "/assets/the-legal-circle-social-card.png",
+    "alt": "The Legal Circle — Connect. Contribute. Grow.",
+    "width": 1200,
+    "height": 630,
+    "showInArticle": false
+  },
+  "social": {
+    "title": "Sam Altman’s AI Risk Comments Raise a Legal Question: Who Bears the Harm?",
+    "description": "Sam Altman’s AI risk comments raise questions about acceptable harm, corporate governance and liability. What should Canadian lawyers examine?",
+    "image": "/assets/the-legal-circle-social-card.png"
+  },
+  "related": [
+    "openai-david-robinson-resignation-ai-safety-governance"
+  ],
+  "correctionNote": ""
+},
+{
   "slug": "openai-david-robinson-resignation-ai-safety-governance",
   "status": "published",
   "headline": "OpenAI Safety Resignation Raises AI Governance Questions",

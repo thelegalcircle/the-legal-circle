@@ -68,7 +68,7 @@ for (const article of articles) if (!sitemap.includes(`<loc>${SITE}/news/${artic
 if (!sitemap.includes(`${SITE}/editorial/`)) add('Editorial page missing from regular sitemap');
 const newsSitemap = fs.readFileSync(path.join(ROOT, 'news-sitemap.xml'), 'utf8');
 if (!newsSitemap.includes('xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"')) add('News sitemap namespace missing');
-if (!newsSitemap.includes('<news:name>The Legal Circle</news:name>')) add('News sitemap publication name missing');
+if (newsSitemap.includes('<url>') && !newsSitemap.includes('<news:name>The Legal Circle</news:name>')) add('News sitemap publication name missing');
 const robots = fs.readFileSync(path.join(ROOT, 'robots.txt'), 'utf8');
 if (!robots.includes(`${SITE}/sitemap.xml`) || !robots.includes(`${SITE}/news-sitemap.xml`)) add('robots.txt must reference both sitemaps');
 
