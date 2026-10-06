@@ -84,7 +84,11 @@ body { margin: 0; background: #f8f7f2; }
 .tlc-invitation p { margin: 0; color: var(--tlc-muted); font-size: 16px; line-height: 1.72; }
 .tlc-why { background: #fff; }
 .tlc-why-intro { max-width: 1080px; }
-.tlc-why h2 { max-width: 980px; margin: 26px 0 30px; font-size: clamp(42px, 5vw, 74px); line-height: .96; text-transform: uppercase; }
+.tlc-why { position: relative; }
+.tlc-anchor-alias { position: absolute; top: 0; left: 0; width: 0; height: 0; }
+.tlc-why h2 { max-width: 980px; margin: 22px 0 24px; font-size: clamp(34px, 3.6vw, 52px); line-height: 1.06; text-transform: uppercase; }
+.tlc-founder-credit { margin: 26px 0 0; color: var(--tlc-muted); font-size: 14px; line-height: 1.6; }
+.tlc-founder-credit a { text-underline-offset: 3px; }
 .tlc-why-lede { max-width: 820px; margin: 0; color: var(--tlc-muted); font-size: 18px; line-height: 1.7; }
 .tlc-benefit-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 56px; border-top: 2px solid var(--tlc-black); border-left: 1px solid var(--tlc-line); }
 .tlc-benefit-grid article { display: flex; flex-direction: column; min-width: 0; min-height: 250px; padding: 30px; border-right: 1px solid var(--tlc-line); border-bottom: 1px solid var(--tlc-line); }
@@ -163,7 +167,7 @@ body { margin: 0; background: #f8f7f2; }
   .tlc-opportunity-grid article { min-height: 0; padding: 24px; }
   .tlc-opportunity-grid h3 { margin-top: 28px; }
   .tlc-topics-action .tlc-button { width: 100%; }
-  .tlc-why h2 { max-width: 100%; font-size: clamp(36px, 10.2vw, 44px); }
+  .tlc-why h2 { max-width: 100%; font-size: clamp(30px, 8vw, 38px); }
   .tlc-why-lede { font-size: 16px; }
   .tlc-benefit-grid { grid-template-columns: minmax(0, 1fr); margin-top: 40px; }
   .tlc-benefit-grid article { min-height: 0; padding: 24px; }
