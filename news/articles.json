@@ -1,5 +1,103 @@
 [
 {
+  "slug": "immigration-lawyer-marketing-human-communication",
+  "status": "published",
+  "headline": "Immigration Lawyer Marketing: Build Trust Through Clear, Human Communication",
+  "seoTitle": "Immigration Lawyer Marketing: Build Trust Through Clarity",
+  "metaDescription": "Build trust in immigration lawyer marketing with clear, empathetic communication, useful content and honest explanations of the client’s next step.",
+  "excerpt": "Legal services become more meaningful when people can connect them to a recognizable human situation.",
+  "contentType": "analysis",
+  "category": "Legal Marketing & PR",
+  "tags": [
+    {
+      "name": "Immigration Marketing",
+      "slug": "immigration-marketing"
+    },
+    {
+      "name": "Client Communication",
+      "slug": "client-communication"
+    },
+    {
+      "name": "Law Firm Marketing",
+      "slug": "law-firm-marketing"
+    }
+  ],
+  "author": {
+    "name": "Adele Salikhova",
+    "type": "Person",
+    "url": "https://www.linkedin.com/in/adele-salikhova/"
+  },
+  "published": "2026-10-06T13:53:49-04:00",
+  "modified": "2026-10-06T13:53:49-04:00",
+  "jurisdiction": "Canada",
+  "featuredImage": {
+    "url": "/assets/the-legal-circle-social-card.png",
+    "alt": "The Legal Circle — Connect. Contribute. Grow.",
+    "width": 1200,
+    "height": 630,
+    "showInArticle": false
+  },
+  "social": {
+    "title": "Immigration Lawyer Marketing: Build Trust Through Clear, Human Communication",
+    "description": "Build trust in immigration lawyer marketing with clear, empathetic communication, useful content and honest explanations of the client’s next step.",
+    "image": "/assets/the-legal-circle-social-card.png"
+  },
+  "related": [
+    "client-communication-lawyers-tone-trust",
+    "law-firm-positioning-clear-client-services"
+  ],
+  "correctionNote": ""
+},
+{
+  "slug": "personal-branding-lawyers-reputation-beyond-firm",
+  "status": "published",
+  "headline": "Personal Branding for Lawyers: Build a Reputation Beyond Your Firm’s Name",
+  "seoTitle": "Personal Branding for Lawyers: Build Your Reputation",
+  "metaDescription": "Build a credible personal brand as a lawyer through a clear professional focus, useful contributions and visibility that reflects your actual work.",
+  "excerpt": "Does the market understand who you are professionally, or does it only know where you work?",
+  "contentType": "analysis",
+  "category": "Legal Marketing & PR",
+  "tags": [
+    {
+      "name": "Personal Branding",
+      "slug": "personal-branding"
+    },
+    {
+      "name": "Professional Visibility",
+      "slug": "professional-visibility"
+    },
+    {
+      "name": "Law Firm Marketing",
+      "slug": "law-firm-marketing"
+    }
+  ],
+  "author": {
+    "name": "Adele Salikhova",
+    "type": "Person",
+    "url": "https://www.linkedin.com/in/adele-salikhova/"
+  },
+  "published": "2026-10-06T13:53:49-04:00",
+  "modified": "2026-10-06T13:53:49-04:00",
+  "jurisdiction": "Canada",
+  "featuredImage": {
+    "url": "/assets/the-legal-circle-social-card.png",
+    "alt": "The Legal Circle — Connect. Contribute. Grow.",
+    "width": 1200,
+    "height": 630,
+    "showInArticle": false
+  },
+  "social": {
+    "title": "Personal Branding for Lawyers: Build a Reputation Beyond Your Firm’s Name",
+    "description": "Build a credible personal brand as a lawyer through a clear professional focus, useful contributions and visibility that reflects your actual work.",
+    "image": "/assets/the-legal-circle-social-card.png"
+  },
+  "related": [
+    "law-firm-positioning-clear-client-services",
+    "law-firm-referral-marketing-tax-lawyers"
+  ],
+  "correctionNote": ""
+},
+{
   "slug": "law-firm-positioning-clear-client-services",
   "status": "published",
   "headline": "Law Firm Positioning: Make Your Services Easier for Clients to Understand",
