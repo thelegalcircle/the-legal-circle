@@ -1,5 +1,54 @@
 [
 {
+  "slug": "emotional-control-lawyers-respond-strategically-pressure",
+  "status": "published",
+  "headline": "Emotional Control for Lawyers: How to Respond Strategically Under Pressure",
+  "seoTitle": "Emotional Control for Lawyers: Respond Strategically",
+  "metaDescription": "Respond strategically under pressure with five habits for lawyers: separate provocation from the issue, define objectives and explain measured responses.",
+  "excerpt": "Does your response advance the client’s position—or primarily relieve your own discomfort? Five habits for deliberate professional communication.",
+  "contentType": "analysis",
+  "category": "Business & Practice Development",
+  "tags": [
+    {
+      "name": "Professional Conduct",
+      "slug": "professional-conduct"
+    },
+    {
+      "name": "Client Communication",
+      "slug": "client-communication"
+    },
+    {
+      "name": "Advocacy",
+      "slug": "advocacy"
+    }
+  ],
+  "author": {
+    "name": "Adele Salikhova",
+    "type": "Person",
+    "url": "https://www.linkedin.com/in/adele-salikhova/"
+  },
+  "published": "2026-10-06T12:29:51-04:00",
+  "modified": "2026-10-06T12:29:51-04:00",
+  "jurisdiction": "Ontario, Canada",
+  "featuredImage": {
+    "url": "/assets/the-legal-circle-social-card.png",
+    "alt": "The Legal Circle — Connect. Contribute. Grow.",
+    "width": 1200,
+    "height": 630,
+    "showInArticle": false
+  },
+  "social": {
+    "title": "Emotional Control for Lawyers: How to Respond Strategically Under Pressure",
+    "description": "Respond strategically under pressure with five habits for lawyers: separate provocation from the issue, define objectives and explain measured responses.",
+    "image": "/assets/the-legal-circle-social-card.png"
+  },
+  "related": [
+    "client-communication-lawyers-tone-trust",
+    "lawyer-civility-emails-alberta-smith-2026-abca-308"
+  ],
+  "correctionNote": ""
+},
+{
   "slug": "law-firm-referral-marketing-tax-lawyers",
   "status": "published",
   "headline": "Law Firm Referral Marketing: What Tax Lawyers Can Teach Other Practices",
