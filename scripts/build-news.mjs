@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { selectRelated } from './related-articles.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SITE = 'https://thelegalcircle.ca';
@@ -109,7 +110,7 @@ function renderTags(article) {
 }
 
 function renderRelated(article) {
-  const items = article.related.map((slug) => bySlug.get(slug)).filter(Boolean).slice(0, 3);
+  const items = selectRelated(article, articles);
   if (!items.length) return '';
   return `<section class="tlc-related-articles" aria-labelledby="related-title">
           <p class="tlc-eyebrow">Continue reading</p>
@@ -353,3 +354,26 @@ robots = `${robots.trim()}\nSitemap: ${SITE}/news-sitemap.xml\n`;
 fs.writeFileSync(robotsPath, robots);
 
 console.log(`Built ${published.length} articles, ${archiveCategories.size} category archives, ${sitemapEntries.length} sitemap URLs and ${newsEligible.length} News sitemap entries.`);
+
+// Keep existing static pages and the future article template on the same navigation.
+function updateNavigation(dir) {
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    if (['.git', '_legal-drafts', 'node_modules', 'scripts', 'assets'].includes(entry.name)) continue;
+    const file = path.join(dir, entry.name);
+    if (entry.isDirectory()) { updateNavigation(file); continue; }
+    if (!entry.name.endsWith('.html')) continue;
+    let html = fs.readFileSync(file, 'utf8');
+    if (!html.includes('class="tlc-nav"')) continue;
+    html = html.replace(/<nav class="tlc-nav"[^>]*>[\s\S]*?<\/nav>/, nav => {
+      const links = [...archiveCategories].filter(category => published.some(article => article.category === category && Date.parse(article.published) <= Date.now()) && fs.existsSync(path.join(categoriesRoot, categorySlugs[category], 'index.html')))
+        .map(category => `<a href="/news/categories/${categorySlugs[category]}/">${esc(category)}</a>`).join('');
+      const render = news => `<div class="tlc-news-dropdown">${news}<button class="tlc-news-toggle" type="button" aria-label="Expand News categories" aria-expanded="false" aria-controls="tlc-news-menu"><span aria-hidden="true">⌄</span></button><div class="tlc-news-menu" id="tlc-news-menu" hidden>${links}</div></div>`;
+      if (nav.includes('class="tlc-news-dropdown"')) return nav.replace(/<div class="tlc-news-dropdown">([\s\S]*?<a\b[^>]*>News<\/a>)[\s\S]*?<\/div><\/div>/, (_match, news) => render(news));
+      return nav.replace(/<a href="\/news\/"[^>]*>News<\/a>/, render);
+    });
+    if (!html.includes('src="/navigation.js')) html = html.replace('</head>', '  <script src="/navigation.js?v=20261006" defer></script>\n</head>');
+    html = html.replace(/href="\/styles\.css\?v=[^"]+"/, 'href="/styles.css?v=20261006-news-dropdown"');
+    fs.writeFileSync(file, html);
+  }
+}
+updateNavigation(ROOT);

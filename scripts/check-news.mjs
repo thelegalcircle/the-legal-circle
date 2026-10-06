@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { selectRelated } from './related-articles.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SITE = 'https://thelegalcircle.ca';
@@ -40,6 +41,19 @@ for (const article of articles) {
   const file = path.join(ROOT, 'news', article.slug, 'index.html');
   if (!fs.existsSync(file)) { add(`${article.slug}: missing HTML`); continue; }
   const html = fs.readFileSync(file, 'utf8');
+  if (html.includes('class="tlc-nav"')) {
+    if (!html.includes('aria-controls="tlc-news-menu"') || !html.includes('src="/navigation.js')) add(`${path.relative(ROOT, file)}: News dropdown missing`);
+    const dropdown = one(html, /<div class="tlc-news-menu"[^>]*>([\s\S]*?)<\/div>/);
+    if ((dropdown.match(/<a /g) || []).length !== new Set(articles.filter(item => Date.parse(item.published) <= Date.now()).map(item => item.category)).size) add(`${path.relative(ROOT, file)}: dropdown categories mismatch`);
+  }
+  const currentArticle = articles.find(item => file === path.join(ROOT, 'news', item.slug, 'index.html'));
+  if (currentArticle) {
+    const block = one(html, /<div class="tlc-related-grid">([\s\S]*?)<\/div>/);
+    const actual = [...block.matchAll(/<h3><a href="\/news\/([^/]+)\//g)].map(match => match[1]);
+    const expected = selectRelated(currentArticle, articles).map(item => item.slug);
+    if (JSON.stringify(actual) !== JSON.stringify(expected)) add(`${currentArticle.slug}: related selections mismatch`);
+    if ((html.match(/class="tlc-related-articles"/g) || []).length > 1) add(`${currentArticle.slug}: duplicate related section`);
+  }
   const title = one(html, /<title>([\s\S]*?)<\/title>/);
   const description = one(html, /<meta name="description" content="([^"]*)">/);
   const canonical = one(html, /<link rel="canonical" href="([^"]+)">/);

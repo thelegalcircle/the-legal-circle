@@ -23,6 +23,18 @@ body { margin: 0; background: #f8f7f2; }
 
 .tlc-header { position: sticky; z-index: 100; top: 0; display: grid; grid-template-columns: minmax(118px, 170px) 1fr auto; align-items: center; min-height: 84px; padding: 8px clamp(20px, 4vw, 68px); border-bottom: 1px solid #d8d8d0; background: rgba(248, 247, 242, .96); backdrop-filter: blur(16px); }
 .tlc-brand { display: inline-flex; width: max-content; }
+.tlc-news-dropdown { position: relative; display: flex; align-items: center; flex: 0 0 auto; }
+.tlc-news-toggle { display: grid; place-items: center; min-width: 28px; min-height: 28px; padding: 0; border: 0; background: transparent; color: inherit; font: inherit; cursor: pointer; }
+.tlc-news-toggle:hover { color: #4f9700; }
+.tlc-news-toggle:focus-visible { outline: 3px solid var(--tlc-green); outline-offset: 2px; }
+.tlc-news-toggle[aria-expanded="true"] span { transform: rotate(180deg); }
+.tlc-news-menu { position: absolute; top: 100%; left: 0; width: 300px; padding: 10px; border: 1px solid var(--tlc-line); background: var(--tlc-paper); box-shadow: 0 8px 18px #0001; white-space: normal; }
+.tlc-news-menu[hidden] { display: none; }
+.tlc-news-menu a { display: block; padding: 12px 10px; line-height: 1.5; }
+@media(max-width:1100px) {
+  .tlc-news-dropdown { position: static; }
+  .tlc-news-menu { top: 100%; left: 20px; width: min(340px, calc(100vw - 40px)); max-height: 60vh; overflow-y: auto; }
+}
 .tlc-logo { display: grid; place-items: center; aspect-ratio: 1; overflow: hidden; border: 1px solid #d8d7d1; border-radius: 50%; background: #f8f7f2; }
 .tlc-header .tlc-logo { width: 58px; height: 58px; }
 .tlc-header .tlc-logo img { display: block; width: 48px; height: 48px; object-fit: contain; }

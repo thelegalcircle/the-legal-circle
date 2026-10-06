@@ -789,7 +789,7 @@
     "jurisdiction": "Ontario, Canada",
     "featuredImage": {"url": "/assets/the-legal-circle-social-card.png", "alt": "The Legal Circle — Connect. Contribute. Grow.", "width": 1200, "height": 630, "showInArticle": false},
     "social": {"title": "Ontario Court of Appeal Appoints Myers, Harris and Nishikawa", "description": "Meet Ontario’s three new appellate judges and five new Superior Court appointees.", "image": "/assets/the-legal-circle-social-card.png"},
-    "related": ["lawyer-civility-emails-alberta-smith-2026-abca-308"],
+    "related": [],
     "correctionNote": ""
   },
   {
@@ -813,7 +813,10 @@
     "jurisdiction": "California, United States; Canada",
     "featuredImage": {"url": "/assets/the-legal-circle-social-card.png", "alt": "The Legal Circle — Connect. Contribute. Grow.", "width": 1200, "height": 630, "showInArticle": false},
     "social": {"title": "California SB 574: New Generative AI Rules for Lawyers", "description": "California’s new AI disclosure, verification and confidentiality duties—and their relevance for Canadian legal practice.", "image": "/assets/the-legal-circle-social-card.png"},
-    "related": ["westlaw-ross-ai-copyright-ruling-third-circuit", "ai-agents-canadian-government-website-transluce-report"],
+    "related": [
+      "judge-ai-errors-junior-lawyer-training-concerns",
+      "wagner-fraser-ai-courts-truth-seeking"
+    ],
     "correctionNote": ""
   },
   {
@@ -836,7 +839,9 @@
     "jurisdiction": "United States; Canada",
     "featuredImage": {"url": "/assets/the-legal-circle-social-card.png", "alt": "The Legal Circle — Connect. Contribute. Grow.", "width": 1200, "height": 630, "showInArticle": false},
     "social": {"title": "Westlaw–ROSS AI Copyright Ruling: Why Competition Mattered", "description": "Why competition mattered to fair use—and the questions Canadian legal AI teams should ask about training data.", "image": "/assets/the-legal-circle-social-card.png"},
-    "related": ["california-sb-574-lawyers-generative-ai-law", "ai-agents-canadian-government-website-transluce-report"],
+    "related": [
+      "arceus-ai-supported-law-firm-17-million-funding"
+    ],
     "correctionNote": ""
   },
   {
@@ -859,7 +864,9 @@
     "jurisdiction": "Alberta, Canada",
     "featuredImage": {"url": "/assets/the-legal-circle-social-card.png", "alt": "The Legal Circle — Connect. Contribute. Grow.", "width": 1200, "height": 630, "showInArticle": false},
     "social": {"title": "Lawyer Civility Applies to Emails: Alberta’s Smith Ruling", "description": "What Alberta’s Smith ruling means for civility in emails between opposing counsel—and for forceful advocacy.", "image": "/assets/the-legal-circle-social-card.png"},
-    "related": ["ontario-court-appeal-appointments-myers-harris-nishikawa-2026"],
+    "related": [
+      "emotional-control-lawyers-respond-strategically-pressure"
+    ],
     "correctionNote": ""
   }
 ]
