@@ -1,5 +1,147 @@
 [
 {
+  "slug": "suncor-supreme-court-argument-state-climate-lawsuits",
+  "status": "published",
+  "headline": "Suncor Supreme Court Argument Tests the Reach of State Climate Lawsuits",
+  "seoTitle": "Suncor Argument Tests State Climate Lawsuits",
+  "metaDescription": "Roberts and Kavanaugh questioned the reach of municipal climate claims in the Suncor appeal. Explore pre-emption, jurisdiction and a possible tie.",
+  "excerpt": "The hardest climate-liability question may be which level of government gets to decide.",
+  "contentType": "news",
+  "category": "Legal Developments",
+  "tags": [
+    {
+      "name": "Climate Litigation",
+      "slug": "climate-litigation"
+    },
+    {
+      "name": "Federal Pre-emption",
+      "slug": "federal-pre-emption"
+    },
+    {
+      "name": "U.S. Supreme Court",
+      "slug": "u-s-supreme-court"
+    }
+  ],
+  "author": {
+    "name": "The Legal Circle",
+    "type": "Organization",
+    "url": "https://thelegalcircle.ca/editorial/"
+  },
+  "published": "2026-10-06T12:09:09-04:00",
+  "modified": "2026-10-06T12:09:09-04:00",
+  "jurisdiction": "United States; Canada",
+  "featuredImage": {
+    "url": "/assets/the-legal-circle-social-card.png",
+    "alt": "The Legal Circle — Connect. Contribute. Grow.",
+    "width": 1200,
+    "height": 630,
+    "showInArticle": false
+  },
+  "social": {
+    "title": "Suncor Supreme Court Argument Tests the Reach of State Climate Lawsuits",
+    "description": "Roberts and Kavanaugh questioned the reach of municipal climate claims in the Suncor appeal. Explore pre-emption, jurisdiction and a possible tie.",
+    "image": "/assets/the-legal-circle-social-card.png"
+  },
+  "related": [
+    "suncor-boulder-climate-lawsuit-us-supreme-court"
+  ],
+  "correctionNote": ""
+},
+{
+  "slug": "jackson-walker-disclosure-investigation-firm-governance",
+  "status": "published",
+  "headline": "Jackson Walker Faces Disclosure Questions as Judge Considers Broader Investigation",
+  "seoTitle": "Jackson Walker Faces Broader Disclosure Questions",
+  "metaDescription": "A bankruptcy judge ordered Jackson Walker to identify comparable cases and explain a disclosure failure. Sanctions and a broader inquiry remain pending.",
+  "excerpt": "When does one undisclosed relationship become a firm-wide disclosure problem?",
+  "contentType": "news",
+  "category": "Business & Practice Development",
+  "tags": [
+    {
+      "name": "Law Firm Governance",
+      "slug": "law-firm-governance"
+    },
+    {
+      "name": "Disclosure",
+      "slug": "disclosure"
+    },
+    {
+      "name": "Conflicts of Interest",
+      "slug": "conflicts-of-interest"
+    }
+  ],
+  "author": {
+    "name": "The Legal Circle",
+    "type": "Organization",
+    "url": "https://thelegalcircle.ca/editorial/"
+  },
+  "published": "2026-10-06T12:09:09-04:00",
+  "modified": "2026-10-06T12:09:09-04:00",
+  "jurisdiction": "United States; Canada",
+  "featuredImage": {
+    "url": "/assets/the-legal-circle-social-card.png",
+    "alt": "The Legal Circle — Connect. Contribute. Grow.",
+    "width": 1200,
+    "height": 630,
+    "showInArticle": false
+  },
+  "social": {
+    "title": "Jackson Walker Faces Disclosure Questions as Judge Considers Broader Investigation",
+    "description": "A bankruptcy judge ordered Jackson Walker to identify comparable cases and explain a disclosure failure. Sanctions and a broader inquiry remain pending.",
+    "image": "/assets/the-legal-circle-social-card.png"
+  },
+  "related": [],
+  "correctionNote": ""
+},
+{
+  "slug": "wagner-fraser-ai-courts-truth-seeking",
+  "status": "published",
+  "headline": "AI and the Courts’ Search for Truth: Wagner and Fraser Address Growing Pressures",
+  "seoTitle": "AI and Canadian Courts’ Search for Truth",
+  "metaDescription": "Wagner and Fraser addressed AI-era pressures at the judicial-year opening. Their remarks raise questions about evidence and trust, without creating new rules.",
+  "excerpt": "AI is changing how lawyers prepare their work. It also raises a deeper question: how will courts establish what is real?",
+  "contentType": "news",
+  "category": "AI & Technology",
+  "tags": [
+    {
+      "name": "Synthetic Evidence",
+      "slug": "synthetic-evidence"
+    },
+    {
+      "name": "AI Governance",
+      "slug": "ai-governance"
+    },
+    {
+      "name": "Canadian Courts",
+      "slug": "canadian-courts"
+    }
+  ],
+  "author": {
+    "name": "The Legal Circle",
+    "type": "Organization",
+    "url": "https://thelegalcircle.ca/editorial/"
+  },
+  "published": "2026-10-06T12:09:09-04:00",
+  "modified": "2026-10-06T12:09:09-04:00",
+  "jurisdiction": "Canada",
+  "featuredImage": {
+    "url": "/assets/the-legal-circle-social-card.png",
+    "alt": "The Legal Circle — Connect. Contribute. Grow.",
+    "width": 1200,
+    "height": 630,
+    "showInArticle": false
+  },
+  "social": {
+    "title": "AI and the Courts’ Search for Truth: Wagner and Fraser Address Growing Pressures",
+    "description": "Wagner and Fraser addressed AI-era pressures at the judicial-year opening. Their remarks raise questions about evidence and trust, without creating new rules.",
+    "image": "/assets/the-legal-circle-social-card.png"
+  },
+  "related": [
+    "judge-ai-errors-junior-lawyer-training-concerns"
+  ],
+  "correctionNote": ""
+},
+{
   "slug": "suncor-boulder-climate-lawsuit-us-supreme-court",
   "status": "published",
   "headline": "Suncor Climate Lawsuit Reaches U.S. Supreme Court: Can State Law Address Global Harm?",
