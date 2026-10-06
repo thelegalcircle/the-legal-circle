@@ -159,7 +159,7 @@ function updateArticle(article) {
   const meta = `<div class="tlc-article-meta"><span>By <a href="${esc(article.author.url.replace(SITE, ''))}">${esc(article.author.name)}</a></span><span class="tlc-article-type">${esc(contentTypeLabels[article.contentType])}</span><time datetime="${article.published}">${esc(displayDate(article.published))}</time>${updated}<span>${html.match(/<div class="tlc-article-meta">[\s\S]*?<span>(\d+ min read)<\/span>/)?.[1] || '4 min read'}</span></div>`;
   html = replaceRequired(html, /<div class="tlc-article-meta">[\s\S]*?<\/div>/, meta, `${article.slug} visible metadata`);
   html = replaceRequired(html, /<ul class="tlc-article-tags" aria-label="Article topics">[\s\S]*?<\/ul>/, `<ul class="tlc-article-tags" aria-label="Article topics">${renderTags(article)}</ul>`, `${article.slug} topics`);
-  html = replaceRequired(html, /<aside class="tlc-article-aside" aria-label="Article information">[\s\S]*?<\/aside>/, `<aside class="tlc-article-aside" aria-label="Article information"><span>${esc(article.category)}</span><p>${esc(contentTypeLabels[article.contentType])}</p><p>Published by <a href="/editorial/">${esc(article.author.name)}</a></p><p>${esc(displayDate(article.published))}</p>${article.jurisdiction ? `<p>${esc(article.jurisdiction)}</p>` : ''}</aside>`, `${article.slug} article information`);
+html = replaceRequired(html, /<aside class="tlc-article-aside" aria-label="Article information">[\s\S]*?<\/aside>/, `<aside class="tlc-article-aside" aria-label="Article information"><span>${esc(article.category)}</span><p>${esc(contentTypeLabels[article.contentType])}</p><p>${article.author.type === 'Person' ? 'Written by' : 'Published by'} <a href="${esc(article.author.url.replace(SITE, ''))}">${esc(article.author.name)}</a></p><p>${esc(displayDate(article.published))}</p>${article.jurisdiction ? `<p>${esc(article.jurisdiction)}</p>` : ''}</aside>`, `${article.slug} article information`);
 
   const featured = `<!-- FEATURED_IMAGE_START -->\n        ${renderFeaturedImage(article)}\n        <!-- FEATURED_IMAGE_END -->`;
   if (/<!-- FEATURED_IMAGE_START -->[\s\S]*?<!-- FEATURED_IMAGE_END -->/.test(html)) html = html.replace(/<!-- FEATURED_IMAGE_START -->[\s\S]*?<!-- FEATURED_IMAGE_END -->/, featured);
@@ -171,9 +171,9 @@ function updateArticle(article) {
   else html = replaceRequired(html, /(<footer class="tlc-author-card">)/, (_match, footer) => `${relatedBlock}\n\n        ${footer}`, `${article.slug} related article placement`);
 
   const authorCard = `<footer class="tlc-author-card">
-          <p class="tlc-eyebrow">Published by</p>
-          <h2><a href="/editorial/">${esc(article.author.name)}</a></h2>
-          <p>A media and networking platform for legal professionals, bringing together legal news, expert perspectives, marketing and business development insights.</p>
+          <p class="tlc-eyebrow">${article.author.type === 'Person' ? 'Written by' : 'Published by'}</p>
+          <h2><a href="${esc(article.author.url.replace(SITE, ''))}">${esc(article.author.name)}</a></h2>
+          <p>${article.author.type === 'Person' ? 'Marketing contributor to The Legal Circle.' : 'A media and networking platform for legal professionals, bringing together legal news, expert perspectives, marketing and business development insights.'}</p>
           <a href="/get-featured/">Contribute to The Legal Circle <span aria-hidden="true">→</span></a>
           <p class="tlc-corrections">Questions or corrections? Email <a href="mailto:networking@thelegalcircle.ca">networking@thelegalcircle.ca</a>.</p>
         </footer>`;
@@ -193,7 +193,7 @@ function renderNewsCard(article) {
           <div>
             <h3><a href="/news/${esc(article.slug)}/">${esc(article.headline)}</a></h3>
             <p>${esc(article.excerpt)}</p>
-            <p class="tlc-news-byline">By <a href="/editorial/">${esc(article.author.name)}</a></p>
+            <p class="tlc-news-byline">By <a href="${esc(article.author.url.replace(SITE, ''))}">${esc(article.author.name)}</a></p>
             <a class="tlc-card-link" href="/news/${esc(article.slug)}/">Read article <span aria-hidden="true">→</span></a>
           </div>
         </article>`;

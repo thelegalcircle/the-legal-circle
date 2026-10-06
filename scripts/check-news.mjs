@@ -53,7 +53,7 @@ for (const article of articles) {
   if (/noindex|nofollow/i.test(html)) add(`${article.slug}: indexing restriction present`);
   if (!html.includes('tlc-article-dek')) add(`${article.slug}: missing summary`);
   if (!html.includes(`datetime="${article.published}"`)) add(`${article.slug}: publication date missing`);
-  if (!html.includes('href="/editorial/"')) add(`${article.slug}: editorial byline link missing`);
+  if (!html.includes(`href="${article.author.url.replace(SITE, '')}"`)) add(`${article.slug}: author byline link missing`);
   if (!html.includes('mailto:networking@thelegalcircle.ca')) add(`${article.slug}: corrections contact missing`);
   if (!html.includes('tlc-primary-source')) add(`${article.slug}: source section missing`);
   if (html.indexOf('tlc-article-tags') < html.indexOf('tlc-article-meta')) add(`${article.slug}: tags must follow byline/date`);
