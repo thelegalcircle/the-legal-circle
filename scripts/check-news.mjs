@@ -20,6 +20,22 @@ function localFileFor(urlPath) {
   return path.join(ROOT, relative, 'index.html');
 }
 
+// Categories become available with their first published article, not their second.
+const newsIndex = fs.readFileSync(path.join(ROOT, 'news', 'index.html'), 'utf8');
+const categoryNav = one(newsIndex, /<nav class="tlc-news-category-nav"[^>]*>([\s\S]*?)<\/nav>/);
+for (const category of new Set(articles.map((article) => article.category))) {
+  const label = category.replace(/&/g, '&amp;');
+  const links = [...categoryNav.matchAll(/<a href="([^"]+)">([^<]+)<\/a>/g)];
+  const link = links.find((match) => match[2] === label);
+  if (!link) { add(`${category}: missing category navigation link`); continue; }
+  const file = localFileFor(link[1]);
+  if (!fs.existsSync(file)) { add(`${category}: missing category archive`); continue; }
+  const archive = fs.readFileSync(file, 'utf8');
+  for (const article of articles.filter((item) => item.category === category)) {
+    if (!archive.includes(`/news/${article.slug}/`)) add(`${category}: missing assigned article ${article.slug}`);
+  }
+}
+
 for (const article of articles) {
   const file = path.join(ROOT, 'news', article.slug, 'index.html');
   if (!fs.existsSync(file)) { add(`${article.slug}: missing HTML`); continue; }

@@ -58,7 +58,8 @@ const topicsHtml = fs.readFileSync(path.join(ROOT, 'news', 'topics', 'index.html
 const availableTopics = new Set([...topicsHtml.matchAll(/<section id="([^"]+)" class="tlc-topic-section">/g)].map((match) => match[1]));
 const categoryCounts = new Map();
 for (const article of published) categoryCounts.set(article.category, (categoryCounts.get(article.category) || 0) + 1);
-const archiveCategories = new Set([...categoryCounts].filter(([, count]) => count >= 2).map(([category]) => category));
+// Every category with published content deserves a browse link, even with one article.
+const archiveCategories = new Set(Object.keys(categorySlugs).filter((category) => categoryCounts.has(category)));
 
 function buildArticleSchema(article) {
   const canonical = articleUrl(article);
@@ -214,7 +215,7 @@ const collectionSchema = {
 };
 newsIndex = replaceRequired(newsIndex, /<script type="application\/ld\+json">[\s\S]*?<\/script>/, `<script type="application/ld+json">\n${indentJson(collectionSchema)}\n  </script>`, 'News index JSON-LD');
 newsIndex = replaceRequired(newsIndex, /(<section class="tlc-news-latest"[\s\S]*?<h2 class="tlc-news-list-heading"[^>]*>Latest articles<\/h2>)[\s\S]*?(<\/section>)/, (_match, start, end) => `${start}\n        <!-- NEWS_CARDS_START -->\n        ${sorted.map(renderNewsCard).join('\n        ')}\n        <!-- NEWS_CARDS_END -->\n      ${end}`, 'News index cards');
-const categoryNav = `<nav class="tlc-news-category-nav" aria-label="Browse news categories"><span>Browse:</span>${[...archiveCategories].sort().map((category) => `<a href="/news/categories/${categorySlugs[category]}/">${esc(category)}</a>`).join('')}</nav>`;
+const categoryNav = `<nav class="tlc-news-category-nav" aria-label="Browse news categories"><span>Browse:</span>${[...archiveCategories].map((category) => `<a href="/news/categories/${categorySlugs[category]}/">${esc(category)}</a>`).join('')}</nav>`;
 if (/<!-- CATEGORY_NAV_START -->[\s\S]*?<!-- CATEGORY_NAV_END -->/.test(newsIndex)) newsIndex = newsIndex.replace(/<!-- CATEGORY_NAV_START -->[\s\S]*?<!-- CATEGORY_NAV_END -->/, `<!-- CATEGORY_NAV_START -->\n      ${categoryNav}\n      <!-- CATEGORY_NAV_END -->`);
 else newsIndex = replaceRequired(newsIndex, /(<\/section>\s*)(<section class="tlc-news-latest")/, (_match, endHero, latestStart) => `${endHero}\n      <!-- CATEGORY_NAV_START -->\n      ${categoryNav}\n      <!-- CATEGORY_NAV_END -->\n\n      ${latestStart}`, 'News category navigation');
 fs.writeFileSync(newsIndexPath, clean(newsIndex));
