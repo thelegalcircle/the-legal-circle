@@ -1,5 +1,54 @@
 [
 {
+  "slug": "law-firm-referral-marketing-tax-lawyers",
+  "status": "published",
+  "headline": "Law Firm Referral Marketing: What Tax Lawyers Can Teach Other Practices",
+  "seoTitle": "Law Firm Referral Marketing: Lessons From Tax Lawyers",
+  "metaDescription": "Build law firm referral relationships with clear positioning, recognizable client triggers and dependable intake. Lessons other practices can learn from tax lawyers.",
+  "excerpt": "Who encounters your future client’s problem before you do? Tax practices offer a useful lens for building relevant referral relationships.",
+  "contentType": "analysis",
+  "category": "Legal Marketing & PR",
+  "tags": [
+    {
+      "name": "Referral Marketing",
+      "slug": "referral-marketing"
+    },
+    {
+      "name": "Law Firm Marketing",
+      "slug": "law-firm-marketing"
+    },
+    {
+      "name": "Client Relationships",
+      "slug": "client-relationships"
+    }
+  ],
+  "author": {
+    "name": "Adele Salikhova",
+    "type": "Person",
+    "url": "https://www.linkedin.com/in/adele-salikhova/"
+  },
+  "published": "2026-10-06T12:30:00-04:00",
+  "modified": "2026-10-06T12:30:00-04:00",
+  "jurisdiction": "Canada",
+  "featuredImage": {
+    "url": "/assets/the-legal-circle-social-card.png",
+    "alt": "The Legal Circle — Connect. Contribute. Grow.",
+    "width": 1200,
+    "height": 630,
+    "showInArticle": false
+  },
+  "social": {
+    "title": "Law Firm Referral Marketing: What Tax Lawyers Can Teach Other Practices",
+    "description": "Build law firm referral relationships with clear positioning, recognizable client triggers and dependable intake. Lessons other practices can learn from tax lawyers.",
+    "image": "/assets/the-legal-circle-social-card.png"
+  },
+  "related": [
+    "client-communication-lawyers-tone-trust",
+    "law-firm-marketing-client-psychology-certainty"
+  ],
+  "correctionNote": ""
+},
+{
   "slug": "client-communication-lawyers-tone-trust",
   "status": "published",
   "headline": "Client Communication for Lawyers: Why Your Tone Builds Trust",
