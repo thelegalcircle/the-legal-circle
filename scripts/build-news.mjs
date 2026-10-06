@@ -373,6 +373,7 @@ function updateNavigation(dir) {
     });
     if (!html.includes('src="/navigation.js')) html = html.replace('</head>', '  <script src="/navigation.js?v=20261006" defer></script>\n</head>');
     html = html.replace(/href="\/styles\.css\?v=[^"]+"/, 'href="/styles.css?v=20261006-news-dropdown"');
+    html = html.replace(/src="\/consent\.js\?v=[^"]+"/, 'src="/consent.js?v=20261006-ga4"');
     fs.writeFileSync(file, html);
   }
 }

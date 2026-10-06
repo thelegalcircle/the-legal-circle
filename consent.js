@@ -4,6 +4,7 @@
   var STORAGE_KEY = "tlc_optional_tracking";
   var STORAGE_LIFETIME = 180 * 24 * 60 * 60 * 1000;
   var GTM_ID = "GTM-M3MTPBTV";
+  var GA4_ID = "G-GSSG07MYKM";
   var gtmLoaded = false;
   var lastFocus = null;
 
@@ -33,6 +34,18 @@
     if (gtmLoaded || document.querySelector("script[data-tlc-gtm]")) return;
     gtmLoaded = true;
     window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+    window.gtag('consent', 'default', {
+      analytics_storage: 'granted', ad_storage: 'denied',
+      ad_user_data: 'denied', ad_personalization: 'denied'
+    });
+    window.gtag('js', new Date());
+    window.gtag('config', GA4_ID);
+    var analytics = document.createElement("script");
+    analytics.async = true;
+    analytics.src = "https://www.googletagmanager.com/gtag/js?id=" + encodeURIComponent(GA4_ID);
+    analytics.setAttribute("data-tlc-ga4", GA4_ID);
+    document.head.appendChild(analytics);
     window.dataLayer.push({ "gtm.start": Date.now(), event: "gtm.js" });
 
     var script = document.createElement("script");
@@ -44,6 +57,10 @@
 
   function removeKnownOptionalCookies() {
     var names = ["_ga", "_gid", "_gat", "_gcl_au", "_gcl_aw", "_gcl_dc"];
+    document.cookie.split(';').forEach(function (cookie) {
+      var name = cookie.trim().split('=')[0];
+      if (/^_ga_/.test(name)) names.push(name);
+    });
     var hostname = window.location.hostname;
     var domains = ["", hostname, "." + hostname, ".thelegalcircle.ca"];
 
@@ -62,7 +79,7 @@
     banner.innerHTML =
       '<div class="tlc-consent-copy">' +
         '<h2 id="tlc-consent-title">Your privacy choices</h2>' +
-        '<p>We use essential services to operate the site. With your permission, Google Tag Manager may load optional measurement tools. <a href="/privacy-policy/#cookies">Read our Privacy Policy</a>.</p>' +
+        '<p>We use essential services to operate the site. With your permission, Google Analytics and Google Tag Manager load optional measurement tools. <a href="/privacy-policy/#cookies">Read our Privacy Policy</a>.</p>' +
       '</div>' +
       '<div class="tlc-consent-actions">' +
         '<button class="tlc-consent-button tlc-consent-accept" type="button">Accept optional</button>' +
@@ -82,7 +99,7 @@
           '<div><strong>Essential functionality</strong><p>Required for core site features and preference storage. Always active.</p></div><span aria-hidden="true">On</span>' +
         '</div>' +
         '<label class="tlc-consent-option" for="tlc-optional-tracking">' +
-          '<div><strong>Optional measurement</strong><p>Allows Google Tag Manager to load measurement tools configured by The Legal Circle.</p></div>' +
+          '<div><strong>Optional measurement</strong><p>Allows Google Analytics and Google Tag Manager to measure website visits.</p></div>' +
           '<input id="tlc-optional-tracking" type="checkbox">' +
         '</label>' +
         '<button class="tlc-consent-button tlc-consent-save" type="button">Save preferences</button>' +
