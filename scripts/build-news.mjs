@@ -206,7 +206,7 @@ const indexDescription = 'Explore legal developments, expert perspectives, AI, l
 newsIndex = replaceRequired(newsIndex, /<meta name="description" content="[^"]*">/, `<meta name="description" content="${indexDescription}">`, 'News index meta description');
 newsIndex = replaceRequired(newsIndex, /<meta property="og:description" content="[^"]*">/, `<meta property="og:description" content="${indexDescription}">`, 'News index OG description');
 newsIndex = replaceRequired(newsIndex, /<meta name="twitter:description" content="[^"]*">/, `<meta name="twitter:description" content="${indexDescription}">`, 'News index Twitter description');
-newsIndex = replaceRequired(newsIndex, /<link rel="stylesheet" href="\/styles\.css\?v=[^"]+">/, '<link rel="stylesheet" href="/styles.css?v=20261006-categories">', 'News index stylesheet version');
+newsIndex = replaceRequired(newsIndex, /<link rel="stylesheet" href="\/styles\.css\?v=[^"]+">/, '<link rel="stylesheet" href="/styles.css?v=20261006-subscribe-button">', 'News index stylesheet version');
 const collectionSchema = {
   '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Legal News & Insights', description: indexDescription,
   url: `${SITE}/news/`, isPartOf: { '@type': 'WebSite', name: PUBLICATION, url: `${SITE}/` },
