@@ -1,5 +1,54 @@
 [
 {
+  "slug": "law-firm-positioning-clear-client-services",
+  "status": "published",
+  "headline": "Law Firm Positioning: Make Your Services Easier for Clients to Understand",
+  "seoTitle": "Law Firm Positioning: Make Services Clearer for Clients",
+  "metaDescription": "Clarify your law firm’s positioning with recognizable client situations, focused service pages and clear first steps that make your expertise easier to understand.",
+  "excerpt": "A client should not need legal training to understand what your firm offers. Five ways to clarify services, scope and the first step.",
+  "contentType": "analysis",
+  "category": "Legal Marketing & PR",
+  "tags": [
+    {
+      "name": "Law Firm Positioning",
+      "slug": "law-firm-positioning"
+    },
+    {
+      "name": "Website Copy",
+      "slug": "website-copy"
+    },
+    {
+      "name": "Law Firm Marketing",
+      "slug": "law-firm-marketing"
+    }
+  ],
+  "author": {
+    "name": "Adele Salikhova",
+    "type": "Person",
+    "url": "https://www.linkedin.com/in/adele-salikhova/"
+  },
+  "published": "2026-10-06T13:30:59-04:00",
+  "modified": "2026-10-06T13:30:59-04:00",
+  "jurisdiction": "Canada",
+  "featuredImage": {
+    "url": "/assets/the-legal-circle-social-card.png",
+    "alt": "The Legal Circle — Connect. Contribute. Grow.",
+    "width": 1200,
+    "height": 630,
+    "showInArticle": false
+  },
+  "social": {
+    "title": "Law Firm Positioning: Make Your Services Easier for Clients to Understand",
+    "description": "Clarify your law firm’s positioning with recognizable client situations, focused service pages and clear first steps that make your expertise easier to understand.",
+    "image": "/assets/the-legal-circle-social-card.png"
+  },
+  "related": [
+    "law-firm-growth-personal-injury-practice-lessons",
+    "law-firm-marketing-client-psychology-certainty"
+  ],
+  "correctionNote": ""
+},
+{
   "slug": "law-firm-growth-personal-injury-practice-lessons",
   "status": "published",
   "headline": "Law Firm Growth: What Other Practices Can Learn from Personal Injury Firms",
