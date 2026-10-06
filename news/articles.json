@@ -1,5 +1,54 @@
 [
 {
+  "slug": "law-firm-growth-personal-injury-practice-lessons",
+  "status": "published",
+  "headline": "Law Firm Growth: What Other Practices Can Learn from Personal Injury Firms",
+  "seoTitle": "Law Firm Growth: Lessons From Personal Injury Firms",
+  "metaDescription": "Learn how intake, clear responsibilities and client communication help law firms handle growth—and what other practices can learn from personal injury firms.",
+  "excerpt": "Advertising starts the conversation. Operations determine whether the practice can sustain it. Five steps to build a firm that can handle growth.",
+  "contentType": "analysis",
+  "category": "Business & Practice Development",
+  "tags": [
+    {
+      "name": "Law Firm Growth",
+      "slug": "law-firm-growth"
+    },
+    {
+      "name": "Client Intake",
+      "slug": "client-intake"
+    },
+    {
+      "name": "Practice Management",
+      "slug": "practice-management"
+    }
+  ],
+  "author": {
+    "name": "Adele Salikhova",
+    "type": "Person",
+    "url": "https://www.linkedin.com/in/adele-salikhova/"
+  },
+  "published": "2026-10-06T13:27:13-04:00",
+  "modified": "2026-10-06T13:27:13-04:00",
+  "jurisdiction": "Ontario, Canada",
+  "featuredImage": {
+    "url": "/assets/the-legal-circle-social-card.png",
+    "alt": "The Legal Circle — Connect. Contribute. Grow.",
+    "width": 1200,
+    "height": 630,
+    "showInArticle": false
+  },
+  "social": {
+    "title": "Law Firm Growth: What Other Practices Can Learn from Personal Injury Firms",
+    "description": "Learn how intake, clear responsibilities and client communication help law firms handle growth—and what other practices can learn from personal injury firms.",
+    "image": "/assets/the-legal-circle-social-card.png"
+  },
+  "related": [
+    "law-firm-referral-marketing-tax-lawyers",
+    "client-communication-lawyers-tone-trust"
+  ],
+  "correctionNote": ""
+},
+{
   "slug": "emotional-control-lawyers-respond-strategically-pressure",
   "status": "published",
   "headline": "Emotional Control for Lawyers: How to Respond Strategically Under Pressure",
