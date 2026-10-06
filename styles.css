@@ -93,6 +93,9 @@ body { margin: 0; background: #f8f7f2; }
 .tlc-benefit-grid p { max-width: 620px; margin: 0; color: var(--tlc-muted); font-size: 15px; line-height: 1.7; }
 .tlc-benefit-grid .tlc-card-link { align-self: flex-start; margin-top: auto; padding-top: 18px; max-width: 100%; }
 .tlc-benefit-grid .tlc-card-link:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+.tlc-benefit-link-note { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 14px; margin-top: auto; padding-top: 18px; }
+.tlc-benefit-grid .tlc-benefit-link-note .tlc-card-link { margin-top: 0; padding-top: 0; }
+.tlc-benefit-link-note small { color: var(--tlc-muted); font-size: 13px; line-height: 1.5; }
 .tlc-why-action { display: flex; align-items: center; gap: 26px; margin-top: 34px; }
 .tlc-why-action p { max-width: 560px; margin: 0; color: var(--tlc-muted); font-size: 14px; line-height: 1.6; }
 .tlc-topics { display: block; }
