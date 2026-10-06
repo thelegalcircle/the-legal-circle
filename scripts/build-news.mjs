@@ -11,9 +11,9 @@ const published = articles.filter((article) => article.status === 'published');
 const bySlug = new Map(published.map((article) => [article.slug, article]));
 const categorySlugs = {
   'Legal Developments': 'legal-developments',
-  'Business & Practice Development': 'business-practice-development',
-  'Legal Marketing & PR': 'legal-marketing-pr',
   'AI & Technology': 'ai-technology',
+  'Legal Marketing & PR': 'legal-marketing-pr',
+  'Business & Practice Development': 'business-practice-development',
   'Interviews & Perspectives': 'interviews-perspectives'
 };
 const contentTypeLabels = {
@@ -206,7 +206,7 @@ const indexDescription = 'Explore legal developments, expert perspectives, AI, l
 newsIndex = replaceRequired(newsIndex, /<meta name="description" content="[^"]*">/, `<meta name="description" content="${indexDescription}">`, 'News index meta description');
 newsIndex = replaceRequired(newsIndex, /<meta property="og:description" content="[^"]*">/, `<meta property="og:description" content="${indexDescription}">`, 'News index OG description');
 newsIndex = replaceRequired(newsIndex, /<meta name="twitter:description" content="[^"]*">/, `<meta name="twitter:description" content="${indexDescription}">`, 'News index Twitter description');
-newsIndex = replaceRequired(newsIndex, /<link rel="stylesheet" href="\/styles\.css\?v=[^"]+">/, '<link rel="stylesheet" href="/styles.css?v=20261002-seo">', 'News index stylesheet version');
+newsIndex = replaceRequired(newsIndex, /<link rel="stylesheet" href="\/styles\.css\?v=[^"]+">/, '<link rel="stylesheet" href="/styles.css?v=20261006-categories">', 'News index stylesheet version');
 const collectionSchema = {
   '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Legal News & Insights', description: indexDescription,
   url: `${SITE}/news/`, isPartOf: { '@type': 'WebSite', name: PUBLICATION, url: `${SITE}/` },
@@ -254,7 +254,7 @@ function categoryPage(category, items) {
   <meta name="twitter:title" content="${esc(category)} | The Legal Circle">
   <meta name="twitter:description" content="${esc(description)}">
   <meta name="twitter:image" content="${SITE}/assets/the-legal-circle-social-card.png">
-  <link rel="stylesheet" href="/styles.css?v=20261002-seo">
+  <link rel="stylesheet" href="/styles.css?v=20261006-categories">
   <script src="/consent.js?v=20261001" defer></script>
   <script type="application/ld+json">
 ${indentJson(schema)}
