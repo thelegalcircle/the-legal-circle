@@ -34,6 +34,6 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add news sitemap.xml news-sitemap.xml robots.txt
+          git add index.html news sitemap.xml news-sitemap.xml robots.txt
           git commit -m "Refresh generated News SEO files"
           git push

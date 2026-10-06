@@ -200,6 +200,36 @@ function renderNewsCard(article) {
 }
 
 const sorted = [...published].sort((a, b) => b.published.localeCompare(a.published) || articles.indexOf(a) - articles.indexOf(b));
+// Read the opening paragraph from the article itself, never a separate homepage excerpt.
+const recentArticles = [...published].filter((article) => Date.parse(article.published) <= Date.now())
+  .sort((a, b) => Date.parse(b.published) - Date.parse(a.published) || articles.indexOf(a) - articles.indexOf(b)).slice(0, 3);
+const recentSection = `<!-- HOMEPAGE_ARTICLES_START -->
+      <section class="tlc-home-latest" aria-labelledby="tlc-latest-title">
+        <div class="tlc-home-latest-inner">
+          <h2 id="tlc-latest-title">Latest from The Legal Circle</h2>
+          ${recentArticles.map((article) => {
+            const html = fs.readFileSync(path.join(ROOT, 'news', article.slug, 'index.html'), 'utf8');
+            const paragraph = html.match(/<div class="tlc-article-body">\s*<p\b[^>]*>([\s\S]*?)<\/p>/)?.[1];
+            if (!paragraph) fail(`${article.slug}: missing opening paragraph`);
+            return `<article class="tlc-home-story">
+            <p class="tlc-home-story-meta">${esc(article.category)} · <time datetime="${article.published}">${esc(displayDate(article.published))}</time></p>
+            <h3><a href="/news/${esc(article.slug)}/">${esc(article.headline)}</a></h3>
+            <p class="tlc-home-story-opening">${paragraph}</p>
+            <a class="tlc-card-link" href="/news/${esc(article.slug)}/">Continue reading <span aria-hidden="true">→</span></a>
+          </article>`;
+          }).join('\n          ')}
+          <a class="tlc-card-link tlc-home-view-all" href="https://thelegalcircle.ca/news/">View all articles <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+      <!-- HOMEPAGE_ARTICLES_END -->`;
+const homePath = path.join(ROOT, 'index.html');
+let home = fs.readFileSync(homePath, 'utf8');
+if (/<!-- HOMEPAGE_ARTICLES_START -->[\s\S]*?<!-- HOMEPAGE_ARTICLES_END -->/.test(home)) {
+  home = home.replace(/<!-- HOMEPAGE_ARTICLES_START -->[\s\S]*?<!-- HOMEPAGE_ARTICLES_END -->/, () => recentSection);
+} else {
+  home = replaceRequired(home, /<section class="tlc-invitation"/, () => `${recentSection}\n\n      <section class="tlc-invitation"`, 'homepage joining invitation');
+}
+fs.writeFileSync(homePath, home);
 const newsIndexPath = path.join(ROOT, 'news', 'index.html');
 let newsIndex = fs.readFileSync(newsIndexPath, 'utf8');
 const indexDescription = 'Explore legal developments, expert perspectives, AI, legal marketing and practice growth through news, analysis and interviews from The Legal Circle.';

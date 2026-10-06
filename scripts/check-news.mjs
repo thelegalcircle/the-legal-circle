@@ -74,6 +74,20 @@ for (const article of articles) {
   } catch { add(`${article.slug}: invalid JSON-LD`); }
 }
 
+const home = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
+const recent = articles.filter((article) => Date.parse(article.published) <= Date.now())
+  .sort((a, b) => Date.parse(b.published) - Date.parse(a.published) || articles.indexOf(a) - articles.indexOf(b)).slice(0, 3);
+const homeSection = one(home, /<!-- HOMEPAGE_ARTICLES_START -->([\s\S]*?)<!-- HOMEPAGE_ARTICLES_END -->/);
+const homeEntries = [...homeSection.matchAll(/<article class="tlc-home-story">([\s\S]*?)<\/article>/g)];
+if (homeEntries.length !== recent.length) add('Homepage recent article count mismatch');
+recent.forEach((article, index) => {
+  const entry = homeEntries[index]?.[1] || '';
+  const articleHtml = fs.readFileSync(path.join(ROOT, 'news', article.slug, 'index.html'), 'utf8');
+  const opening = one(articleHtml, /<div class="tlc-article-body">\s*<p\b[^>]*>([\s\S]*?)<\/p>/);
+  if (!entry.includes(`href="/news/${article.slug}/"`)) add('Homepage recent article order mismatch');
+  if (!opening || !entry.includes(`<p class="tlc-home-story-opening">${opening}</p>`)) add(`${article.slug}: homepage opening paragraph mismatch`);
+});
+if (!(home.indexOf('id="about"') < home.indexOf('HOMEPAGE_ARTICLES_START') && home.indexOf('HOMEPAGE_ARTICLES_END') < home.indexOf('id="join"'))) add('Homepage recent articles placement mismatch');
 const newsIndex = fs.readFileSync(path.join(ROOT, 'news', 'index.html'), 'utf8');
 if (one(newsIndex, /<meta name="description" content="([^"]*)">/) !== expectedIndexDescription) add('News index meta description mismatch');
 if (one(newsIndex, /<title>(.*?)<\/title>/) !== 'Legal News &amp; Insights | The Legal Circle') add('News index SEO title mismatch');
