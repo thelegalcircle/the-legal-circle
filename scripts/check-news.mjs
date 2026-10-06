@@ -21,8 +21,8 @@ function localFileFor(urlPath) {
 }
 
 // Categories become available with their first published article, not their second.
-const newsIndex = fs.readFileSync(path.join(ROOT, 'news', 'index.html'), 'utf8');
-const categoryNav = one(newsIndex, /<nav class="tlc-news-category-nav"[^>]*>([\s\S]*?)<\/nav>/);
+const categoryIndexHtml = fs.readFileSync(path.join(ROOT, 'news', 'index.html'), 'utf8');
+const categoryNav = one(categoryIndexHtml, /<nav class="tlc-news-category-nav"[^>]*>([\s\S]*?)<\/nav>/);
 for (const category of new Set(articles.map((article) => article.category))) {
   const label = category.replace(/&/g, '&amp;');
   const links = [...categoryNav.matchAll(/<a href="([^"]+)">([^<]+)<\/a>/g)];
