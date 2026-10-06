@@ -27,7 +27,7 @@ body { margin: 0; background: #f8f7f2; }
 .tlc-news-toggle { display: grid; place-items: center; min-width: 28px; min-height: 28px; padding: 0; border: 0; background: transparent; color: inherit; font: inherit; line-height: 1; cursor: pointer; }
 .tlc-news-toggle:hover { color: #4f9700; }
 .tlc-news-toggle:focus-visible { outline: 3px solid var(--tlc-green); outline-offset: 2px; }
-.tlc-news-toggle[aria-expanded="true"] span { transform: rotate(180deg); }
+.tlc-news-toggle[aria-expanded="true"] span { visibility: hidden; }
 .tlc-news-menu { position: absolute; top: 100%; left: 0; width: 300px; padding: 10px; border: 1px solid var(--tlc-line); background: var(--tlc-paper); box-shadow: 0 8px 18px #0001; white-space: normal; }
 .tlc-news-menu[hidden] { display: none; }
 .tlc-news-menu a { display: block; padding: 12px 10px; line-height: 1.5; }
