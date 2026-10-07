@@ -1,4 +1,156 @@
 [
+  {
+    "slug": "best-lawyer-communities-canada-2026",
+    "headline": "13 Best Lawyer Communities in Canada (2026)",
+    "seoTitle": "13 Best Lawyer Communities in Canada (2026)",
+    "metaDescription": "Explore 13 lawyer communities in Canada, from bar associations to free networks. Compare audiences, membership models and practical fit for your career.",
+    "excerpt": "Compare professional associations, focused networks and informal communities by audience, cost and the kind of connection you want.",
+    "contentType": "explainer",
+    "category": "Business & Practice Development",
+    "jurisdiction": "Canada",
+    "tags": [
+      {
+        "name": "Lawyer Communities",
+        "slug": "lawyer-communities"
+      },
+      {
+        "name": "Professional Networking",
+        "slug": "professional-networking"
+      },
+      {
+        "name": "Practice Development",
+        "slug": "practice-development"
+      }
+    ],
+    "related": [
+      "law-firm-referral-marketing-tax-lawyers",
+      "personal-branding-lawyers-reputation-beyond-firm"
+    ],
+    "path": "/best-lawyer-communities-canada-2026/",
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-07T15:02:48Z",
+    "modified": "2026-10-07T15:02:48Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "13 Best Lawyer Communities in Canada (2026)",
+      "description": "Explore 13 lawyer communities in Canada, from bar associations to free networks. Compare audiences, membership models and practical fit for your career.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "ontario-family-law-update",
+    "headline": "Ontario Family Law Update: Key Changes in 2026",
+    "seoTitle": "Ontario Family Law Update: Key Changes (2026)",
+    "metaDescription": "Ontario family law changes in 2026: abusive proceedings, support arbitration awards, Toronto hearings and AI duties, with proposals distinguished from law.",
+    "excerpt": "A plain-English look at Ontario family procedure in 2026—and proposals that should not be mistaken for enacted law.",
+    "contentType": "explainer",
+    "category": "Legal Developments",
+    "jurisdiction": "Ontario, Canada",
+    "tags": [
+      {
+        "name": "Family Law",
+        "slug": "family-law"
+      },
+      {
+        "name": "Ontario Courts",
+        "slug": "ontario-courts"
+      },
+      {
+        "name": "Court Procedure",
+        "slug": "court-procedure"
+      }
+    ],
+    "related": [
+      "canadian-legal-news-october-2026",
+      "judge-ai-errors-junior-lawyer-training-concerns"
+    ],
+    "path": "/ontario-family-law-update/",
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-07T15:02:48Z",
+    "modified": "2026-10-07T15:02:48Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Ontario Family Law Update: Key Changes in 2026",
+      "description": "Ontario family law changes in 2026: abusive proceedings, support arbitration awards, Toronto hearings and AI duties, with proposals distinguished from law.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "canadian-legal-news-october-2026",
+    "headline": "Canadian Legal News Roundup: October 2026",
+    "seoTitle": "Canadian Legal News Roundup: October 2026",
+    "metaDescription": "Canadian legal news as of October 7, 2026: Supreme Court developments, legal regulation, Manitoba’s coercive-control proposal and merger news.",
+    "excerpt": "A snapshot of October’s early legal developments, with clearly dated regulatory and court background from earlier in 2026.",
+    "contentType": "news",
+    "category": "Legal Developments",
+    "jurisdiction": "Canada",
+    "tags": [
+      {
+        "name": "Canadian Legal News",
+        "slug": "canadian-legal-news"
+      },
+      {
+        "name": "Legal Regulation",
+        "slug": "legal-regulation"
+      },
+      {
+        "name": "Courts",
+        "slug": "courts"
+      }
+    ],
+    "related": [
+      "ontario-family-law-update",
+      "ontario-court-appeal-appointments-myers-harris-nishikawa-2026",
+      "supreme-court-canada-cross-border-bitcoin-restraint-case"
+    ],
+    "path": "/canadian-legal-news-october-2026/",
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-07T15:02:48Z",
+    "modified": "2026-10-07T15:02:48Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Canadian Legal News Roundup: October 2026",
+      "description": "Canadian legal news as of October 7, 2026: Supreme Court developments, legal regulation, Manitoba’s coercive-control proposal and merger news.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  }
+,
 {
   "slug": "immigration-lawyer-marketing-human-communication",
   "status": "published",

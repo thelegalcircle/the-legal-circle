@@ -8,6 +8,7 @@ on:
       - scripts/build-news.mjs
       - scripts/check-news.mjs
       - scripts/related-articles.mjs
+      - scripts/article-path.mjs
       - _templates/article.html
   schedule:
     - cron: "17 5 * * *"

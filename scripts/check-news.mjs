@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { selectRelated } from './related-articles.mjs';
+import { articlePath } from './article-path.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SITE = 'https://thelegalcircle.ca';
@@ -33,12 +34,12 @@ for (const category of new Set(articles.map((article) => article.category))) {
   if (!fs.existsSync(file)) { add(`${category}: missing category archive`); continue; }
   const archive = fs.readFileSync(file, 'utf8');
   for (const article of articles.filter((item) => item.category === category)) {
-    if (!archive.includes(`/news/${article.slug}/`)) add(`${category}: missing assigned article ${article.slug}`);
+    if (!archive.includes(articlePath(article))) add(`${category}: missing assigned article ${article.slug}`);
   }
 }
 
 for (const article of articles) {
-  const file = path.join(ROOT, 'news', article.slug, 'index.html');
+  const file = localFileFor(articlePath(article));
   if (!fs.existsSync(file)) { add(`${article.slug}: missing HTML`); continue; }
   const html = fs.readFileSync(file, 'utf8');
   if (html.includes('class="tlc-nav"')) {
@@ -46,11 +47,11 @@ for (const article of articles) {
     const dropdown = one(html, /<div class="tlc-news-menu"[^>]*>([\s\S]*?)<\/div>/);
     if ((dropdown.match(/<a /g) || []).length !== new Set(articles.filter(item => Date.parse(item.published) <= Date.now()).map(item => item.category)).size) add(`${path.relative(ROOT, file)}: dropdown categories mismatch`);
   }
-  const currentArticle = articles.find(item => file === path.join(ROOT, 'news', item.slug, 'index.html'));
+  const currentArticle = article;
   if (currentArticle) {
     const block = one(html, /<div class="tlc-related-grid">([\s\S]*?)<\/div>/);
-    const actual = [...block.matchAll(/<h3><a href="\/news\/([^/]+)\//g)].map(match => match[1]);
-    const expected = selectRelated(currentArticle, articles).map(item => item.slug);
+    const actual = [...block.matchAll(/<h3><a href="([^"]+)"/g)].map(match => match[1]);
+    const expected = selectRelated(currentArticle, articles).map(articlePath);
     if (JSON.stringify(actual) !== JSON.stringify(expected)) add(`${currentArticle.slug}: related selections mismatch`);
     if ((html.match(/class="tlc-related-articles"/g) || []).length > 1) add(`${currentArticle.slug}: duplicate related section`);
   }
@@ -61,7 +62,7 @@ for (const article of articles) {
   if ((descriptions.get(description) || 0) > 0) add(`${article.slug}: duplicate meta description`); descriptions.set(description, (descriptions.get(description) || 0) + 1);
   if (title !== article.seoTitle.replace(/&/g, '&amp;')) add(`${article.slug}: SEO title mismatch`);
   if (!description) add(`${article.slug}: missing meta description`);
-  if (canonical !== `${SITE}/news/${article.slug}/`) add(`${article.slug}: canonical mismatch`);
+  if (canonical !== `${SITE}${articlePath(article)}`) add(`${article.slug}: canonical mismatch`);
   if ((html.match(/<h1(?:\s[^>]*)?>/g) || []).length !== 1) add(`${article.slug}: requires exactly one H1`);
   if ((html.match(/<h2(?:\s[^>]*)?>/g) || []).length < 1) add(`${article.slug}: missing H2 structure`);
   if (/noindex|nofollow/i.test(html)) add(`${article.slug}: indexing restriction present`);
@@ -96,9 +97,9 @@ const homeEntries = [...homeSection.matchAll(/<article class="tlc-home-story">([
 if (homeEntries.length !== recent.length) add('Homepage recent article count mismatch');
 recent.forEach((article, index) => {
   const entry = homeEntries[index]?.[1] || '';
-  const articleHtml = fs.readFileSync(path.join(ROOT, 'news', article.slug, 'index.html'), 'utf8');
+  const articleHtml = fs.readFileSync(localFileFor(articlePath(article)), 'utf8');
   const opening = one(articleHtml, /<div class="tlc-article-body">\s*<p\b[^>]*>([\s\S]*?)<\/p>/);
-  if (!entry.includes(`href="/news/${article.slug}/"`)) add('Homepage recent article order mismatch');
+  if (!entry.includes(`href="${articlePath(article)}"`)) add('Homepage recent article order mismatch');
   if (!opening || !entry.includes(`<p class="tlc-home-story-opening">${opening}</p>`)) add(`${article.slug}: homepage opening paragraph mismatch`);
 });
 if (!(home.indexOf('id="about"') < home.indexOf('HOMEPAGE_ARTICLES_START') && home.indexOf('HOMEPAGE_ARTICLES_END') < home.indexOf('id="join"'))) add('Homepage recent articles placement mismatch');
@@ -108,7 +109,9 @@ if (one(newsIndex, /<title>(.*?)<\/title>/) !== 'Legal News &amp; Insights | The
 if (/noindex|nofollow/i.test(newsIndex)) add('News index has indexing restriction');
 
 const sitemap = fs.readFileSync(path.join(ROOT, 'sitemap.xml'), 'utf8');
-for (const article of articles) if (!sitemap.includes(`<loc>${SITE}/news/${article.slug}/</loc>`)) add(`${article.slug}: missing from regular sitemap`);
+for (const article of articles) if (!sitemap.includes(`<loc>${SITE}${articlePath(article)}</loc>`)) add(`${article.slug}: missing from regular sitemap`);
+const sitemapLocations = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(match => match[1]);
+if (new Set(sitemapLocations).size !== sitemapLocations.length) add('Duplicate regular sitemap URLs');
 if (!sitemap.includes(`${SITE}/editorial/`)) add('Editorial page missing from regular sitemap');
 const newsSitemap = fs.readFileSync(path.join(ROOT, 'news-sitemap.xml'), 'utf8');
 if (!newsSitemap.includes('xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"')) add('News sitemap namespace missing');

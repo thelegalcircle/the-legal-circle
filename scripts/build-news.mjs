@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { selectRelated } from './related-articles.mjs';
+import { articlePath } from './article-path.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SITE = 'https://thelegalcircle.ca';
@@ -27,7 +28,7 @@ const schemaTypes = {
 function fail(message) { throw new Error(message); }
 function esc(value = '') { return String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
 function absolute(url) { return /^https?:\/\//i.test(url) ? url : `${SITE}${url.startsWith('/') ? '' : '/'}${url}`; }
-function articleUrl(article) { return `${SITE}/news/${article.slug}/`; }
+function articleUrl(article) { return `${SITE}${articlePath(article)}`; }
 function datePart(date) { return date.slice(0, 10); }
 function displayDate(date) { return new Intl.DateTimeFormat('en-CA', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(new Date(date)); }
 function clean(value) { return value.replace(/[ \t]+$/gm, '').replace(/\n{4,}/g, '\n\n\n'); }
@@ -40,7 +41,11 @@ function indentJson(value) { return JSON.stringify(value, null, 2).split('\n').m
 
 const required = ['slug', 'status', 'headline', 'seoTitle', 'metaDescription', 'excerpt', 'contentType', 'category', 'tags', 'author', 'published', 'modified', 'featuredImage', 'social', 'related'];
 const seen = new Set();
+const seenPaths = new Set();
 for (const article of articles) {
+  const pathname = articlePath(article);
+  if (seenPaths.has(pathname)) fail(`Duplicate article path: ${pathname}`);
+  seenPaths.add(pathname);
   for (const field of required) if (article[field] === undefined || article[field] === '') fail(`${article.slug || 'Article'} is missing ${field}`);
   if (seen.has(article.slug)) fail(`Duplicate slug: ${article.slug}`);
   seen.add(article.slug);
@@ -115,7 +120,7 @@ function renderRelated(article) {
   return `<section class="tlc-related-articles" aria-labelledby="related-title">
           <p class="tlc-eyebrow">Continue reading</p>
           <h2 id="related-title">Related articles</h2>
-          <div class="tlc-related-grid">${items.map((item) => `<article><p>${esc(item.category)} · <time datetime="${item.published}">${esc(displayDate(item.published))}</time></p><h3><a href="/news/${esc(item.slug)}/">${esc(item.headline)}</a></h3><span>${esc(item.excerpt)}</span></article>`).join('')}</div>
+          <div class="tlc-related-grid">${items.map((item) => `<article><p>${esc(item.category)} · <time datetime="${item.published}">${esc(displayDate(item.published))}</time></p><h3><a href="${esc(articlePath(item))}">${esc(item.headline)}</a></h3><span>${esc(item.excerpt)}</span></article>`).join('')}</div>
         </section>`;
 }
 
@@ -125,7 +130,7 @@ function renderFeaturedImage(article) {
 }
 
 function updateArticle(article) {
-  const file = path.join(ROOT, 'news', article.slug, 'index.html');
+  const file = path.join(ROOT, articlePath(article).slice(1), 'index.html');
   if (!fs.existsSync(file)) fail(`Missing rendered article: news/${article.slug}/index.html`);
   let html = fs.readFileSync(file, 'utf8');
   const canonical = articleUrl(article);
@@ -192,10 +197,10 @@ function renderNewsCard(article) {
   return `<article class="tlc-news-card">
           <div class="tlc-news-card-meta">${category}<time datetime="${article.published}">${esc(displayDate(article.published))}</time><span>${esc(contentTypeLabels[article.contentType])}</span></div>
           <div>
-            <h3><a href="/news/${esc(article.slug)}/">${esc(article.headline)}</a></h3>
+            <h3><a href="${esc(articlePath(article))}">${esc(article.headline)}</a></h3>
             <p>${esc(article.excerpt)}</p>
             <p class="tlc-news-byline">By <a href="${esc(article.author.url.replace(SITE, ''))}">${esc(article.author.name)}</a></p>
-            <a class="tlc-card-link" href="/news/${esc(article.slug)}/">Read article <span aria-hidden="true">→</span></a>
+            <a class="tlc-card-link" href="${esc(articlePath(article))}">Read article <span aria-hidden="true">→</span></a>
           </div>
         </article>`;
 }
@@ -209,14 +214,14 @@ const recentSection = `<!-- HOMEPAGE_ARTICLES_START -->
         <div class="tlc-home-latest-inner">
           <h2 id="tlc-latest-title">Latest from The Legal Circle</h2>
           ${recentArticles.map((article) => {
-            const html = fs.readFileSync(path.join(ROOT, 'news', article.slug, 'index.html'), 'utf8');
+            const html = fs.readFileSync(path.join(ROOT, articlePath(article).slice(1), 'index.html'), 'utf8');
             const paragraph = html.match(/<div class="tlc-article-body">\s*<p\b[^>]*>([\s\S]*?)<\/p>/)?.[1];
             if (!paragraph) fail(`${article.slug}: missing opening paragraph`);
             return `<article class="tlc-home-story">
             <p class="tlc-home-story-meta">${esc(article.category)} · <time datetime="${article.published}">${esc(displayDate(article.published))}</time></p>
-            <h3><a href="/news/${esc(article.slug)}/">${esc(article.headline)}</a></h3>
+            <h3><a href="${esc(articlePath(article))}">${esc(article.headline)}</a></h3>
             <p class="tlc-home-story-opening">${paragraph}</p>
-            <a class="tlc-card-link" href="/news/${esc(article.slug)}/">Continue reading <span aria-hidden="true">→</span></a>
+            <a class="tlc-card-link" href="${esc(articlePath(article))}">Continue reading <span aria-hidden="true">→</span></a>
           </article>`;
           }).join('\n          ')}
           <a class="tlc-card-link tlc-home-view-all" href="https://thelegalcircle.ca/news/">View all articles <span aria-hidden="true">→</span></a>
@@ -327,7 +332,8 @@ function existingSitemapEntries() {
   for (const match of xml.matchAll(/<url>\s*<loc>([^<]+)<\/loc>\s*<lastmod>([^<]+)<\/lastmod>\s*<\/url>/g)) entries.push({ loc: match[1], lastmod: match[2] });
   return entries;
 }
-const preserved = existingSitemapEntries().filter((entry) => !entry.loc.startsWith(`${SITE}/news/`) && entry.loc !== `${SITE}/editorial/`);
+const articleUrls = new Set(articles.map(articleUrl));
+const preserved = existingSitemapEntries().filter((entry) => !entry.loc.startsWith(`${SITE}/news/`) && entry.loc !== `${SITE}/editorial/` && !articleUrls.has(entry.loc));
 const newsLastmod = sorted.reduce((latest, article) => article.modified > latest ? article.modified : latest, '1970-01-01');
 const sitemapEntries = [
   ...preserved,
