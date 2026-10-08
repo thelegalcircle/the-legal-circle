@@ -39,7 +39,7 @@ body { margin: 0; background: #f8f7f2; }
 .tlc-header .tlc-logo { width: 58px; height: 58px; }
 .tlc-header .tlc-logo img { display: block; width: 48px; height: 48px; object-fit: contain; }
 .tlc-nav { display: flex; min-width: 0; flex-wrap: nowrap; align-items: center; justify-content: center; gap: clamp(12px, 1.6vw, 28px); white-space: nowrap; }
-.tlc-nav a, .tlc-footer nav a { font-size: 12px; font-weight: 800; letter-spacing: .1em; text-decoration: none; text-transform: uppercase; }
+.tlc-nav a, .tlc-nav-label, .tlc-footer nav a { font-size: 12px; font-weight: 800; letter-spacing: .1em; text-decoration: none; text-transform: uppercase; }
 .tlc-nav a:hover, .tlc-nav a:focus-visible, .tlc-footer a:hover, .tlc-footer a:focus-visible { color: #4f9700; }
 
 .tlc-button { display: inline-flex; min-height: 50px; align-items: center; justify-content: center; padding: 0 22px; border: 1px solid var(--tlc-black); background: var(--tlc-black); color: #fff !important; font-size: 12px; font-weight: 800; letter-spacing: .06em; text-align: center; text-decoration: none; text-transform: uppercase; }
@@ -155,7 +155,7 @@ body { margin: 0; background: #f8f7f2; }
   .tlc-header { grid-template-columns: auto 1fr auto; }
   .tlc-header > .tlc-button-small { grid-column: 3; grid-row: 1; }
   .tlc-nav { grid-column: 1 / -1; grid-row: 2; justify-content: center; width: 100%; padding: 10px 0 6px; flex-wrap: wrap; gap: 10px 16px; overflow: visible; }
-  .tlc-nav a { flex: 0 0 auto; font-size: 10px; }
+  .tlc-nav a, .tlc-nav-label { flex: 0 0 auto; font-size: 10px; }
   .tlc-hero, .tlc-hero-grid { min-height: 0; }
   .tlc-hero-grid { grid-template-columns: 1fr; }
   .tlc-hero-copy { padding-top: 28px; padding-bottom: 48px; }

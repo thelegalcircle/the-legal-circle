@@ -2,7 +2,7 @@
   document.querySelectorAll('.tlc-news-dropdown').forEach(dropdown => {
     const button = dropdown.querySelector('button');
     const menu = dropdown.querySelector('.tlc-news-menu');
-    const label = dropdown.classList.contains('tlc-contact-dropdown') ? 'Contact options' : 'News categories';
+    const label = dropdown.classList.contains('tlc-interviews-dropdown') ? 'Interviews options' : 'News categories';
     const setOpen = open => {
       menu.hidden = !open;
       button.setAttribute('aria-expanded', String(open));
