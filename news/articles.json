@@ -1,5 +1,53 @@
 [
   {
+    "slug": "kirkland-ellis-financial-reporting-big-law",
+    "headline": "Kirkland & Ellis Ends Voluntary Financial Reporting: What Big Law Loses When the Numbers Disappear",
+    "seoTitle": "Kirkland Ends Financial Reporting: What It Means for Big Law",
+    "metaDescription": "Kirkland & Ellis will stop voluntarily sharing revenue and profit figures. What the decision means for rankings, recruitment and client comparisons.",
+    "excerpt": "Kirkland’s withdrawal from voluntary financial disclosures raises questions about rankings, recruitment and the evidence firms use to demonstrate client value.",
+    "contentType": "analysis",
+    "category": "Business & Practice Development",
+    "jurisdiction": "United States; Canadian implications",
+    "tags": [
+      {
+        "name": "Law Firm Economics",
+        "slug": "law-firm-economics"
+      },
+      {
+        "name": "Big Law",
+        "slug": "big-law"
+      },
+      {
+        "name": "Client Value",
+        "slug": "client-value"
+      }
+    ],
+    "related": [
+      "law-firm-positioning-clear-client-services"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-08T19:51:02Z",
+    "modified": "2026-10-08T19:51:02Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Kirkland & Ellis Ends Voluntary Financial Reporting: What Big Law Loses When the Numbers Disappear",
+      "description": "Kirkland & Ellis will stop voluntarily sharing revenue and profit figures. What the decision means for rankings, recruitment and client comparisons.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
     "slug": "quebec-oath-law-constitutional-challenge",
     "headline": "Quebec’s Oath Law Faces Injunction Request: A Constitutional Dispute Beyond the Monarchy",
     "seoTitle": "Quebec Oath Law Challenge: Constitutional Issues Explained",
