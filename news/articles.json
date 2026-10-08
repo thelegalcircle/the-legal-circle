@@ -1,5 +1,51 @@
 [
   {
+    "slug": "quebec-oath-law-constitutional-challenge",
+    "headline": "Quebec’s Oath Law Faces Injunction Request: A Constitutional Dispute Beyond the Monarchy",
+    "seoTitle": "Quebec Oath Law Challenge: Constitutional Issues Explained",
+    "metaDescription": "An injunction request challenges Quebec’s legislative oath law. The dispute raises constitutional amendment and interim-relief questions.",
+    "excerpt": "A request for interim relief over Quebec’s oath law raises questions about constitutional amendment authority and participation in legislative proceedings.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "Quebec, Canada",
+    "tags": [
+      {
+        "name": "Constitutional Law",
+        "slug": "constitutional-law"
+      },
+      {
+        "name": "Interim Relief",
+        "slug": "interim-relief"
+      },
+      {
+        "name": "Quebec",
+        "slug": "quebec"
+      }
+    ],
+    "related": [],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-08T19:49:17Z",
+    "modified": "2026-10-08T19:49:17Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Quebec’s Oath Law Faces Injunction Request: A Constitutional Dispute Beyond the Monarchy",
+      "description": "An injunction request challenges Quebec’s legislative oath law. The dispute raises constitutional amendment and interim-relief questions.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
     "slug": "canada-maid-mental-illness-advance-requests",
     "headline": "Canada Plans MAID Changes: Mental Illness Exclusion and Advance Requests",
     "seoTitle": "Canada MAID Changes: Mental Illness and Advance Requests",
