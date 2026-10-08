@@ -371,6 +371,9 @@ function updateNavigation(dir) {
     let html = fs.readFileSync(file, 'utf8');
     if (!html.includes('class="tlc-nav"')) continue;
     html = html.replace(/<nav class="tlc-nav"[^>]*>[\s\S]*?<\/nav>/, nav => {
+      nav = nav.replace(/<div class="tlc-news-dropdown tlc-contact-dropdown">[\s\S]*?<\/div><\/div>/, block => block.match(/<a href="\/contact\/"[^>]*>Contact<\/a>/)[0]);
+      nav = nav.replace(/<a href="\/get-featured\/"[^>]*>Get Featured<\/a>/g, '');
+      nav = nav.replace(/<a href="\/contact\/"[^>]*>Contact<\/a>/, contact => `<div class="tlc-news-dropdown tlc-contact-dropdown">${contact}<button class="tlc-news-toggle" type="button" aria-label="Expand Contact options" aria-expanded="false" aria-controls="tlc-contact-menu"><svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="m2 4 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="tlc-news-menu" id="tlc-contact-menu" hidden><a href="/get-featured/">Get Featured</a></div></div>`);
       const links = [...archiveCategories].filter(category => published.some(article => article.category === category && Date.parse(article.published) <= Date.now()) && fs.existsSync(path.join(categoriesRoot, categorySlugs[category], 'index.html')))
         .map(category => `<a href="/news/categories/${categorySlugs[category]}/">${esc(category)}</a>`).join('');
       const render = news => `<div class="tlc-news-dropdown">${news}<button class="tlc-news-toggle" type="button" aria-label="Expand News categories" aria-expanded="false" aria-controls="tlc-news-menu"><svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="m2 4 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="tlc-news-menu" id="tlc-news-menu" hidden>${links}</div></div>`;
@@ -378,7 +381,8 @@ function updateNavigation(dir) {
       return nav.replace(/<a href="\/news\/"[^>]*>News<\/a>/, render);
     });
     if (!html.includes('src="/navigation.js')) html = html.replace('</head>', '  <script src="/navigation.js?v=20261006" defer></script>\n</head>');
-    html = html.replace(/href="\/styles\.css\?v=[^"]+"/, 'href="/styles.css?v=20261006-chevron"');
+    html = html.replace(/href="\/styles\.css\?v=[^"]+"/, 'href="/styles.css?v=20261008-navigation"');
+    html = html.replace(/src="\/navigation\.js\?v=[^"]+"/, 'src="/navigation.js?v=20261008"');
     html = html.replace(/src="\/consent\.js\?v=[^"]+"/, 'src="/consent.js?v=20261006-ga4"');
     fs.writeFileSync(file, html);
   }

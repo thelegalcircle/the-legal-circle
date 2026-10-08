@@ -2,14 +2,15 @@
   document.querySelectorAll('.tlc-news-dropdown').forEach(dropdown => {
     const button = dropdown.querySelector('button');
     const menu = dropdown.querySelector('.tlc-news-menu');
+    const label = dropdown.classList.contains('tlc-contact-dropdown') ? 'Contact options' : 'News categories';
     const setOpen = open => {
       menu.hidden = !open;
       button.setAttribute('aria-expanded', String(open));
-      button.setAttribute('aria-label', `${open ? 'Collapse' : 'Expand'} News categories`);
+      button.setAttribute('aria-label', `${open ? 'Collapse' : 'Expand'} ${label}`);
     };
     button.addEventListener('click', () => setOpen(menu.hidden));
     dropdown.addEventListener('pointerenter', event => {
-      if (event.pointerType === 'mouse' && matchMedia('(hover: hover)').matches) setOpen(true);
+      if (event.pointerType === 'mouse' && matchMedia('(min-width: 1001px) and (hover: hover)').matches) setOpen(true);
     });
     dropdown.addEventListener('pointerleave', () => {
       if (!dropdown.contains(document.activeElement)) setOpen(false);

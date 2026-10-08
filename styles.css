@@ -49,7 +49,8 @@ body { margin: 0; background: #f8f7f2; }
 
 .tlc-hero { min-height: calc(100vh - 84px); border-bottom: 1px solid var(--tlc-line); }
 .tlc-hero-grid { display: grid; grid-template-columns: minmax(0, 1.04fr) minmax(420px, .96fr); min-height: calc(100vh - 84px); }
-.tlc-hero-copy { display: flex; min-width: 0; flex-direction: column; justify-content: center; padding: clamp(56px, 7vw, 112px) clamp(28px, 6vw, 108px); }
+.tlc-hero-copy { display: flex; min-width: 0; flex-direction: column; justify-content: flex-start; padding: 32px clamp(28px, 6vw, 108px) 64px; }
+.tlc-hero-copy > .tlc-eyebrow { font-size: clamp(17px, 1.5vw, 22px); line-height: 1.5; letter-spacing: .015em; text-transform: none; }
 .tlc-eyebrow { margin: 0; color: #3f7600; font-size: 11px; font-weight: 900; letter-spacing: .18em; text-transform: uppercase; }
 .tlc-hero h1, .tlc-section h2, .tlc-invitation h2 { font-family: "Arial Narrow", "Roboto Condensed", "Helvetica Neue", sans-serif; font-stretch: condensed; font-weight: 900; letter-spacing: -.055em; }
 .tlc-hero h1 { max-width: 760px; margin: 26px 0; font-size: clamp(52px, 5.8vw, 92px); line-height: .91; }
@@ -153,11 +154,11 @@ body { margin: 0; background: #f8f7f2; }
 @media (max-width: 1000px) {
   .tlc-header { grid-template-columns: auto 1fr auto; }
   .tlc-header > .tlc-button-small { grid-column: 3; grid-row: 1; }
-  .tlc-nav { grid-column: 1 / -1; grid-row: 2; justify-content: flex-start; width: 100%; padding: 10px 0 6px; overflow-x: auto; scrollbar-width: thin; }
+  .tlc-nav { grid-column: 1 / -1; grid-row: 2; justify-content: center; width: 100%; padding: 10px 0 6px; flex-wrap: wrap; gap: 10px 16px; overflow: visible; }
   .tlc-nav a { flex: 0 0 auto; font-size: 10px; }
   .tlc-hero, .tlc-hero-grid { min-height: 0; }
   .tlc-hero-grid { grid-template-columns: 1fr; }
-  .tlc-hero-copy { padding-top: 72px; padding-bottom: 66px; }
+  .tlc-hero-copy { padding-top: 28px; padding-bottom: 48px; }
   .tlc-hero-art { min-height: 450px; border-top: 1px solid var(--tlc-line); border-left: 0; }
   .tlc-orbit-field { width: min(74vw, 500px); }
   .tlc-footer { grid-template-columns: 110px 1fr; }
@@ -169,7 +170,7 @@ body { margin: 0; background: #f8f7f2; }
   .tlc-header .tlc-logo { width: 48px; height: 48px; }
   .tlc-header .tlc-logo img { width: 40px; height: 40px; }
   .tlc-button-small { min-height: 40px; padding: 0 12px; font-size: 9px; }
-  .tlc-hero-copy { padding: 52px 20px 48px; }
+  .tlc-hero-copy { padding: 24px 20px 48px; }
   .tlc-hero h1 { max-width: 100%; margin-top: 22px; font-size: clamp(42px, 12vw, 60px); line-height: .94; }
   .tlc-lede { font-size: 16px; }
   .tlc-actions { min-width: 0; align-items: stretch; flex-direction: column; }
