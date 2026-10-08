@@ -15,8 +15,14 @@
 
 .tlc-event-hero-copy>.tlc-eyebrow{margin-bottom:0}.tlc-event-presented{max-width:100%!important;margin:14px 0 44px!important;color:#454641!important;font-size:clamp(13px,1.05vw,15px)!important;font-weight:700;line-height:1.5!important}.tlc-event-presented a{color:#356b00;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}.tlc-event-presented a:hover{color:#244900;text-decoration-thickness:2px}.tlc-event-presented a:focus-visible{border-radius:2px;outline:3px solid var(--tlc-green);outline-offset:4px}
 @media(max-width:680px){.tlc-event-presented{margin:12px 0 36px!important;font-size:13px!important;overflow-wrap:anywhere}}
-.tlc-event-photo-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;max-width:720px;align-items:start}
-.tlc-event-photo-gallery a{display:block;min-width:0}
-.tlc-event-photo-gallery img{display:block;width:100%;height:auto;object-fit:contain;border:1px solid #555;box-sizing:border-box}
-.tlc-event-photo-gallery a:focus-visible{outline:3px solid var(--tlc-green);outline-offset:4px}
-@media(max-width:480px){.tlc-event-photo-gallery{gap:10px}}
+.tlc-event-slider{max-width:720px;min-width:0}
+.tlc-event-photo-gallery{display:flex;width:100%;height:clamp(320px,42vw,520px);overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;background:#151515;border:1px solid #555;box-sizing:border-box}
+.tlc-event-photo-gallery::-webkit-scrollbar{display:none}
+.tlc-event-photo-gallery a{display:flex;flex:0 0 100%;min-width:0;align-items:center;justify-content:center;scroll-snap-align:start}
+.tlc-event-photo-gallery img{display:block;width:100%;height:100%;object-fit:contain}
+.tlc-event-slider-controls{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:12px}
+.tlc-event-slider-controls[hidden]{display:none}
+.tlc-event-slider-controls button{width:44px;height:44px;border:1px solid #666;background:transparent;color:#fff;font:inherit;font-size:24px;cursor:pointer}
+.tlc-event-slider-controls button:hover{border-color:var(--tlc-green);color:var(--tlc-green)}
+.tlc-event-slider-status{color:#d7d7d0;font-size:14px}
+.tlc-event-photo-gallery:focus-visible,.tlc-event-photo-gallery a:focus-visible,.tlc-event-slider-controls button:focus-visible{outline:3px solid var(--tlc-green);outline-offset:-3px}
