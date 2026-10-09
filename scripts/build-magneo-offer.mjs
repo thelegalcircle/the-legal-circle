@@ -5,7 +5,7 @@ export function buildMagneoOffer(root) {
   const description = 'Explore Magneo’s CAD $1,800 website rebuild offer for Ontario law firms. View an immigration website concept, package details and contact Magneo directly.';
   let head = home.slice(0, home.indexOf('<body>'));
   head = head.replace(/<title>.*?<\/title>/, `<title>${title}</title>`).replace(/(<meta (?:name="(?:description|twitter:description)"|property="og:description") content=")[^"]*/g, (_, prefix) => prefix + description).replace(/(<meta (?:name="twitter:title"|property="og:title") content=")[^"]*/g, (_, prefix) => prefix + title).replace(/https:\/\/thelegalcircle\.ca\/(?=")/g, 'https://thelegalcircle.ca/magneo-website-offer/');
-  head = head.replace('</head>', '<meta name="robots" content="noindex, nofollow"><link rel="stylesheet" href="/magneo-offer.css?v=20261009-green"></head>');
+  head = head.replace('</head>', '<meta name="robots" content="noindex, nofollow"><link rel="stylesheet" href="/magneo-offer.css?v=20261009-black-text"></head>');
   const header = home.match(/<header class="tlc-header">[\s\S]*?<\/header>/)[0].replace('href="#top"', 'href="/"');
   const footer = home.match(/<footer[\s\S]*?<\/footer>/)[0];
   const cta = '<a class="tlc-button" href="mailto:contact@magneo.ca?subject=Website%20Offer%20via%20The%20Legal%20Circle">Discuss your website with Magneo</a>';
