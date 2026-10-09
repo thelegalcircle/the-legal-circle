@@ -19,7 +19,7 @@
 .tlc-preview-bar span { margin-right:auto; font-weight:800; }
 .tlc-preview-bar i { width:10%; height:2px; background:#677661; }
 .tlc-preview-content { display:flex; flex-direction:column; gap:5px; padding:4% 5%; }
-.tlc-preview-content strong { font:700 clamp(12px,1.3vw,19px)/1.05 Georgia,serif; }
+.tlc-preview-content strong { max-width:65%; font:700 clamp(11px,1.1vw,16px)/1.05 Georgia,serif; }
 .tlc-preview-content span { font-size:clamp(5px,.6vw,8px); color:#626c5c; }
 .tlc-preview-content b { width:max-content; padding:4px 7px; background:#263d1c; color:white; font-size:clamp(5px,.55vw,8px); }
 .tlc-preview-lines { position:absolute; top:37%; right:7%; width:26%; height:47%; background:#d9e5cc; display:grid; align-content:center; gap:8px; padding:8px; }
@@ -59,4 +59,4 @@
 .tlc-pressfeed-controls button:hover { background:#e7ebde; }
 .tlc-pressfeed-controls span { color:var(--tlc-muted); font-size:14px; margin-left:auto; }
 .tlc-test-features a:focus-visible,.tlc-pressfeed-controls button:focus-visible,.tlc-feed-update-control button:focus-visible { outline:2px solid #356b00; outline-offset:4px; }
-@media(max-width:700px) { .tlc-test-features { grid-template-columns:1fr; gap:36px; } .tlc-feature-column+.tlc-feature-column { border-top:1px solid var(--tlc-line); padding-top:30px; } .tlc-pressfeed-grid { grid-template-columns:1fr; } .tlc-magneo-wordmark { font-size:22px; } .tlc-magneo-price { font-size:16px; } .tlc-preview-content strong { font-size:17px; } .tlc-preview-content span { font-size:7px; } .tlc-preview-content b { font-size:7px; } .tlc-magneo-phone strong { font-size:9px; } }
+@media(max-width:700px) { .tlc-test-features { grid-template-columns:1fr; gap:36px; } .tlc-feature-column+.tlc-feature-column { border-top:1px solid var(--tlc-line); padding-top:30px; } .tlc-pressfeed-grid { grid-template-columns:1fr; } .tlc-magneo-wordmark { font-size:22px; } .tlc-magneo-price { font-size:16px; } .tlc-preview-content strong { font-size:14px; } .tlc-preview-content span { font-size:7px; } .tlc-preview-content b { font-size:7px; } .tlc-magneo-phone strong { font-size:9px; } }
