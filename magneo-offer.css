@@ -1,8 +1,22 @@
 .mo-main { max-width:1200px; margin:auto; padding:56px 32px; }
 .mo-main p { font-size:17px; line-height:1.7; color:var(--tlc-muted); }
-.mo-intro { max-width:850px; }
-.mo-intro h1 { font:500 clamp(38px,5vw,64px)/1.08 Georgia,serif; margin:18px 0; }
-.mo-intro .mo-lede { font-size:22px; }
+.mo-hero { display:grid; grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr); gap:40px; align-items:center; padding-bottom:36px; }
+.mo-intro { min-width:0; }
+.mo-intro h1 { font:500 clamp(32px,3.4vw,46px)/1.08 Georgia,serif; margin:16px 0; }
+.mo-intro .tlc-eyebrow { font-size:12px; letter-spacing:.1em; color:#356b00; }
+.mo-intro .mo-lede { font-size:18px; line-height:1.55; }
+.mo-intro .mo-hero-price { font-size:30px; font-weight:800; color:#111; margin:18px 0 4px; }
+.mo-intro .mo-facts { font-size:14px; font-weight:700; margin:0; }
+.mo-intro .mo-timing { font-size:14px; line-height:1.6; margin:18px 0; }
+.mo-intro .mo-availability { font-size:14px; }
+.mo-hero-actions { display:flex; flex-direction:column; align-items:flex-start; gap:14px; }
+.mo-hero-actions > a:not(.tlc-button) { font-size:14px; font-weight:700; }
+.mo-hero .mo-concept { margin:0; min-width:0; }
+.mo-hero .mo-previews { background:#e6f0d9; padding:24px 8% 24px 16px; }
+.mo-hero .mo-desktop { border-width:4px; }
+.mo-hero .mo-mobile { width:22%; border-width:3px; right:8px; }
+.mo-hero figcaption { font-size:13px; }
+.mo-hero figcaption p { font-size:12px; line-height:1.6; }
 .mo-availability { font-weight:700; }
 .mo-timing { border-left:3px solid #356b00; padding-left:20px; margin-top:28px; }
 .mo-concept { margin:40px 0; }
@@ -28,3 +42,4 @@
 .mo-main .tlc-button:hover { background:#7CF000; color:#000 !important; }
 .mo-contact a:focus-visible { outline-color:#7CF000; }
 @media(max-width:700px) { .mo-main { padding:32px 24px; } .mo-grid,.mo-process { grid-template-columns:1fr; } .mo-previews { padding:12px 12px 64px; } .mo-mobile { width:24%; right:16px; } .mo-contact { padding:24px; } .mo-main .tlc-button { white-space:normal; text-align:center; } }
+@media(max-width:850px) { .mo-hero { grid-template-columns:1fr; gap:28px; } .mo-hero .mo-previews { padding:16px 9% 24px 12px; } }

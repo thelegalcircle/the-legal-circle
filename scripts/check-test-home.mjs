@@ -9,7 +9,7 @@ assert(test.includes('<meta name="robots" content="noindex, nofollow">'));
 assert(!home.includes('noindex'));
 assert(!home.includes('Pressfeed'));
 assert(!home.includes('tlc-scales'));
-assert(test.includes('class="tlc-scales"'));
+assert(test.includes('class="tlc-scales tlc-lady-justice"'));
 assert(test.includes('class="tlc-scales-pan tlc-scales-pan-left"'));
 assert(home.includes('Latest from The Legal Circle'));
 assert(!test.includes('Latest from The Legal Circle'));
