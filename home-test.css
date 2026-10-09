@@ -50,7 +50,8 @@
 .tlc-external-note { margin-top:9px; font-size:12px; line-height:1.5; color:var(--tlc-muted); }
 .tlc-offer-preview { position:relative; display:block; aspect-ratio:16/9; background:#e9ece3; padding:8px 12% 8px 8px; }
 .tlc-offer-preview > img { display:block; border:2px solid #222; }
-.tlc-offer-preview .tlc-offer-mobile { position:absolute; right:5px; bottom:5px; width:20%; aspect-ratio:auto; border-radius:5px; }
+.tlc-offer-preview .tlc-offer-mobile { position:absolute; right:5px; bottom:5px; width:24%; aspect-ratio:390/844; height:auto; border:5px solid #171717; border-top-width:12px; border-bottom-width:10px; border-radius:16px; box-shadow:0 4px 10px #0003; }
+.tlc-offer-preview::after { content:""; position:absolute; right:calc(5px + 12% - 9px); bottom:calc(5px + 10px + 4px); width:18px; height:2px; border-radius:2px; background:#777; pointer-events:none; }
 .tlc-pressfeed .tlc-home-latest-inner { max-width:1200px; }
 .tlc-pressfeed-heading { display:flex; justify-content:space-between; align-items:flex-start; gap:20px; flex-wrap:wrap; margin-bottom:26px; }
 .tlc-pressfeed-heading h2 { margin:0; }
