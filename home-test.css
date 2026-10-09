@@ -1,4 +1,13 @@
 .tlc-test-features { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:32px; padding:clamp(40px,5vw,72px) clamp(24px,6vw,108px); border-bottom:1px solid var(--tlc-line); }
+.tlc-orbit-core { width:20%; display:grid; place-items:center; }
+.tlc-scales { width:70%; height:70%; color:#111; overflow:visible; }
+.tlc-scales-beam { transform-box:view-box; transform-origin:50px 30px; animation:tlc-scales-tilt 5s ease-in-out infinite; }
+.tlc-scales-pan { transform-box:view-box; animation:tlc-scales-upright 5s ease-in-out infinite; }
+.tlc-scales-pan-left { transform-origin:20px 30px; }
+.tlc-scales-pan-right { transform-origin:80px 30px; }
+@keyframes tlc-scales-tilt { 0%,100% { transform:rotate(-5deg); } 50% { transform:rotate(5deg); } }
+@keyframes tlc-scales-upright { 0%,100% { transform:rotate(5deg); } 50% { transform:rotate(-5deg); } }
+@media(prefers-reduced-motion:reduce) { .tlc-scales-beam,.tlc-scales-pan { animation:none; transform:none; } }
 #featured-content, #tlc-pressfeed-title { scroll-margin-top:130px; }
 .tlc-feature-column { display:flex; flex-direction:column; min-width:0; }
 .tlc-feature-column h2 { margin:0 0 20px; font-size:15px; letter-spacing:.08em; text-transform:uppercase; }

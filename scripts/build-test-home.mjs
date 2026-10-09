@@ -41,8 +41,11 @@ export function buildTestHome(root, articles, now = new Date()) {
   const feed = `<section class="tlc-home-latest tlc-pressfeed" aria-labelledby="tlc-pressfeed-title"><div class="tlc-home-latest-inner"><div class="tlc-pressfeed-heading"><h2 id="tlc-pressfeed-title">Pressfeed</h2><div class="tlc-feed-update-control" hidden><button type="button" data-feed-play>Pause updates</button><span data-feed-status></span></div></div><div class="tlc-pressfeed-grid">${blocks}</div><a class="tlc-card-link tlc-home-view-all" href="/news/">View all articles <span aria-hidden="true">→</span></a></div></section>`;
   let home = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
   home = home.replace(/(src|href)="assets\//g, '$1="/assets/');
+  const scales = `<svg class="tlc-scales" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><path d="M50 21V79M34 82H66M42 79H58"/><g class="tlc-scales-beam"><path d="M20 30H80"/><g class="tlc-scales-pan tlc-scales-pan-left"><path d="M20 30 9 54H31ZM9 54Q20 68 31 54"/></g><g class="tlc-scales-pan tlc-scales-pan-right"><path d="M80 30 69 54H91ZM69 54Q80 68 91 54"/></g></g><circle cx="50" cy="30" r="4" fill="currentColor" stroke="none"/></g></svg>`;
+  home = home.replace('<span class="tlc-orbit-core"></span>', `<span class="tlc-orbit-core">${scales}</span>`);
+  home = home.replace('Animated circular paths moving around a bright green centre', 'Animated circular paths around gently balancing scales of justice in a green centre');
   home = home.replace(/<!-- HOMEPAGE_ARTICLES_START -->[\s\S]*?<!-- HOMEPAGE_ARTICLES_END -->/, features + feed);
-  home = home.replace('</head>', '<meta name="robots" content="noindex, nofollow">\n<link rel="stylesheet" href="/home-test.css?v=20261009-offer">\n<script src="/pressfeed.js?v=20261009-categories" defer></script>\n</head>');
+  home = home.replace('</head>', '<meta name="robots" content="noindex, nofollow">\n<link rel="stylesheet" href="/home-test.css?v=20261009-scales">\n<script src="/pressfeed.js?v=20261009-categories" defer></script>\n</head>');
   home = home.replace(/(<link rel="canonical" href=")[^"]+/, '$1https://thelegalcircle.ca/home-test/');
   home = home.replace(/(<meta property="og:url" content=")[^"]+/, '$1https://thelegalcircle.ca/home-test/');
   fs.mkdirSync(path.join(root, 'home-test'), { recursive: true });
