@@ -1,4 +1,5 @@
 .tlc-test-features { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:32px; padding:clamp(40px,5vw,72px) clamp(24px,6vw,108px); border-bottom:1px solid var(--tlc-line); }
+#featured-content, #tlc-pressfeed-title { scroll-margin-top:130px; }
 .tlc-feature-column { display:flex; flex-direction:column; min-width:0; }
 .tlc-feature-column h2 { margin:0 0 20px; font-size:15px; letter-spacing:.08em; text-transform:uppercase; }
 .tlc-feature-column img { width:100%; height:auto; aspect-ratio:16/9; object-fit:contain; background:var(--tlc-paper); }
