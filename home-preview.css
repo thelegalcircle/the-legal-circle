@@ -6,8 +6,8 @@
   .tlc-pressfeed-introduction { flex-basis:100%; }
   .tlc-pressfeed-introduction p { font-size:15px; }
 }
-.tlc-invitation-with-art { position:relative; padding-right:calc(clamp(24px,7vw,112px) + 650px); padding-bottom:27px; min-height:650px; }
-.tlc-invitation-justice { position:absolute; right:clamp(24px,7vw,112px); bottom:0; display:block; width:650px; height:auto; pointer-events:none; user-select:none; }
+.tlc-invitation-with-art { position:relative; padding-right:calc(clamp(24px,7vw,112px) + 550px); padding-bottom:27px; min-height:550px; }
+.tlc-invitation-justice { position:absolute; right:clamp(24px,7vw,112px); bottom:0; display:block; width:550px; height:auto; pointer-events:none; user-select:none; }
 @media(max-width:1200px) {
   .tlc-invitation-with-art { padding-right:clamp(24px,7vw,112px); padding-bottom:0; min-height:0; }
   .tlc-invitation-justice { position:static; width:min(220px,70%); margin:36px 0 0 auto; }
