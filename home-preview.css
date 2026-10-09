@@ -1,0 +1,8 @@
+.tlc-pressfeed-introduction { flex:1 1 480px; min-width:0; }
+.tlc-pressfeed-introduction p { margin:8px 0 0; max-width:680px; font-size:16px; line-height:1.6; color:var(--tlc-muted); }
+.tlc-pressfeed-heading .tlc-feed-update-control { flex:0 0 auto; }
+@media(max-width:700px) {
+  .tlc-pressfeed-heading { gap:16px; }
+  .tlc-pressfeed-introduction { flex-basis:100%; }
+  .tlc-pressfeed-introduction p { font-size:15px; }
+}
