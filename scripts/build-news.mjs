@@ -374,13 +374,15 @@ function updateNavigation(dir) {
     html = html.replace(/<nav class="tlc-nav"[^>]*>[\s\S]*?<\/nav>/, nav => {
       nav = nav.replace(/<div class="tlc-news-dropdown tlc-contact-dropdown">[\s\S]*?<\/div><\/div>/, block => block.match(/<a href="\/contact\/"[^>]*>Contact<\/a>/)[0]);
       nav = nav.replace(/<div class="tlc-news-dropdown tlc-interviews-dropdown">[\s\S]*?<\/div><\/div>/, '');
+      nav = nav.replace(/<div class="tlc-news-dropdown tlc-marketing-dropdown">([\s\S]*?<\/a>)[\s\S]*?<\/div><\/div>/, '$1');
       nav = nav.replace(/<a href="\/get-featured\/"[^>]*>Get Featured<\/a>/g, '');
       nav = nav.replace(/<a href="\/events\/"[^>]*>Events<\/a>/, events => `<div class="tlc-news-dropdown tlc-interviews-dropdown"><span class="tlc-nav-label">Interviews</span><button class="tlc-news-toggle" type="button" aria-label="Expand Interviews options" aria-expanded="false" aria-controls="tlc-interviews-menu"><svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="m2 4 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="tlc-news-menu" id="tlc-interviews-menu" hidden><a href="/get-featured/">Get Featured</a></div></div>${events}`);
       const contact = nav.match(/<a href="\/contact\/"[^>]*>Contact<\/a>/)?.[0];
       const marketing = nav.match(/<a href="https:\/\/magneo\.ca\/"[^>]*>Marketing[\s\S]*?<\/a>/)?.[0];
       if (contact && marketing) {
         nav = nav.replace(contact, '').replace(marketing, '');
-        nav = nav.replace('</nav>', `${marketing}${contact}</nav>`);
+        const marketingLink = marketing.replace(/ aria-(?:haspopup|expanded|controls)="[^"]*"/g, '').replace('<a ', '<a aria-haspopup="true" aria-expanded="false" aria-controls="tlc-marketing-menu" ');
+        nav = nav.replace('</nav>', `<div class="tlc-news-dropdown tlc-marketing-dropdown">${marketingLink}<div class="tlc-news-menu" id="tlc-marketing-menu" hidden><a href="https://magneo.ca/new-clients-offer/" target="_blank" rel="noopener noreferrer">Special offer from Magneo</a></div></div>${contact}</nav>`);
       }
       const links = [...archiveCategories].filter(category => published.some(article => article.category === category && Date.parse(article.published) <= Date.now()) && fs.existsSync(path.join(categoriesRoot, categorySlugs[category], 'index.html')))
         .map(category => `<a href="/news/categories/${categorySlugs[category]}/">${esc(category)}</a>`).join('');
@@ -390,7 +392,7 @@ function updateNavigation(dir) {
     });
     if (!html.includes('src="/navigation.js')) html = html.replace('</head>', '  <script src="/navigation.js?v=20261006" defer></script>\n</head>');
     html = html.replace(/href="\/styles\.css\?v=[^"]+"/, 'href="/styles.css?v=20261009-nav"');
-    html = html.replace(/src="\/navigation\.js\?v=[^"]+"/, 'src="/navigation.js?v=20261008-interviews"');
+    html = html.replace(/src="\/navigation\.js\?v=[^"]+"/, 'src="/navigation.js?v=20261009-magneo-offer"');
     html = html.replace(/src="\/consent\.js\?v=[^"]+"/, 'src="/consent.js?v=20261008-ga4"');
     fs.writeFileSync(file, html);
   }
