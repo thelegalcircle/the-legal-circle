@@ -17,4 +17,4 @@ for(const block of home.matchAll(/<section class="tlc-pressfeed-block"[\s\S]*?<\
  const expected=articles.filter(a=>a.category===category&&a.status==='published'&&Date.parse(a.published)<=Date.now()).sort((a,b)=>Date.parse(b.published)-Date.parse(a.published)).slice(0,5).map(a=>a.slug);
  assert.deepEqual([...block[0].matchAll(/data-slug="([^"]+)"/g)].map(m=>m[1]),expected);
 }
-console.log('Production unchanged; Pressfeed introduction isolated to noindex preview, excluded from sitemap.');
+console.log('Production introduction verified; legacy test URL forwards to the indexable homepage.');
