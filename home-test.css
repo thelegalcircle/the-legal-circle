@@ -1,5 +1,6 @@
 .tlc-test-features { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:32px; padding:clamp(40px,5vw,72px) clamp(24px,6vw,108px); border-bottom:1px solid var(--tlc-line); }
-.tlc-orbit-core { width:25%; display:grid; place-items:center; }
+.tlc-orbit-core { width:28%; display:grid; place-items:center; }
+.tlc-justice-artwork { display:block; width:88%; height:88%; object-fit:contain; }
 .tlc-scales { width:76%; height:76%; color:#111; overflow:visible; }
 .tlc-justice-sway { animation:tlc-justice-sway 5s ease-in-out infinite; }
 .tlc-scales-beam { transform-box:view-box; transform-origin:68px 27px; animation:tlc-scales-tilt 5s ease-in-out infinite; }
