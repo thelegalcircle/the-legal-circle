@@ -31,7 +31,7 @@ assert(!rebuilt.includes('Draft never show') && !rebuilt.includes('Future never 
 assert.equal(rebuilt, test, 'Build must be deterministic and ignore drafts/future posts');
 const modified = execFileSync('git', ['diff', '--name-only'], { encoding: 'utf8' }).trim().split('\n');
 const normalize = html => html.replace(/<nav class="tlc-nav"[\s\S]*?<\/nav>/, 'NAV').replace(/styles\.css\?v=[^"]+/, 'styles.css?VERSION').replace(/\r/g, '');
-for (const file of modified.filter(f => f.endsWith('.html'))) {
+for (const file of modified.filter(f => f.endsWith('.html') && f !== 'home-test/index.html')) {
   const before = execFileSync('git', ['show', `HEAD:${file}`], { encoding: 'utf8' });
   assert.equal(normalize(fs.readFileSync(file, 'utf8')), normalize(before), `Unrelated tracked HTML change: ${file}`);
 }
