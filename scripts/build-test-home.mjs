@@ -2,7 +2,6 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { articlePath } from './article-path.mjs';
 import { buildMagneoOffer } from './build-magneo-offer.mjs';
-import { buildHomePreview } from './build-home-preview.mjs';
 
 const esc = (s = '') => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const date = s => new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Toronto', year: 'numeric', month: 'long', day: 'numeric' }).format(new Date(s));
@@ -53,7 +52,6 @@ export function buildTestHome(root, articles, now = new Date()) {
   if (!home.includes('href="/home-preview.css')) home = home.replace('</head>', '<link rel="stylesheet" href="/home-preview.css?v=20261009-introduction">\n</head>');
   fs.writeFileSync(path.join(root, 'index.html'), home);
   buildMagneoOffer(root);
-  buildHomePreview(root);
   // Explicit exclusion also removes an accidentally added test URL on future builds.
   for (const name of ['sitemap.xml', 'news-sitemap.xml']) {
     const file = path.join(root, name);

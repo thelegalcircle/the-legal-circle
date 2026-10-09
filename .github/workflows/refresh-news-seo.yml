@@ -7,7 +7,6 @@ on:
       - news/articles.json
       - scripts/build-news.mjs
       - scripts/build-test-home.mjs
-      - scripts/build-home-preview.mjs
       - events/events.json
       - events/index.html
       - scripts/check-news.mjs
