@@ -23,7 +23,8 @@
 .mo-contact { padding:32px; background:#151915; color:white; }
 .mo-contact p,.mo-contact small { color:#e0e4db; }
 .mo-contact .mo-price { color:white; font-size:30px; font-weight:700; }
-.mo-contact a:not(.tlc-button) { color:#b6ef63; }
-.mo-contact .tlc-button { background:#b6ef63; color:#14200f; }
-.mo-contact a:focus-visible { outline-color:#b6ef63; }
+.mo-contact a:not(.tlc-button) { color:#7CF000; }
+.mo-main .tlc-button { background:#7CF000; color:#000; }
+.mo-main .tlc-button:hover { background:#7CF000; color:#000; }
+.mo-contact a:focus-visible { outline-color:#7CF000; }
 @media(max-width:700px) { .mo-main { padding:32px 24px; } .mo-grid,.mo-process { grid-template-columns:1fr; } .mo-previews { padding:12px 12px 64px; } .mo-mobile { width:24%; right:16px; } .mo-contact { padding:24px; } .mo-main .tlc-button { white-space:normal; text-align:center; } }
