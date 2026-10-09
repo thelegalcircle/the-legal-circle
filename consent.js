@@ -4,7 +4,7 @@
   var STORAGE_KEY = "tlc_optional_tracking";
   var STORAGE_LIFETIME = 180 * 24 * 60 * 60 * 1000;
   var GTM_ID = "GTM-M3MTPBTV";
-  var GA4_ID = "G-GSSG07MYKM";
+  var GA4_ID = "G-QZK4G9K20V";
   var gtmLoaded = false;
   var lastFocus = null;
 
