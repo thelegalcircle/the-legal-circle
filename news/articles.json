@@ -1,5 +1,293 @@
 [
   {
+    "slug": "bc-court-ai-filings-access-to-justice",
+    "headline": "B.C. Court Warns That Poor AI Filings Can Undermine Access to Justice",
+    "seoTitle": "B.C. Court Warns AI Filings Can Burden Access to Justice",
+    "metaDescription": "A B.C. appeal judge warns that lengthy, irrelevant AI submissions can consume court resources. Why citation checks alone are insufficient.",
+    "excerpt": "AI can make a legal argument easier to generate. It can also make the argument harder—and more expensive—for a court to process.",
+    "contentType": "analysis",
+    "category": "AI & Technology",
+    "jurisdiction": "British Columbia, Canada",
+    "tags": [
+      {
+        "name": "AI court filings Canada",
+        "slug": "bc-court-ai-filings-access-to-justice"
+      }
+    ],
+    "related": [
+      "judge-ai-errors-junior-lawyer-training-concerns",
+      "wagner-fraser-ai-courts-truth-seeking",
+      "ropes-gray-ai-training-hours"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-09T18:29:30Z",
+    "modified": "2026-10-09T18:29:30Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "B.C. Court Warns That Poor AI Filings Can Undermine Access to Justice",
+      "description": "A B.C. appeal judge warns that lengthy, irrelevant AI submissions can consume court resources. Why citation checks alone are insufficient.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "att-legaledge-ai-outside-counsel",
+    "headline": "AT&T’s LegalEdge Shows How AI Could Change Outside Counsel Work",
+    "seoTitle": "AT&T LegalEdge: How AI Is Changing Outside Counsel Work",
+    "metaDescription": "AT&T is bringing more legal work in-house through LegalEdge and AI. What Canadian firms should consider about scope, pricing and junior development.",
+    "excerpt": "The competitive threat facing law firms may come from a client deciding it can perform more of the work itself.",
+    "contentType": "analysis",
+    "category": "Business & Practice Development",
+    "jurisdiction": "United States; Canadian implications",
+    "tags": [
+      {
+        "name": "AI outside counsel",
+        "slug": "att-legaledge-ai-outside-counsel"
+      }
+    ],
+    "related": [
+      "arceus-ai-supported-law-firm-17-million-funding",
+      "kirkland-ellis-financial-reporting-big-law",
+      "ropes-gray-ai-training-hours"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-09T18:29:30Z",
+    "modified": "2026-10-09T18:29:30Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "AT&T’s LegalEdge Shows How AI Could Change Outside Counsel Work",
+      "description": "AT&T is bringing more legal work in-house through LegalEdge and AI. What Canadian firms should consider about scope, pricing and junior development.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "ropes-gray-ai-training-hours",
+    "headline": "Ropes & Gray Gives Lawyers AI Training Credit Toward Annual Targets",
+    "seoTitle": "Ropes & Gray Gives Lawyers Credit for AI Training Hours",
+    "metaDescription": "Ropes & Gray lets associates and counsel count AI training toward annual targets. The management lessons for Canadian law firms.",
+    "excerpt": "A firm can encourage lawyers to learn AI while maintaining incentives that make learning difficult.",
+    "contentType": "analysis",
+    "category": "Business & Practice Development",
+    "jurisdiction": "United States; Canadian implications",
+    "tags": [
+      {
+        "name": "law firm AI training",
+        "slug": "ropes-gray-ai-training-hours"
+      }
+    ],
+    "related": [
+      "judge-ai-errors-junior-lawyer-training-concerns",
+      "bc-court-ai-filings-access-to-justice",
+      "att-legaledge-ai-outside-counsel"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-09T18:29:30Z",
+    "modified": "2026-10-09T18:29:30Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Ropes & Gray Gives Lawyers AI Training Credit Toward Annual Targets",
+      "description": "Ropes & Gray lets associates and counsel count AI training toward annual targets. The management lessons for Canadian law firms.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "eu-esma-supervision-capital-markets",
+    "headline": "EU Council Backs Greater ESMA Supervision of Major Financial Markets",
+    "seoTitle": "EU Council Backs Greater ESMA Market Supervision",
+    "metaDescription": "The EU Council supports greater ESMA oversight of major cross-border markets. What Canadian financial businesses should know about the proposed changes.",
+    "excerpt": "Europe’s effort to integrate its capital markets is moving toward a different allocation of supervisory authority.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "European Union; Canadian implications",
+    "tags": [
+      {
+        "name": "ESMA supervision",
+        "slug": "eu-esma-supervision-capital-markets"
+      }
+    ],
+    "related": [
+      "supreme-court-canada-cross-border-bitcoin-restraint-case"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-09T18:29:30Z",
+    "modified": "2026-10-09T18:29:30Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "EU Council Backs Greater ESMA Supervision of Major Financial Markets",
+      "description": "The EU Council supports greater ESMA oversight of major cross-border markets. What Canadian financial businesses should know about the proposed changes.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "christian-bittar-euribor-conviction-guilty-plea",
+    "headline": "Christian Bittar’s Conviction Overturned Despite Guilty Plea in Euribor Case",
+    "seoTitle": "Bittar’s Euribor Conviction Quashed Despite Guilty Plea",
+    "metaDescription": "Christian Bittar’s rate-rigging conviction has been overturned despite a guilty plea. Why the written reasons matter for finality and legal error.",
+    "excerpt": "A guilty plea usually brings a criminal proceeding toward its conclusion. Christian Bittar’s successful appeal raises a harder question: what happens when the legal foundation of that conclusion is later challenged?",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "England and Wales; Canadian comparison",
+    "tags": [
+      {
+        "name": "Christian Bittar conviction",
+        "slug": "christian-bittar-euribor-conviction-guilty-plea"
+      }
+    ],
+    "related": [
+      "lawyer-civility-emails-alberta-smith-2026-abca-308"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-09T18:29:30Z",
+    "modified": "2026-10-09T18:29:30Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Christian Bittar’s Conviction Overturned Despite Guilty Plea in Euribor Case",
+      "description": "Christian Bittar’s rate-rigging conviction has been overturned despite a guilty plea. Why the written reasons matter for finality and legal error.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "sheppard-mullin-data-breach-social-engineering",
+    "headline": "Sheppard Mullin Data Breach Lawsuit Highlights Social-Engineering Risk",
+    "seoTitle": "Sheppard Mullin Breach Lawsuit: Social-Engineering Risk",
+    "metaDescription": "A proposed class action follows Sheppard Mullin’s reported social-engineering incident. What Canadian law firms can learn about document-release controls.",
+    "excerpt": "A law firm can lose control of sensitive documents without an attacker gaining access to its network.",
+    "contentType": "analysis",
+    "category": "Business & Practice Development",
+    "jurisdiction": "United States; Canadian implications",
+    "tags": [
+      {
+        "name": "law firm social engineering",
+        "slug": "sheppard-mullin-data-breach-social-engineering"
+      }
+    ],
+    "related": [
+      "california-sb-574-lawyers-generative-ai-law",
+      "ai-agents-canadian-government-website-transluce-report"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-09T18:29:30Z",
+    "modified": "2026-10-09T18:29:30Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Sheppard Mullin Data Breach Lawsuit Highlights Social-Engineering Risk",
+      "description": "A proposed class action follows Sheppard Mullin’s reported social-engineering incident. What Canadian law firms can learn about document-release controls.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "yukon-firearms-act-lawful-owners-advocate",
+    "headline": "Yukon Firearms Bill Proposes an Advocate for Lawful Owners",
+    "seoTitle": "Yukon Firearms Bill Proposes Advocate for Lawful Owners",
+    "metaDescription": "Yukon’s proposed Firearms Act would create an advocate for lawful owners. The mandate, accountability and regulatory questions lawyers should examine.",
+    "excerpt": "Yukon is proposing a dedicated voice for lawful firearms owners within its territorial institutions.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "Yukon, Canada",
+    "tags": [
+      {
+        "name": "Yukon Firearms Act",
+        "slug": "yukon-firearms-act-lawful-owners-advocate"
+      }
+    ],
+    "related": [
+      "quebec-oath-law-constitutional-challenge",
+      "canada-maid-mental-illness-advance-requests"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-09T18:29:30Z",
+    "modified": "2026-10-09T18:29:30Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Yukon Firearms Bill Proposes an Advocate for Lawful Owners",
+      "description": "Yukon’s proposed Firearms Act would create an advocate for lawful owners. The mandate, accountability and regulatory questions lawyers should examine.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
     "slug": "kirkland-ellis-financial-reporting-big-law",
     "headline": "Kirkland & Ellis Ends Voluntary Financial Reporting: What Big Law Loses When the Numbers Disappear",
     "seoTitle": "Kirkland Ends Financial Reporting: What It Means for Big Law",
@@ -23,6 +311,7 @@
       }
     ],
     "related": [
+      "att-legaledge-ai-outside-counsel",
       "law-firm-positioning-clear-client-services"
     ],
     "status": "published",
@@ -70,7 +359,9 @@
         "slug": "quebec"
       }
     ],
-    "related": [],
+    "related": [
+      "yukon-firearms-act-lawful-owners-advocate"
+    ],
     "status": "published",
     "author": {
       "name": "The Legal Circle",
@@ -770,6 +1061,7 @@
       "image": "/assets/the-legal-circle-social-card.png"
     },
     "related": [
+      "bc-court-ai-filings-access-to-justice",
       "judge-ai-errors-junior-lawyer-training-concerns"
     ],
     "correctionNote": ""
@@ -1067,6 +1359,7 @@
       "image": "/assets/the-legal-circle-social-card.png"
     },
     "related": [
+      "bc-court-ai-filings-access-to-justice",
       "california-sb-574-lawyers-generative-ai-law"
     ],
     "correctionNote": ""
@@ -1118,7 +1411,9 @@
       "description": "Why the Nest Exchange appeal matters for Canadian criminal property orders affecting cryptocurrency held abroad.",
       "image": "/assets/the-legal-circle-social-card.png"
     },
-    "related": [],
+    "related": [
+      "eu-esma-supervision-capital-markets"
+    ],
     "correctionNote": ""
   },
   {
@@ -1169,6 +1464,7 @@
       "image": "/assets/the-legal-circle-social-card.png"
     },
     "related": [
+      "att-legaledge-ai-outside-counsel",
       "california-sb-574-lawyers-generative-ai-law",
       "westlaw-ross-ai-copyright-ruling-third-circuit"
     ],
@@ -1321,6 +1617,7 @@
       "image": "/assets/the-legal-circle-social-card.png"
     },
     "related": [
+      "sheppard-mullin-data-breach-social-engineering",
       "judge-ai-errors-junior-lawyer-training-concerns",
       "wagner-fraser-ai-courts-truth-seeking"
     ],
@@ -1418,6 +1715,7 @@
       "image": "/assets/the-legal-circle-social-card.png"
     },
     "related": [
+      "christian-bittar-euribor-conviction-guilty-plea",
       "emotional-control-lawyers-respond-strategically-pressure"
     ],
     "correctionNote": ""

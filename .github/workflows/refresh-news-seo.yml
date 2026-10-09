@@ -32,7 +32,7 @@ jobs:
         run: node scripts/build-news.mjs
       - name: Validate News SEO
         run: node scripts/check-news.mjs
-      - name: Validate test homepage and Pressfeed
+      - name: Validate production homepage and Pressfeed
         run: node scripts/check-test-home.mjs && node scripts/check-pressfeed.mjs
       - name: Commit generated changes
         shell: bash

@@ -42,19 +42,17 @@ export function buildTestHome(root, articles, now = new Date()) {
   let home = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
   home = home.replace(/(src|href)="assets\//g, '$1="/assets/');
   const scales = `<img class="tlc-justice-artwork" src="/assets/lady-justice-supplied.png" width="1254" height="1254" alt="" aria-hidden="true">`;
-  home = home.replace('<span class="tlc-orbit-core"></span>', `<span class="tlc-orbit-core">${scales}</span>`);
+  home = home.replace(/<span class="tlc-orbit-core">[\s\S]*?<\/span>/, `<span class="tlc-orbit-core">${scales}</span>`);
   home = home.replace('Animated circular paths moving around a bright green centre', 'Animated circular paths around a stationary Lady Justice illustration in a green centre');
-  home = home.replace(/<!-- HOMEPAGE_ARTICLES_START -->[\s\S]*?<!-- HOMEPAGE_ARTICLES_END -->/, features + feed);
-  home = home.replace('</head>', '<meta name="robots" content="noindex, nofollow">\n<link rel="stylesheet" href="/home-test.css?v=20261009-supplied-justice">\n<script src="/pressfeed.js?v=20261009-categories" defer></script>\n</head>');
-  home = home.replace(/(<link rel="canonical" href=")[^"]+/, '$1https://thelegalcircle.ca/home-test/');
-  home = home.replace(/(<meta property="og:url" content=")[^"]+/, '$1https://thelegalcircle.ca/home-test/');
-  fs.mkdirSync(path.join(root, 'home-test'), { recursive: true });
-  fs.writeFileSync(path.join(root, 'home-test/index.html'), home);
+  home = home.replace(/<!-- HOMEPAGE_ARTICLES_START -->[\s\S]*?<!-- HOMEPAGE_ARTICLES_END -->/, '<!-- HOMEPAGE_ARTICLES_START -->' + features + feed + '<!-- HOMEPAGE_ARTICLES_END -->');
+  home = home.replace(/<link rel="stylesheet" href="\/home-test.css[^\"]*">\s*/g, '').replace(/<script src="\/pressfeed.js[^\"]*" defer><\/script>\s*/g, '');
+  home = home.replace('</head>', '<link rel="stylesheet" href="/home-test.css?v=20261009-live-sway">\n<script src="/pressfeed.js?v=20261009-categories" defer></script>\n</head>');
+  fs.writeFileSync(path.join(root, 'index.html'), home);
   buildMagneoOffer(root);
   // Explicit exclusion also removes an accidentally added test URL on future builds.
   for (const name of ['sitemap.xml', 'news-sitemap.xml']) {
     const file = path.join(root, name);
     fs.writeFileSync(file, fs.readFileSync(file, 'utf8').replace(/\s*<url>\s*<loc>https:\/\/thelegalcircle\.ca\/home-test\/[\s\S]*?<\/url>/g, ''));
   }
-  console.log(`Test homepage: Magneo promotion, ${interview?.slug || 'interviews coming soon'}, four category feeds, ${event?.url || 'no upcoming event'}.`);
+  console.log(`Live homepage: Magneo promotion, ${interview?.slug || 'interviews coming soon'}, four category feeds, ${event?.url || 'no upcoming event'}.`);
 }
