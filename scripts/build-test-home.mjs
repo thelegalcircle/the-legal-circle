@@ -20,7 +20,7 @@ export function buildTestHome(root, articles, now = new Date()) {
   const image = (url, alt) => `<img src="${esc(url || placeholder)}" alt="${esc(alt || 'The Legal Circle') }" width="1200" height="630" loading="lazy">`;
   const column = (label, title, paragraph, url, cta, picture = placeholder, alt = 'The Legal Circle') => `<article class="tlc-feature-column"><h2>${label}</h2>${image(picture, alt)}<h3><a href="${esc(url)}">${esc(title)}</a></h3><p>${esc(paragraph)}</p><a class="tlc-card-link" href="${esc(url)}">${cta} <span aria-hidden="true">→</span></a></article>`;
   const contentColumn = (label, item, cta) => item ? column(label, item.headline, item.excerpt, articlePath(item), cta, item.featuredImage?.url, item.featuredImage?.alt)
-    : column(label, `${label} coming soon`, label === 'Interviews' ? 'Have an experience or perspective to share? Put yourself forward for a proposed interview.' : 'Explore published coverage from The Legal Circle.', label === 'Interviews' ? '/get-featured/' : '/news/', label === 'Interviews' ? 'Get featured' : 'View articles');
+    : column(label, `${label} coming soon`, label === 'Interviews' ? 'The Legal Circle is for lawyers—and their voices belong at its heart. We’re preparing conversations about building a practice, navigating change and the experiences behind the job title. Fresh perspectives, candid stories and ideas to take into your own work.' : 'Explore published coverage from The Legal Circle.', label === 'Interviews' ? '/get-featured/' : '/news/', label === 'Interviews' ? 'Have a story to share?' : 'View articles');
   let eventColumn;
   if (event) {
     const html = fs.readFileSync(path.join(root, event.url.slice(1), 'index.html'), 'utf8');
