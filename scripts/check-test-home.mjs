@@ -14,10 +14,18 @@ assert(!/\b(?:href|src)="assets\//.test(test));
 assert(test.includes('Interviews coming soon'));
 assert(test.includes('Exact date and venue to be announced'));
 assert(test.includes('Promotional offer · Magneo'));
-assert(test.includes('Opens magneo.ca, a separate website.'));
-assert(test.includes('href="https://magneo.ca/new-clients/" target="_blank" rel="noopener noreferrer"'));
+assert(!test.includes('Opens magneo.ca, a separate website.'));
+assert.equal((test.match(/href="\/magneo-website-offer\/"/g)||[]).length,3);
 assert(test.includes('CAD $1,800 total'));
 assert(test.includes('Three spots · October 2026'));
+const offer = fs.readFileSync('magneo-website-offer/index.html','utf8');
+assert(offer.includes('content="noindex, nofollow"'));
+assert.equal((offer.match(/<h1>/g)||[]).length,1);
+assert(offer.includes('PROMOTIONAL OFFER FROM MAGNEO'));
+assert(offer.includes('mailto:contact@magneo.ca?subject=Website%20Offer%20via%20The%20Legal%20Circle'));
+assert(offer.includes('tel:+14378731155'));
+assert(!offer.includes('<form'));
+assert(!home.includes('/magneo-website-offer/'));
 assert.equal((test.match(/class="tlc-pressfeed-block"/g) || []).length, 4);
 const expectedCategories = ['Legal Developments', 'AI & Technology', 'Legal Marketing & PR', 'Business & Practice Development'];
 const renderedBlocks = [...test.matchAll(/<section class="tlc-pressfeed-block"[\s\S]*?<\/section>/g)].map(m => m[0]);
@@ -27,7 +35,7 @@ for (const [i, category] of expectedCategories.entries()) {
   assert.equal((renderedBlocks[i].match(/ hidden aria-label="Article/g) || []).length, Math.max(0, expected.length-1));
   assert.equal(renderedBlocks[i].includes('data-feed-prev'), expected.length > 1);
 }
-for (const name of ['sitemap.xml', 'news-sitemap.xml']) assert(!fs.readFileSync(name, 'utf8').includes('/home-test/'));
+for (const name of ['sitemap.xml', 'news-sitemap.xml']) { assert(!fs.readFileSync(name, 'utf8').includes('/home-test/')); assert(!fs.readFileSync(name,'utf8').includes('/magneo-website-offer/')); }
 for (const html of [home, test]) {
   const nav = html.match(/<nav class="tlc-nav"[\s\S]*?<\/nav>/)[0];
   assert(nav.indexOf('Marketing &amp; PR') < nav.indexOf('>Contact<'));
@@ -44,7 +52,7 @@ assert(!rebuilt.includes('Draft never show') && !rebuilt.includes('Future never 
 assert.equal(rebuilt, test, 'Build must be deterministic and ignore drafts/future posts');
 const modified = execFileSync('git', ['diff', '--name-only'], { encoding: 'utf8' }).trim().split('\n');
 const normalize = html => html.replace(/<nav class="tlc-nav"[\s\S]*?<\/nav>/, 'NAV').replace(/styles\.css\?v=[^"]+/, 'styles.css?VERSION').replace(/\r/g, '');
-for (const file of modified.filter(f => f.endsWith('.html') && f !== 'home-test/index.html')) {
+for (const file of modified.filter(f => f.endsWith('.html') && f !== 'home-test/index.html' && f !== 'magneo-website-offer/index.html')) {
   const before = execFileSync('git', ['show', `HEAD:${file}`], { encoding: 'utf8' });
   assert.equal(normalize(fs.readFileSync(file, 'utf8')), normalize(before), `Unrelated tracked HTML change: ${file}`);
 }

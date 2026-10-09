@@ -34,6 +34,9 @@
 .tlc-magneo-tile h3 { margin-top:12px; }
 .tlc-feature-column .tlc-promo-availability { font-size:13px; font-weight:700; }
 .tlc-external-note { margin-top:9px; font-size:12px; line-height:1.5; color:var(--tlc-muted); }
+.tlc-offer-preview { position:relative; display:block; aspect-ratio:16/9; background:#e9ece3; padding:8px 12% 8px 8px; }
+.tlc-offer-preview > img { display:block; border:2px solid #222; }
+.tlc-offer-preview .tlc-offer-mobile { position:absolute; right:5px; bottom:5px; width:20%; aspect-ratio:auto; border-radius:5px; }
 .tlc-pressfeed .tlc-home-latest-inner { max-width:1200px; }
 .tlc-pressfeed-heading { display:flex; justify-content:space-between; align-items:flex-start; gap:20px; flex-wrap:wrap; margin-bottom:26px; }
 .tlc-pressfeed-heading h2 { margin:0; }

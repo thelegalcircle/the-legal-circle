@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { articlePath } from './article-path.mjs';
+import { buildMagneoOffer } from './build-magneo-offer.mjs';
 
 const esc = (s = '') => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const date = s => new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Toronto', year: 'numeric', month: 'long', day: 'numeric' }).format(new Date(s));
@@ -30,8 +31,8 @@ export function buildTestHome(root, articles, now = new Date()) {
     const monthLabel = new Intl.DateTimeFormat('en-CA', { timeZone: 'UTC', month: 'long', year: 'numeric' }).format(new Date(`${event.startMonth}-01T12:00:00Z`));
     eventColumn = column('Events', title, `${intro} ${event.startDate ? date(event.startDate) : `${monthLabel} · Exact date and venue to be announced.`}`, event.url, 'View event', img?.[1], img?.[2]);
   } else eventColumn = column('Events', 'More events to come', 'Discover networking opportunities and future gatherings.', '/events/', 'View events');
-  const magneo = `<article class="tlc-feature-column tlc-magneo-tile"><h2>Marketing &amp; PR</h2><div class="tlc-magneo-visual" role="img" aria-label="Magneo illustrative website preview, CAD $1,800 total"><div class="tlc-magneo-wordmark">MAG<span>NEO</span></div><span class="tlc-magneo-price">CAD $1,800 <small>total</small></span><div class="tlc-magneo-preview" aria-hidden="true"><div class="tlc-preview-bar"><span>YOUR LAW FIRM</span><i></i><i></i><i></i></div><div class="tlc-preview-content"><strong>Clear advice.<br>A confident next step.</strong><span>Professional legal services</span><b>Contact our team →</b></div><div class="tlc-preview-lines"><i></i><i></i><i></i></div></div><div class="tlc-magneo-phone" aria-hidden="true"><span>YOUR LAW FIRM</span><strong>Clear advice.</strong><i></i><i></i><b>Contact →</b></div><small class="tlc-preview-caption">Illustrative design concept</small></div><p class="tlc-promo-disclosure">Promotional offer · Magneo</p><h3><a href="https://magneo.ca/new-clients/" target="_blank" rel="noopener noreferrer">A stronger website for your law firm.</a></h3><p>Magneo’s new-client offer: a focused website rebuild for Ontario law firms, up to six pages, for CAD $1,800 total.</p><p class="tlc-promo-availability">Three spots · October 2026</p><a class="tlc-card-link" href="https://magneo.ca/new-clients/" target="_blank" rel="noopener noreferrer">Explore the offer on Magneo <span aria-hidden="true">↗</span></a><small class="tlc-external-note">Opens magneo.ca, a separate website.</small></article>`;
-  const features = `<section id="featured-content" class="tlc-test-features" aria-label="Featured content">${magneo}${contentColumn('Interviews', interview, 'Read interview')}${eventColumn}</section>`;
+  const offerTile = `<article class="tlc-feature-column tlc-magneo-tile"><h2>Marketing &amp; PR</h2><a class="tlc-offer-preview" href="/magneo-website-offer/" aria-label="View Magneo’s website offer"><img src="/assets/magneo-immigration-desktop.png" width="1265" height="712" alt="Immigration law website concept by Magneo"><img class="tlc-offer-mobile" src="/assets/magneo-immigration-mobile.png" width="390" height="844" alt="Mobile view of the immigration design concept"></a><p class="tlc-promo-disclosure">Promotional offer · Magneo</p><h3><a href="/magneo-website-offer/">A stronger website for your law firm.</a></h3><p>Explore Magneo’s website rebuild package for Ontario law firms: up to six pages for <strong>CAD $1,800 total</strong>.</p><p class="tlc-promo-availability">Three spots · October 2026</p><a class="tlc-card-link" href="/magneo-website-offer/">View the offer <span aria-hidden="true">→</span></a></article>`;
+  const features = `<section id="featured-content" class="tlc-test-features" aria-label="Featured content">${offerTile}${contentColumn('Interviews', interview, 'Read interview')}${eventColumn}</section>`;
   const blocks = categories.map(([category, slug]) => {
     const items = published.filter(a => a.category === category).slice(0, 5);
     const archive = `/news/categories/${slug}/`;
@@ -41,11 +42,12 @@ export function buildTestHome(root, articles, now = new Date()) {
   let home = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
   home = home.replace(/(src|href)="assets\//g, '$1="/assets/');
   home = home.replace(/<!-- HOMEPAGE_ARTICLES_START -->[\s\S]*?<!-- HOMEPAGE_ARTICLES_END -->/, features + feed);
-  home = home.replace('</head>', '<meta name="robots" content="noindex, nofollow">\n<link rel="stylesheet" href="/home-test.css?v=20261009-categories-v2">\n<script src="/pressfeed.js?v=20261009-categories" defer></script>\n</head>');
+  home = home.replace('</head>', '<meta name="robots" content="noindex, nofollow">\n<link rel="stylesheet" href="/home-test.css?v=20261009-offer">\n<script src="/pressfeed.js?v=20261009-categories" defer></script>\n</head>');
   home = home.replace(/(<link rel="canonical" href=")[^"]+/, '$1https://thelegalcircle.ca/home-test/');
   home = home.replace(/(<meta property="og:url" content=")[^"]+/, '$1https://thelegalcircle.ca/home-test/');
   fs.mkdirSync(path.join(root, 'home-test'), { recursive: true });
   fs.writeFileSync(path.join(root, 'home-test/index.html'), home);
+  buildMagneoOffer(root);
   // Explicit exclusion also removes an accidentally added test URL on future builds.
   for (const name of ['sitemap.xml', 'news-sitemap.xml']) {
     const file = path.join(root, name);
