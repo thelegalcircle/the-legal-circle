@@ -35,7 +35,7 @@ export function buildTestHome(root, articles, now = new Date()) {
   let home = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
   home = home.replace(/(src|href)="assets\//g, '$1="/assets/');
   home = home.replace(/<!-- HOMEPAGE_ARTICLES_START -->[\s\S]*?<!-- HOMEPAGE_ARTICLES_END -->/, features + feed);
-  home = home.replace('</head>', '<meta name="robots" content="noindex, nofollow">\n<link rel="stylesheet" href="/home-test.css?v=20261009">\n<script src="/pressfeed.js?v=20261009" defer></script>\n</head>');
+  home = home.replace('</head>', '<meta name="robots" content="noindex, nofollow">\n<link rel="stylesheet" href="/home-test.css?v=20261009-crop">\n<script src="/pressfeed.js?v=20261009" defer></script>\n</head>');
   home = home.replace(/(<link rel="canonical" href=")[^"]+/, '$1https://thelegalcircle.ca/home-test/');
   home = home.replace(/(<meta property="og:url" content=")[^"]+/, '$1https://thelegalcircle.ca/home-test/');
   fs.mkdirSync(path.join(root, 'home-test'), { recursive: true });

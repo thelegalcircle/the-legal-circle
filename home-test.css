@@ -2,6 +2,7 @@
 .tlc-feature-column { display:flex; flex-direction:column; min-width:0; }
 .tlc-feature-column h2 { margin:0 0 20px; font-size:15px; letter-spacing:.08em; text-transform:uppercase; }
 .tlc-feature-column img { width:100%; height:auto; aspect-ratio:16/9; object-fit:contain; background:var(--tlc-paper); }
+.tlc-feature-column img[src="/assets/finance-law-networking-event-v2.png"] { object-fit:cover; object-position:50% 12%; }
 .tlc-feature-column h3 { font:500 clamp(24px,2.3vw,32px)/1.2 Georgia,serif; margin:24px 0 16px; overflow-wrap:anywhere; }
 .tlc-feature-column h3 a { text-decoration:none; }
 .tlc-feature-column h3 a:hover { text-decoration:underline; }
