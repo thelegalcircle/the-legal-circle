@@ -13,7 +13,20 @@ assert(!test.includes('Latest from The Legal Circle'));
 assert(!/\b(?:href|src)="assets\//.test(test));
 assert(test.includes('Interviews coming soon'));
 assert(test.includes('Exact date and venue to be announced'));
-assert.equal((test.match(/class="tlc-home-story tlc-pressfeed-story"/g) || []).length, 10);
+assert(test.includes('Promotional offer · Magneo'));
+assert(test.includes('Opens magneo.ca, a separate website.'));
+assert(test.includes('href="https://magneo.ca/new-clients/" target="_blank" rel="noopener noreferrer"'));
+assert(test.includes('CAD $1,800 total'));
+assert(test.includes('Three spots · October 2026'));
+assert.equal((test.match(/class="tlc-pressfeed-block"/g) || []).length, 4);
+const expectedCategories = ['Legal Developments', 'AI & Technology', 'Legal Marketing & PR', 'Business & Practice Development'];
+const renderedBlocks = [...test.matchAll(/<section class="tlc-pressfeed-block"[\s\S]*?<\/section>/g)].map(m => m[0]);
+for (const [i, category] of expectedCategories.entries()) {
+  const expected = articles.filter(a => a.category === category && a.status === 'published' && Date.parse(a.published) <= Date.now()).sort((a,b) => Date.parse(b.published)-Date.parse(a.published)).slice(0,5);
+  assert.deepEqual([...renderedBlocks[i].matchAll(/data-slug="([^"]+)"/g)].map(m=>m[1]), expected.map(a=>a.slug));
+  assert.equal((renderedBlocks[i].match(/ hidden aria-label="Article/g) || []).length, Math.max(0, expected.length-1));
+  assert.equal(renderedBlocks[i].includes('data-feed-prev'), expected.length > 1);
+}
 for (const name of ['sitemap.xml', 'news-sitemap.xml']) assert(!fs.readFileSync(name, 'utf8').includes('/home-test/'));
 for (const html of [home, test]) {
   const nav = html.match(/<nav class="tlc-nav"[\s\S]*?<\/nav>/)[0];
@@ -36,4 +49,4 @@ for (const file of modified.filter(f => f.endsWith('.html') && f !== 'home-test/
   assert.equal(normalize(fs.readFileSync(file, 'utf8')), normalize(before), `Unrelated tracked HTML change: ${file}`);
 }
 console.log('All tracked HTML changes verified as navigation and CSS cache version only; live content and indexing unchanged.');
-console.log('Test homepage checks passed: isolated sections, indexing, navigation, ten news stories, draft/future exclusion and deterministic generation.');
+console.log('Test homepage checks passed: isolated Magneo tile, four newest-first category feeds, no-JS first articles, indexing, navigation, draft/future exclusion and deterministic generation.');

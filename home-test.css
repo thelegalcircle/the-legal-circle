@@ -9,12 +9,54 @@
 .tlc-feature-column h3 a:hover { text-decoration:underline; }
 .tlc-feature-column p { color:var(--tlc-muted); font-size:16px; line-height:1.65; margin:0 0 20px; }
 .tlc-feature-column .tlc-card-link { margin-top:auto; padding-top:8px; }
+.tlc-magneo-visual { position:relative; aspect-ratio:16/9; overflow:hidden; background:#101510; color:white; border:1px solid #d4d7cf; }
+.tlc-magneo-wordmark { position:absolute; top:8%; left:6%; font-size:clamp(17px,1.6vw,24px); font-weight:900; letter-spacing:-.04em; }
+.tlc-magneo-wordmark span { color:#91e000; }
+.tlc-magneo-price { position:absolute; top:9%; right:6%; color:#a1ec25; font-size:clamp(12px,1.2vw,18px); font-weight:800; }
+.tlc-magneo-price small { font-size:10px; }
+.tlc-magneo-preview { position:absolute; top:31%; left:6%; width:74%; height:58%; background:#f5f5ef; border:5px solid #41493e; border-radius:5px; color:#131813; }
+.tlc-preview-bar { display:flex; align-items:center; gap:6px; padding:4% 5%; border-bottom:1px solid #d7dbd0; font-size:clamp(5px,.6vw,9px); }
+.tlc-preview-bar span { margin-right:auto; font-weight:800; }
+.tlc-preview-bar i { width:10%; height:2px; background:#677661; }
+.tlc-preview-content { display:flex; flex-direction:column; gap:5px; padding:4% 5%; }
+.tlc-preview-content strong { font:700 clamp(12px,1.3vw,19px)/1.05 Georgia,serif; }
+.tlc-preview-content span { font-size:clamp(5px,.6vw,8px); color:#626c5c; }
+.tlc-preview-content b { width:max-content; padding:4px 7px; background:#263d1c; color:white; font-size:clamp(5px,.55vw,8px); }
+.tlc-preview-lines { position:absolute; top:37%; right:7%; width:26%; height:47%; background:#d9e5cc; display:grid; align-content:center; gap:8px; padding:8px; }
+.tlc-preview-lines i { height:3px; background:#8baa72; }
+.tlc-magneo-phone { position:absolute; right:7%; top:42%; width:18%; height:50%; background:#f5f5ef; color:#14200f; border:4px solid #424a40; border-radius:8px; display:flex; flex-direction:column; justify-content:center; gap:7px; padding:4%; }
+.tlc-magneo-phone span { font-size:4px; font-weight:800; white-space:nowrap; }
+.tlc-magneo-phone strong { font:700 clamp(6px,.7vw,10px)/1.1 Georgia,serif; }
+.tlc-magneo-phone i { height:2px; background:#bdd0ad; }
+.tlc-magneo-phone b { font-size:5px; background:#263d1c; color:white; padding:3px 2px; }
+.tlc-preview-caption { position:absolute; bottom:2%; left:6%; color:#d4d9ce; font-size:9px; }
+.tlc-feature-column .tlc-promo-disclosure { margin:18px 0 0; font-size:12px; font-weight:700; color:#356b00; }
+.tlc-magneo-tile h3 { margin-top:12px; }
+.tlc-feature-column .tlc-promo-availability { font-size:13px; font-weight:700; }
+.tlc-external-note { margin-top:9px; font-size:12px; line-height:1.5; color:var(--tlc-muted); }
+.tlc-pressfeed .tlc-home-latest-inner { max-width:1200px; }
+.tlc-pressfeed-heading { display:flex; justify-content:space-between; align-items:flex-start; gap:20px; flex-wrap:wrap; margin-bottom:26px; }
+.tlc-pressfeed-heading h2 { margin:0; }
+.tlc-feed-update-control { display:flex; flex-direction:column; gap:8px; }
+.tlc-feed-update-control span { font-size:12px; color:var(--tlc-muted); }
+.tlc-pressfeed-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); border-top:1px solid var(--tlc-line); border-left:1px solid var(--tlc-line); }
+.tlc-pressfeed-block { padding:clamp(24px,3vw,36px); border-right:1px solid var(--tlc-line); border-bottom:1px solid var(--tlc-line); min-width:0; display:flex; flex-direction:column; }
+.tlc-pressfeed-block > h3 { font:800 14px/1.5 Arial,sans-serif; margin:0 0 24px; text-transform:uppercase; letter-spacing:.05em; }
+.tlc-pressfeed-block > h3 a { color:#356b00; text-underline-offset:4px; }
+.tlc-pressfeed-block .tlc-home-story { border-top:0; padding-top:0; }
+.tlc-pressfeed-block h4 { font:500 clamp(24px,2.2vw,30px)/1.25 Georgia,serif; margin:0 0 16px; overflow-wrap:anywhere; }
+.tlc-pressfeed-block h4 a { text-decoration:none; }
+.tlc-pressfeed-block h4 a:hover { text-decoration:underline; text-underline-offset:4px; }
+.tlc-pressfeed-block .tlc-home-story-opening { font-size:16px; line-height:1.65; }
+.tlc-view-category { align-self:flex-start; }
 .tlc-pressfeed-stories { border-bottom:1px solid var(--tlc-line); }
 .tlc-pressfeed-story { box-sizing:border-box; padding-bottom:26px; }
-.tlc-pressfeed-story[hidden], .tlc-pressfeed-controls[hidden] { display:none; }
+.tlc-pressfeed-story[hidden], .tlc-pressfeed-controls[hidden], .tlc-feed-update-control[hidden] { display:none; }
 .tlc-pressfeed-controls { display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin-top:20px; }
-.tlc-pressfeed-controls button { background:transparent; border:1px solid #777; padding:10px 14px; min-height:44px; color:var(--tlc-black); font:inherit; cursor:pointer; }
+.tlc-pressfeed-controls button, .tlc-feed-update-control button { background:transparent; border:1px solid #777; padding:10px 14px; min-height:44px; color:var(--tlc-black); font:inherit; cursor:pointer; }
+.tlc-feed-update-control button { background:#14200f; color:white; border-color:#14200f; }
+.tlc-feed-update-control button:disabled { background:#e1e3dc; color:#4b5144; cursor:default; }
 .tlc-pressfeed-controls button:hover { background:#e7ebde; }
 .tlc-pressfeed-controls span { color:var(--tlc-muted); font-size:14px; margin-left:auto; }
-.tlc-test-features a:focus-visible,.tlc-pressfeed-controls button:focus-visible { outline:2px solid #356b00; outline-offset:4px; }
-@media(max-width:700px) { .tlc-test-features { grid-template-columns:1fr; gap:36px; } .tlc-feature-column+.tlc-feature-column { border-top:1px solid var(--tlc-line); padding-top:30px; } }
+.tlc-test-features a:focus-visible,.tlc-pressfeed-controls button:focus-visible,.tlc-feed-update-control button:focus-visible { outline:2px solid #356b00; outline-offset:4px; }
+@media(max-width:700px) { .tlc-test-features { grid-template-columns:1fr; gap:36px; } .tlc-feature-column+.tlc-feature-column { border-top:1px solid var(--tlc-line); padding-top:30px; } .tlc-pressfeed-grid { grid-template-columns:1fr; } .tlc-magneo-wordmark { font-size:22px; } .tlc-magneo-price { font-size:16px; } .tlc-preview-content strong { font-size:17px; } .tlc-preview-content span { font-size:7px; } .tlc-preview-content b { font-size:7px; } .tlc-magneo-phone strong { font-size:9px; } }
