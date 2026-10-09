@@ -378,7 +378,7 @@ function updateNavigation(dir) {
       nav = nav.replace(/<a href="\/get-featured\/"[^>]*>Get Featured<\/a>/g, '');
       nav = nav.replace(/<a href="\/events\/"[^>]*>Events<\/a>/, events => `<div class="tlc-news-dropdown tlc-interviews-dropdown"><span class="tlc-nav-label">Interviews</span><button class="tlc-news-toggle" type="button" aria-label="Expand Interviews options" aria-expanded="false" aria-controls="tlc-interviews-menu"><svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="m2 4 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="tlc-news-menu" id="tlc-interviews-menu" hidden><a href="/get-featured/">Get Featured</a></div></div>${events}`);
       const contact = nav.match(/<a href="\/contact\/"[^>]*>Contact<\/a>/)?.[0];
-      const marketing = nav.match(/<a href="https:\/\/magneo\.ca\/"[^>]*>Marketing[\s\S]*?<\/a>/)?.[0];
+      const marketing = nav.match(/<a\b[^>]*href="https:\/\/magneo\.ca\/"[^>]*>Marketing[\s\S]*?<\/a>/)?.[0];
       if (contact && marketing) {
         nav = nav.replace(contact, '').replace(marketing, '');
         const marketingLink = marketing.replace(/ aria-(?:haspopup|expanded|controls)="[^"]*"/g, '').replace('<a ', '<a aria-haspopup="true" aria-expanded="false" aria-controls="tlc-marketing-menu" ');
