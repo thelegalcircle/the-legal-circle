@@ -50,7 +50,7 @@ export function buildTestHome(root, articles, now = new Date()) {
   fs.writeFileSync(path.join(root, 'index.html'), home);
   home = home.replace('<h2 id="tlc-pressfeed-title">Pressfeed</h2>', '<div class="tlc-pressfeed-introduction"><h2 id="tlc-pressfeed-title">Pressfeed</h2><p>News and insights that matter to lawyers—from legal developments and AI to marketing and practice growth.</p></div>');
   if (!home.includes('href="/home-preview.css')) home = home.replace('</head>', '<link rel="stylesheet" href="/home-preview.css?v=20261009-white-justice">\n</head>');
-  home = home.replace(/home-preview.css\?v=[^"]+/g, 'home-preview.css?v=20261009-white-justice');
+  home = home.replace(/home-preview.css\?v=[^"]+/g, 'home-preview.css?v=20261009-large-justice');
   fs.writeFileSync(path.join(root, 'index.html'), home);
   buildMagneoOffer(root);
   // Explicit exclusion also removes an accidentally added test URL on future builds.
