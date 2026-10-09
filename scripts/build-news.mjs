@@ -3,6 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { selectRelated } from './related-articles.mjs';
 import { articlePath } from './article-path.mjs';
+import { buildTestHome } from './build-test-home.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SITE = 'https://thelegalcircle.ca';
@@ -375,6 +376,12 @@ function updateNavigation(dir) {
       nav = nav.replace(/<div class="tlc-news-dropdown tlc-interviews-dropdown">[\s\S]*?<\/div><\/div>/, '');
       nav = nav.replace(/<a href="\/get-featured\/"[^>]*>Get Featured<\/a>/g, '');
       nav = nav.replace(/<a href="\/events\/"[^>]*>Events<\/a>/, events => `<div class="tlc-news-dropdown tlc-interviews-dropdown"><span class="tlc-nav-label">Interviews</span><button class="tlc-news-toggle" type="button" aria-label="Expand Interviews options" aria-expanded="false" aria-controls="tlc-interviews-menu"><svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="m2 4 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="tlc-news-menu" id="tlc-interviews-menu" hidden><a href="/get-featured/">Get Featured</a></div></div>${events}`);
+      const contact = nav.match(/<a href="\/contact\/"[^>]*>Contact<\/a>/)?.[0];
+      const marketing = nav.match(/<a href="https:\/\/magneo\.ca\/"[^>]*>Marketing[\s\S]*?<\/a>/)?.[0];
+      if (contact && marketing) {
+        nav = nav.replace(contact, '').replace(marketing, '');
+        nav = nav.replace('</nav>', `${marketing}${contact}</nav>`);
+      }
       const links = [...archiveCategories].filter(category => published.some(article => article.category === category && Date.parse(article.published) <= Date.now()) && fs.existsSync(path.join(categoriesRoot, categorySlugs[category], 'index.html')))
         .map(category => `<a href="/news/categories/${categorySlugs[category]}/">${esc(category)}</a>`).join('');
       const render = news => `<div class="tlc-news-dropdown">${news}<button class="tlc-news-toggle" type="button" aria-label="Expand News categories" aria-expanded="false" aria-controls="tlc-news-menu"><svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="m2 4 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="tlc-news-menu" id="tlc-news-menu" hidden>${links}</div></div>`;
@@ -382,10 +389,11 @@ function updateNavigation(dir) {
       return nav.replace(/<a href="\/news\/"[^>]*>News<\/a>/, render);
     });
     if (!html.includes('src="/navigation.js')) html = html.replace('</head>', '  <script src="/navigation.js?v=20261006" defer></script>\n</head>');
-    html = html.replace(/href="\/styles\.css\?v=[^"]+"/, 'href="/styles.css?v=20261008-interviews"');
+    html = html.replace(/href="\/styles\.css\?v=[^"]+"/, 'href="/styles.css?v=20261009-nav"');
     html = html.replace(/src="\/navigation\.js\?v=[^"]+"/, 'src="/navigation.js?v=20261008-interviews"');
     html = html.replace(/src="\/consent\.js\?v=[^"]+"/, 'src="/consent.js?v=20261008-ga4"');
     fs.writeFileSync(file, html);
   }
 }
 updateNavigation(ROOT);
+buildTestHome(ROOT, articles);

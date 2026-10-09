@@ -6,6 +6,9 @@ on:
     paths:
       - news/articles.json
       - scripts/build-news.mjs
+      - scripts/build-test-home.mjs
+      - events/events.json
+      - events/index.html
       - scripts/check-news.mjs
       - scripts/related-articles.mjs
       - scripts/article-path.mjs
