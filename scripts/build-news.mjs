@@ -382,7 +382,7 @@ function updateNavigation(dir) {
       if (contact && marketing) {
         nav = nav.replace(contact, '').replace(marketing, '');
         const marketingLink = marketing.replace(/ aria-(?:haspopup|expanded|controls)="[^"]*"/g, '').replace('<a ', '<a aria-haspopup="true" aria-expanded="false" aria-controls="tlc-marketing-menu" ');
-        nav = nav.replace('</nav>', `<div class="tlc-news-dropdown tlc-marketing-dropdown">${marketingLink}<div class="tlc-news-menu" id="tlc-marketing-menu" hidden><a href="https://magneo.ca/new-clients-offer/" target="_blank" rel="noopener noreferrer">Special offer from Magneo</a></div></div>${contact}</nav>`);
+        nav = nav.replace('</nav>', `<div class="tlc-news-dropdown tlc-marketing-dropdown">${marketingLink}<div class="tlc-news-menu" id="tlc-marketing-menu" hidden><a href="/magneo-website-offer/">Special offer from Magneo</a></div></div>${contact}</nav>`);
       }
       const links = [...archiveCategories].filter(category => published.some(article => article.category === category && Date.parse(article.published) <= Date.now()) && fs.existsSync(path.join(categoriesRoot, categorySlugs[category], 'index.html')))
         .map(category => `<a href="/news/categories/${categorySlugs[category]}/">${esc(category)}</a>`).join('');
