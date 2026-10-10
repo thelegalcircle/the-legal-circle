@@ -29,7 +29,7 @@
       { transform: `translateX(${distance}px)`, offset: .53 },
       { transform: 'translateX(0)', offset: .85 },
       { transform: 'translateX(0)', offset: 1 }
-    ], { duration: 3000, iterations: Infinity, easing: 'cubic-bezier(.25,.1,.25,1)' });
+    ], { duration: 5000, iterations: Infinity, easing: 'cubic-bezier(.25,.1,.25,1)' });
   }
   banner.addEventListener('pointerenter', play);
   banner.addEventListener('focusin', play);
