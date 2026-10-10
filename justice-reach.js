@@ -29,12 +29,19 @@
       { transform: `translateX(${distance}px)`, offset: .53 },
       { transform: 'translateX(0)', offset: .85 },
       { transform: 'translateX(0)', offset: 1 }
-    ], { duration: 4800, easing: 'cubic-bezier(.25,.1,.25,1)' });
+    ], { duration: 3000, iterations: Infinity, easing: 'cubic-bezier(.25,.1,.25,1)' });
   }
   banner.addEventListener('pointerenter', play);
   banner.addEventListener('focusin', play);
+  const observer = new IntersectionObserver(entries => {
+    if (entries.some(entry => entry.isIntersecting)) {
+      if (motion?.playState === 'paused' && !reduced.matches) motion.play();
+      else play();
+    } else motion?.pause();
+  }, { threshold: .1 });
+  observer.observe(banner);
   image.addEventListener('load', () => { prepare(); if (banner.matches(':hover')) play(); }, { once: true });
-  window.addEventListener('resize', prepare);
-  reduced.addEventListener('change', prepare);
+  window.addEventListener('resize', () => { prepare(); if (banner.getBoundingClientRect().top < innerHeight && banner.getBoundingClientRect().bottom > 0) play(); });
+  reduced.addEventListener('change', () => { prepare(); if (!reduced.matches) play(); });
   prepare();
 })();
