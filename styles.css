@@ -1,4 +1,5 @@
 :root { color-scheme: light; }
+.tlc-contact-page { display:grid; grid-template-rows:auto 1fr auto; min-height:100vh; }
 /* Large-monitor content rails; laptop and mobile rules remain unchanged. */
 @media(min-width:1600px) {
   .tlc-page .tlc-header, .tlc-page .tlc-footer { padding-inline:calc((100% - 1440px)/2); }

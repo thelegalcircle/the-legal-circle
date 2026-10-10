@@ -27,6 +27,10 @@
 .tlc-event-slider-status{color:#d7d7d0;font-size:14px}
 .tlc-event-photo-gallery:focus-visible,.tlc-event-photo-gallery a:focus-visible,.tlc-event-slider-controls button:focus-visible{outline:3px solid var(--tlc-green);outline-offset:-3px}
 /* Full-width backgrounds, with bounded content on large monitors. */
+@media(min-width:1001px){
+  .tlc-event-hero-image{position:relative;min-height:0;padding:0}
+  .tlc-event-hero-image img{position:absolute;top:24px;left:24px;width:calc(100% - 48px);height:calc(100% - 24px - clamp(54px,6vw,84px));object-fit:cover;object-position:center 35%}
+}
 @media(min-width:1600px){
   .tlc-event-hero{max-width:1600px;margin-inline:auto}
   .tlc-event-section,.tlc-event-final{padding-inline:calc((100% - 1200px)/2)}
