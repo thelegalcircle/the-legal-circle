@@ -15,6 +15,7 @@
       }
     ],
     "related": [
+      "hamilton-encampment-charter-challenge-new-hearing",
       "judge-ai-errors-junior-lawyer-training-concerns",
       "wagner-fraser-ai-courts-truth-seeking",
       "ropes-gray-ai-training-hours"
@@ -181,6 +182,7 @@
       }
     ],
     "related": [
+      "grace-mexico-ontario-arbitration-appeal-bar",
       "lawyer-civility-emails-alberta-smith-2026-abca-308"
     ],
     "status": "published",
@@ -221,6 +223,7 @@
       }
     ],
     "related": [
+      "law-firm-cyber-incidents-remote-access",
       "california-sb-574-lawyers-generative-ai-law",
       "ai-agents-canadian-government-website-transluce-report"
     ],
@@ -360,6 +363,7 @@
       }
     ],
     "related": [
+      "hamilton-encampment-charter-challenge-new-hearing",
       "yukon-firearms-act-lawful-owners-advocate"
     ],
     "status": "published",
@@ -772,6 +776,7 @@
       "image": "/assets/the-legal-circle-social-card.png"
     },
     "related": [
+      "milbank-law-firm-rico-defence",
       "law-firm-referral-marketing-tax-lawyers",
       "client-communication-lawyers-tone-trust"
     ],
@@ -870,6 +875,7 @@
       "image": "/assets/the-legal-circle-social-card.png"
     },
     "related": [
+      "canada-charity-regulation-consultation-cra",
       "client-communication-lawyers-tone-trust",
       "law-firm-marketing-client-psychology-certainty"
     ],
@@ -1014,7 +1020,9 @@
       "description": "A bankruptcy judge ordered Jackson Walker to identify comparable cases and explain a disclosure failure. Sanctions and a broader inquiry remain pending.",
       "image": "/assets/the-legal-circle-social-card.png"
     },
-    "related": [],
+    "related": [
+      "milbank-law-firm-rico-defence"
+    ],
     "correctionNote": ""
   },
   {
@@ -1156,6 +1164,7 @@
       "image": "/assets/the-legal-circle-social-card.png"
     },
     "related": [
+      "eu-ai-act-information-requests-governance",
       "openai-david-robinson-resignation-ai-safety-governance"
     ],
     "correctionNote": ""
@@ -1204,6 +1213,7 @@
       "image": "/assets/the-legal-circle-social-card.png"
     },
     "related": [
+      "eu-ai-act-information-requests-governance",
       "ai-agents-canadian-government-website-transluce-report"
     ],
     "correctionNote": ""
@@ -1412,6 +1422,8 @@
       "image": "/assets/the-legal-circle-social-card.png"
     },
     "related": [
+      "grace-mexico-ontario-arbitration-appeal-bar",
+      "vabuolas-supreme-court-privacy-religious-freedom",
       "eu-esma-supervision-capital-markets"
     ],
     "correctionNote": ""
@@ -1518,6 +1530,7 @@
       "image": "/assets/the-legal-circle-social-card.png"
     },
     "related": [
+      "law-firm-cyber-incidents-remote-access",
       "california-sb-574-lawyers-generative-ai-law",
       "westlaw-ross-ai-copyright-ruling-third-circuit"
     ],
@@ -1718,6 +1731,295 @@
       "christian-bittar-euribor-conviction-guilty-plea",
       "emotional-control-lawyers-respond-strategically-pressure"
     ],
+    "correctionNote": ""
+  },
+  {
+    "slug": "hamilton-encampment-charter-challenge-new-hearing",
+    "headline": "Hamilton Encampment Charter Challenge Gets a New Hearing After Ontario Appeal",
+    "seoTitle": "Hamilton Encampment Charter Challenge Gets New Hearing",
+    "metaDescription": "Ontario’s Court of Appeal orders a new hearing in Hamilton’s encampment Charter case, identifying credibility errors and inadequate constitutional analysis.",
+    "excerpt": "Ontario’s Court of Appeal orders a new hearing in Hamilton’s encampment Charter case, identifying credibility errors and inadequate constitutional analysis.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "Ontario",
+    "tags": [
+      {
+        "name": "Hamilton encampment Charter challenge",
+        "slug": "hamilton-encampment-charter-challenge-new-hearing"
+      }
+    ],
+    "related": [
+      "vabuolas-supreme-court-privacy-religious-freedom",
+      "quebec-oath-law-constitutional-challenge",
+      "bc-court-ai-filings-access-to-justice"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-10T16:15:00-04:00",
+    "modified": "2026-10-10T16:15:00-04:00",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Hamilton Encampment Charter Challenge Gets a New Hearing After Ontario Appeal",
+      "description": "Ontario’s Court of Appeal orders a new hearing in Hamilton’s encampment Charter case, identifying credibility errors and inadequate constitutional analysis.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "vabuolas-supreme-court-privacy-religious-freedom",
+    "headline": "Supreme Court Considers Privacy Rights and Religious Freedom in Vabuolas Appeal",
+    "seoTitle": "Vabuolas Appeal: Privacy Rights and Religious Freedom",
+    "metaDescription": "The Supreme Court has reserved judgment in Vabuolas, a case about privacy-regulator access to religious records and the review of Charter-sensitive decisions.",
+    "excerpt": "The Supreme Court has reserved judgment in Vabuolas, a case about privacy-regulator access to religious records and the review of Charter-sensitive decisions.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "Canada",
+    "tags": [
+      {
+        "name": "Vabuolas Supreme Court appeal",
+        "slug": "vabuolas-supreme-court-privacy-religious-freedom"
+      }
+    ],
+    "related": [
+      "canada-charity-regulation-consultation-cra",
+      "supreme-court-canada-cross-border-bitcoin-restraint-case",
+      "hamilton-encampment-charter-challenge-new-hearing"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-10T16:15:00-04:00",
+    "modified": "2026-10-10T16:15:00-04:00",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Supreme Court Considers Privacy Rights and Religious Freedom in Vabuolas Appeal",
+      "description": "The Supreme Court has reserved judgment in Vabuolas, a case about privacy-regulator access to religious records and the review of Charter-sensitive decisions.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "canada-charity-regulation-consultation-cra",
+    "headline": "Canada Opens Charity Regulation Consultation on CRA Enforcement and Revocation",
+    "seoTitle": "Canada Charity Regulation Consultation: CRA Enforcement",
+    "metaDescription": "Finance Canada and the CRA seek feedback on charity registration, sanctions and revocation. Submissions close December 3, 2026.",
+    "excerpt": "Finance Canada and the CRA seek feedback on charity registration, sanctions and revocation. Submissions close December 3, 2026.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "Canada",
+    "tags": [
+      {
+        "name": "Canada charity regulation consultation",
+        "slug": "canada-charity-regulation-consultation-cra"
+      }
+    ],
+    "related": [
+      "vabuolas-supreme-court-privacy-religious-freedom",
+      "law-firm-referral-marketing-tax-lawyers"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-10T16:15:00-04:00",
+    "modified": "2026-10-10T16:15:00-04:00",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Canada Opens Charity Regulation Consultation on CRA Enforcement and Revocation",
+      "description": "Finance Canada and the CRA seek feedback on charity registration, sanctions and revocation. Submissions close December 3, 2026.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "law-firm-cyber-incidents-remote-access",
+    "headline": "More Law Firm Cyber Incidents Put Remote Access and Individual Devices Under Scrutiny",
+    "seoTitle": "Law Firm Cyber Incidents Highlight Remote-Access Risks",
+    "metaDescription": "New incidents at major U.S. firms highlight remote access, individual devices and document exposure. Practical questions for Canadian law firm leaders.",
+    "excerpt": "New incidents at major U.S. firms highlight remote access, individual devices and document exposure. Practical questions for Canadian law firm leaders.",
+    "contentType": "analysis",
+    "category": "AI & Technology",
+    "jurisdiction": "United States",
+    "tags": [
+      {
+        "name": "law firm remote-access security",
+        "slug": "law-firm-cyber-incidents-remote-access"
+      }
+    ],
+    "related": [
+      "sheppard-mullin-data-breach-social-engineering",
+      "ai-agents-canadian-government-website-transluce-report"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-10T16:15:00-04:00",
+    "modified": "2026-10-10T16:15:00-04:00",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "More Law Firm Cyber Incidents Put Remote Access and Individual Devices Under Scrutiny",
+      "description": "New incidents at major U.S. firms highlight remote access, individual devices and document exposure. Practical questions for Canadian law firm leaders.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "grace-mexico-ontario-arbitration-appeal-bar",
+    "headline": "Ontario Arbitration Appeal Bar Applies Despite Tribunal’s “Award” Label",
+    "seoTitle": "Ontario Arbitration Appeal Bar Applies to Jurisdiction Award",
+    "metaDescription": "In Grace v. Mexico, Ontario’s Court of Appeal held that a jurisdictional award’s label did not avoid the statutory appeal bar.",
+    "excerpt": "In Grace v. Mexico, Ontario’s Court of Appeal held that a jurisdictional award’s label did not avoid the statutory appeal bar.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "Ontario",
+    "tags": [
+      {
+        "name": "Ontario arbitration appeal bar",
+        "slug": "grace-mexico-ontario-arbitration-appeal-bar"
+      }
+    ],
+    "related": [
+      "supreme-court-canada-cross-border-bitcoin-restraint-case",
+      "christian-bittar-euribor-conviction-guilty-plea"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-10T16:15:00-04:00",
+    "modified": "2026-10-10T16:15:00-04:00",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Ontario Arbitration Appeal Bar Applies Despite Tribunal’s “Award” Label",
+      "description": "In Grace v. Mexico, Ontario’s Court of Appeal held that a jurisdictional award’s label did not avoid the statutory appeal bar.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "eu-ai-act-information-requests-governance",
+    "headline": "EU AI Act Oversight Turns to Safety, Transparency and Copyright Records",
+    "seoTitle": "EU AI Act Oversight Turns to Safety and Copyright Records",
+    "metaDescription": "EU requests to more than 30 AI companies focus on safety, transparency and copyright. Why governance documentation matters for Canadian businesses.",
+    "excerpt": "EU requests to more than 30 AI companies focus on safety, transparency and copyright. Why governance documentation matters for Canadian businesses.",
+    "contentType": "analysis",
+    "category": "AI & Technology",
+    "jurisdiction": "European Union",
+    "tags": [
+      {
+        "name": "EU AI Act information requests",
+        "slug": "eu-ai-act-information-requests-governance"
+      }
+    ],
+    "related": [
+      "openai-david-robinson-resignation-ai-safety-governance",
+      "sam-altman-ai-risk-regulation-who-bears-harm"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-10T16:15:00-04:00",
+    "modified": "2026-10-10T16:15:00-04:00",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "EU AI Act Oversight Turns to Safety, Transparency and Copyright Records",
+      "description": "EU requests to more than 30 AI companies focus on safety, transparency and copyright. Why governance documentation matters for Canadian businesses.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "milbank-law-firm-rico-defence",
+    "headline": "Milbank Expands Defence Work as Law Firms Face Civil RICO Claims",
+    "seoTitle": "Milbank Expands Defence of Law Firms Facing RICO Claims",
+    "metaDescription": "Milbank is developing a defence niche as personal-injury firms face civil RICO allegations. What Canadian lawyers can learn without equating legal systems.",
+    "excerpt": "Milbank is developing a defence niche as personal-injury firms face civil RICO allegations. What Canadian lawyers can learn without equating legal systems.",
+    "contentType": "analysis",
+    "category": "Business & Practice Development",
+    "jurisdiction": "United States",
+    "tags": [
+      {
+        "name": "law firm RICO claims",
+        "slug": "milbank-law-firm-rico-defence"
+      }
+    ],
+    "related": [
+      "jackson-walker-disclosure-investigation-firm-governance",
+      "law-firm-growth-personal-injury-practice-lessons"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-10T16:15:00-04:00",
+    "modified": "2026-10-10T16:15:00-04:00",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Milbank Expands Defence Work as Law Firms Face Civil RICO Claims",
+      "description": "Milbank is developing a defence niche as personal-injury firms face civil RICO allegations. What Canadian lawyers can learn without equating legal systems.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
     "correctionNote": ""
   }
 ]
