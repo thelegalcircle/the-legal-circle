@@ -40,7 +40,7 @@
     } else motion?.pause();
   }, { threshold: .1 });
   observer.observe(banner);
-  image.addEventListener('load', () => { prepare(); if (banner.matches(':hover')) play(); }, { once: true });
+  image.addEventListener('load', () => { prepare(); const box = banner.getBoundingClientRect(); if (box.top < innerHeight && box.bottom > 0) play(); }, { once: true });
   window.addEventListener('resize', () => { prepare(); if (banner.getBoundingClientRect().top < innerHeight && banner.getBoundingClientRect().bottom > 0) play(); });
   reduced.addEventListener('change', () => { prepare(); if (!reduced.matches) play(); });
   prepare();
