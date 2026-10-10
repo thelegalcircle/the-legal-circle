@@ -17,7 +17,7 @@
   .tlc-hero, .tlc-hero-grid { min-height:min(calc(100vh - 84px),820px); }
   .tlc-hero-grid { max-width:1600px; margin-inline:auto; }
   .tlc-hero-art .tlc-audience-labels { inset:50% auto auto 50%; width:100%; max-width:680px; height:100%; max-height:780px; transform:translate(-50%,-50%); }
-  .tlc-section, .tlc-test-features { padding-inline:calc((100% - 1200px)/2); }
+  .tlc-section, .tlc-page .tlc-test-features { padding-inline:calc((100% - 1200px)/2); }
   .tlc-invitation-with-art { padding-left:calc((100% - 1200px)/2); padding-right:calc((100% - 1200px)/2 + 550px); }
   .tlc-invitation-justice { right:calc((100% - 1200px)/2); }
 }

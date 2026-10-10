@@ -391,7 +391,7 @@ function updateNavigation(dir) {
       return nav.replace(/<a href="\/news\/"[^>]*>News<\/a>/, render);
     });
     if (!html.includes('src="/navigation.js')) html = html.replace('</head>', '  <script src="/navigation.js?v=20261006" defer></script>\n</head>');
-    html = html.replace(/href="\/styles\.css\?v=[^"]+"/, 'href="/styles.css?v=20261009-nav"');
+    html = html.replace(/href="\/styles\.css\?v=[^"]+"/, 'href="/styles.css?v=20261009-wide-site"');
     html = html.replace(/src="\/navigation\.js\?v=[^"]+"/, 'src="/navigation.js?v=20261009-magneo-offer"');
     html = html.replace(/src="\/consent\.js\?v=[^"]+"/, 'src="/consent.js?v=20261008-ga4"');
     fs.writeFileSync(file, html);

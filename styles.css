@@ -1,4 +1,18 @@
 :root { color-scheme: light; }
+/* Large-monitor content rails; laptop and mobile rules remain unchanged. */
+@media(min-width:1600px) {
+  .tlc-page .tlc-header, .tlc-page .tlc-footer { padding-inline:calc((100% - 1440px)/2); }
+  .tlc-page .tlc-news-hero, .tlc-page .tlc-news-latest,
+  .tlc-page .tlc-news-categories, .tlc-page .tlc-topic-main,
+  .tlc-page .tlc-contact-main, .tlc-page .tlc-featured-hero,
+  .tlc-page .tlc-featured-options, .tlc-page .tlc-featured-form-section {
+    padding-inline:calc((100% - 1200px)/2);
+  }
+  .tlc-page .tlc-contact-main { min-height:720px; }
+  .tlc-page .tlc-article-header { padding-inline:calc((100% - 1032px)/2); }
+  .tlc-page .tlc-article-header h1 { font-size:88px; }
+  .tlc-page .tlc-legal-hero { padding-inline:calc((100% - 1052px)/2); }
+}
 html { scroll-behavior: smooth; }
 body { margin: 0; background: #f8f7f2; }
 
