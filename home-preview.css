@@ -7,6 +7,7 @@
   .tlc-pressfeed-introduction p { font-size:15px; }
 }
 .tlc-invitation-with-art { position:relative; overflow:hidden; padding-right:calc(clamp(24px,7vw,112px) + 550px); padding-bottom:27px; min-height:550px; }
+.tlc-opportunity-target { display:inline-block; }
 .tlc-invitation-justice { position:absolute; right:clamp(24px,7vw,112px); top:clamp(72px,8vw,118px); display:block; width:550px; height:auto; pointer-events:none; user-select:none; }
 @media(max-width:1200px) {
   .tlc-invitation-with-art { padding-right:clamp(24px,7vw,112px); padding-bottom:0; min-height:0; }
