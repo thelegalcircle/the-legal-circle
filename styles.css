@@ -5,6 +5,7 @@
   .tlc-page .tlc-header, .tlc-page .tlc-footer { padding-inline:calc((100% - 1440px)/2); }
   .tlc-page .tlc-news-hero, .tlc-page .tlc-news-latest,
   .tlc-page .tlc-news-categories, .tlc-page .tlc-topic-main,
+  .tlc-page .tlc-news-status,
   .tlc-page .tlc-contact-main, .tlc-page .tlc-featured-hero,
   .tlc-page .tlc-featured-options, .tlc-page .tlc-featured-form-section {
     padding-inline:calc((100% - 1200px)/2);
@@ -13,6 +14,10 @@
   .tlc-page .tlc-article-header { padding-inline:calc((100% - 1032px)/2); }
   .tlc-page .tlc-article-header h1 { font-size:88px; }
   .tlc-page .tlc-legal-hero { padding-inline:calc((100% - 1052px)/2); }
+  .tlc-page .tlc-news-status { gap:64px; align-items:center; padding-block:80px; }
+  .tlc-page .tlc-news-status h2 { font-size:60px; }
+  .tlc-page .tlc-article { display:flow-root; }
+  .tlc-page .tlc-author-card { margin-bottom:64px; padding:36px 42px; border:1px solid var(--tlc-line); border-top:2px solid var(--tlc-black); background:#fff; }
 }
 html { scroll-behavior: smooth; }
 body { margin: 0; background: #f8f7f2; }
