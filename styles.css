@@ -5,6 +5,7 @@
   .tlc-page .tlc-header, .tlc-page .tlc-footer { padding-inline:calc((100% - 1440px)/2); }
   .tlc-page .tlc-news-hero, .tlc-page .tlc-news-latest,
   .tlc-page .tlc-news-categories, .tlc-page .tlc-topic-main,
+  .tlc-page .tlc-news-category-nav,
   .tlc-page .tlc-news-status,
   .tlc-page .tlc-contact-main, .tlc-page .tlc-featured-hero,
   .tlc-page .tlc-featured-options, .tlc-page .tlc-featured-form-section {
