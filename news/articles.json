@@ -15,10 +15,10 @@
       }
     ],
     "related": [
+      "arizona-judge-ai-complaint-personal-drafting-order",
       "hamilton-encampment-charter-challenge-new-hearing",
       "judge-ai-errors-junior-lawyer-training-concerns",
-      "wagner-fraser-ai-courts-truth-seeking",
-      "ropes-gray-ai-training-hours"
+      "wagner-fraser-ai-courts-truth-seeking"
     ],
     "status": "published",
     "author": {
@@ -142,6 +142,7 @@
       }
     ],
     "related": [
+      "stelco-layoffs-investment-canada-act-undertakings",
       "supreme-court-canada-cross-border-bitcoin-restraint-case"
     ],
     "status": "published",
@@ -1069,6 +1070,7 @@
       "image": "/assets/the-legal-circle-social-card.png"
     },
     "related": [
+      "arizona-judge-ai-complaint-personal-drafting-order",
       "bc-court-ai-filings-access-to-justice",
       "judge-ai-errors-junior-lawyer-training-concerns"
     ],
@@ -1117,7 +1119,9 @@
       "description": "The U.S. Supreme Court considers Suncor and ExxonMobil’s challenge to Boulder’s climate claims, including federal pre-emption and jurisdiction.",
       "image": "/assets/the-legal-circle-social-card.png"
     },
-    "related": [],
+    "related": [
+      "bell-ai-data-centre-first-nation-consultation-regina"
+    ],
     "correctionNote": ""
   },
   {
@@ -1369,6 +1373,7 @@
       "image": "/assets/the-legal-circle-social-card.png"
     },
     "related": [
+      "arizona-judge-ai-complaint-personal-drafting-order",
       "bc-court-ai-filings-access-to-justice",
       "california-sb-574-lawyers-generative-ai-law"
     ],
@@ -1915,6 +1920,7 @@
       }
     ],
     "related": [
+      "stelco-layoffs-investment-canada-act-undertakings",
       "supreme-court-canada-cross-border-bitcoin-restraint-case",
       "christian-bittar-euribor-conviction-guilty-plea"
     ],
@@ -1956,6 +1962,7 @@
       }
     ],
     "related": [
+      "bell-ai-data-centre-first-nation-consultation-regina",
       "openai-david-robinson-resignation-ai-safety-governance",
       "sam-altman-ai-risk-regulation-who-bears-harm"
     ],
@@ -2018,6 +2025,130 @@
     "social": {
       "title": "Milbank Expands Defence Work as Law Firms Face Civil RICO Claims",
       "description": "Milbank is developing a defence niche as personal-injury firms face civil RICO allegations. What Canadian lawyers can learn without equating legal systems.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "stelco-layoffs-investment-canada-act-undertakings",
+    "headline": "Stelco Layoffs Put Investment Canada Act Job Commitments to the Test",
+    "seoTitle": "Stelco Layoffs Test Investment Canada Act Commitments",
+    "metaDescription": "Stelco disputes Ottawa’s interpretation of takeover job commitments. Explore the Investment Canada Act enforcement process and implications for counsel.",
+    "excerpt": "Stelco disputes Ottawa’s interpretation of takeover job commitments. Explore the Investment Canada Act enforcement process and implications for counsel.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "Canada",
+    "tags": [
+      {
+        "name": "Stelco layoffs Investment Canada Act",
+        "slug": "stelco-layoffs-investment-canada-act-undertakings"
+      }
+    ],
+    "related": [
+      "grace-mexico-ontario-arbitration-appeal-bar",
+      "eu-esma-supervision-capital-markets"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-11T18:40:00-04:00",
+    "modified": "2026-10-11T18:40:00-04:00",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Stelco Layoffs Put Investment Canada Act Job Commitments to the Test",
+      "description": "Stelco disputes Ottawa’s interpretation of takeover job commitments. Explore the Investment Canada Act enforcement process and implications for counsel.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "bell-ai-data-centre-first-nation-consultation-regina",
+    "headline": "Bell AI Data Centre Faces First Nation Consultation Challenge Near Regina",
+    "seoTitle": "Bell AI Data Centre Faces First Nation Consultation Demand",
+    "metaDescription": "Standing Buffalo Dakota First Nation seeks answers on Bell’s Regina-area AI campus, raising questions about Crown consultation and project expansion.",
+    "excerpt": "Standing Buffalo Dakota First Nation seeks answers on Bell’s Regina-area AI campus, raising questions about Crown consultation and project expansion.",
+    "contentType": "analysis",
+    "category": "AI & Technology",
+    "jurisdiction": "Saskatchewan",
+    "tags": [
+      {
+        "name": "Bell AI data centre Indigenous consultation",
+        "slug": "bell-ai-data-centre-first-nation-consultation-regina"
+      }
+    ],
+    "related": [
+      "eu-ai-act-information-requests-governance",
+      "suncor-boulder-climate-lawsuit-us-supreme-court"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-11T18:40:00-04:00",
+    "modified": "2026-10-11T18:40:00-04:00",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Bell AI Data Centre Faces First Nation Consultation Challenge Near Regina",
+      "description": "Standing Buffalo Dakota First Nation seeks answers on Bell’s Regina-area AI campus, raising questions about Crown consultation and project expansion.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "arizona-judge-ai-complaint-personal-drafting-order",
+    "headline": "Arizona Judge Bars AI Drafting of Amended Complaint After 67-Page Filing",
+    "seoTitle": "Arizona Judge Bars AI Drafting of Amended Complaint",
+    "metaDescription": "An Arizona judge ordered a plaintiff to rewrite a 67-page complaint without AI, highlighting pleading clarity, verification and drafting judgment.",
+    "excerpt": "An Arizona judge ordered a plaintiff to rewrite a 67-page complaint without AI, highlighting pleading clarity, verification and drafting judgment.",
+    "contentType": "analysis",
+    "category": "AI & Technology",
+    "jurisdiction": "United States",
+    "tags": [
+      {
+        "name": "AI-generated court filings",
+        "slug": "arizona-judge-ai-complaint-personal-drafting-order"
+      }
+    ],
+    "related": [
+      "bc-court-ai-filings-access-to-justice",
+      "judge-ai-errors-junior-lawyer-training-concerns",
+      "wagner-fraser-ai-courts-truth-seeking"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-11T18:40:00-04:00",
+    "modified": "2026-10-11T18:40:00-04:00",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Arizona Judge Bars AI Drafting of Amended Complaint After 67-Page Filing",
+      "description": "An Arizona judge ordered a plaintiff to rewrite a 67-page complaint without AI, highlighting pleading clarity, verification and drafting judgment.",
       "image": "/assets/the-legal-circle-social-card.png"
     },
     "correctionNote": ""
