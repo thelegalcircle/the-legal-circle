@@ -632,6 +632,7 @@
       "image": "/assets/the-legal-circle-social-card.png"
     },
     "related": [
+      "law-firm-reels-engaging-video-marketing",
       "client-communication-lawyers-tone-trust",
       "law-firm-positioning-clear-client-services"
     ],
@@ -681,6 +682,7 @@
       "image": "/assets/the-legal-circle-social-card.png"
     },
     "related": [
+      "law-firm-reels-engaging-video-marketing",
       "law-firm-positioning-clear-client-services",
       "law-firm-referral-marketing-tax-lawyers"
     ],
@@ -928,6 +930,7 @@
       "image": "/assets/the-legal-circle-social-card.png"
     },
     "related": [
+      "law-firm-reels-engaging-video-marketing",
       "law-firm-marketing-client-psychology-certainty"
     ],
     "correctionNote": ""
@@ -2239,6 +2242,52 @@
       "description": "Dentons says AI has not yet affected junior hiring. Its outlook raises questions about law-firm staffing, training and opportunities for new lawyers.",
       "image": "/assets/the-legal-circle-social-card.png"
     },
+    "correctionNote": ""
+  },
+  {
+    "slug": "law-firm-reels-engaging-video-marketing",
+    "status": "published",
+    "headline": "Why Most Law Firm Reels Fail—and How Lawyers Can Make Videos People Watch",
+    "seoTitle": "Law Firm Reels: How Lawyers Can Make Engaging Videos",
+    "metaDescription": "Why law firm reels feel repetitive—and how lawyers can use stronger openings, storytelling and personality to create engaging, credible social videos.",
+    "excerpt": "This was a personal observation, not a representative study. But the repetition revealed a familiar legal marketing problem: firms put considerable effort into appearing professional and much less into giving viewers a reason to keep watching.",
+    "contentType": "analysis",
+    "category": "Legal Marketing & PR",
+    "tags": [
+      {
+        "name": "law firm reels",
+        "slug": "law-firm-reels-engaging-video-marketing"
+      },
+      {
+        "name": "Law Firm Marketing",
+        "slug": "law-firm-marketing"
+      }
+    ],
+    "author": {
+      "name": "Adele Salikhova",
+      "type": "Person",
+      "url": "https://www.linkedin.com/in/adele-salikhova/"
+    },
+    "published": "2026-10-12T16:27:00-04:00",
+    "modified": "2026-10-12T16:27:00-04:00",
+    "jurisdiction": "Canada",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Why Most Law Firm Reels Fail—and How Lawyers Can Make Videos People Watch",
+      "description": "Why law firm reels feel repetitive—and how lawyers can use stronger openings, storytelling and personality to create engaging, credible social videos.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "related": [
+      "personal-branding-lawyers-reputation-beyond-firm",
+      "client-communication-lawyers-tone-trust",
+      "immigration-lawyer-marketing-human-communication"
+    ],
     "correctionNote": ""
   }
 ]
