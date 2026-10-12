@@ -10,7 +10,8 @@ assert(!fs.existsSync('home-test/index.html'), 'Removed test page must not be re
 assert(home.includes('News and insights that matter to lawyers—from legal developments and AI to marketing and practice growth.'));
 assert(home.includes('data-feed-play>Pause updates'));
 assert(!fs.readFileSync('sitemap.xml','utf8').includes('/home-test/'));
-assert(fs.readFileSync('magneo-website-offer/index.html','utf8').includes('noindex, nofollow'));
+assert(!/noindex|nofollow/i.test(fs.readFileSync('magneo-website-offer/index.html','utf8')), 'Approved offer page must remain indexable');
+assert(fs.readFileSync('sitemap.xml','utf8').includes('https://thelegalcircle.ca/magneo-website-offer/'));
 const articles=JSON.parse(fs.readFileSync('news/articles.json','utf8'));
 for(const block of home.matchAll(/<section class="tlc-pressfeed-block"[\s\S]*?<\/section>/g)) {
  const category=block[0].match(/data-feed-category="([^"]+)"/)[1].replace(/&amp;/g,'&');
