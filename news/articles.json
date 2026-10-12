@@ -58,6 +58,7 @@
       }
     ],
     "related": [
+      "dentons-ai-junior-lawyer-hiring-training",
       "arceus-ai-supported-law-firm-17-million-funding",
       "kirkland-ellis-financial-reporting-big-law",
       "ropes-gray-ai-training-hours"
@@ -100,6 +101,7 @@
       }
     ],
     "related": [
+      "dentons-ai-junior-lawyer-hiring-training",
       "judge-ai-errors-junior-lawyer-training-concerns",
       "bc-court-ai-filings-access-to-justice",
       "att-legaledge-ai-outside-counsel"
@@ -1373,6 +1375,7 @@
       "image": "/assets/the-legal-circle-social-card.png"
     },
     "related": [
+      "dentons-ai-junior-lawyer-hiring-training",
       "arizona-judge-ai-complaint-personal-drafting-order",
       "bc-court-ai-filings-access-to-justice",
       "california-sb-574-lawyers-generative-ai-law"
@@ -1535,6 +1538,7 @@
       "image": "/assets/the-legal-circle-social-card.png"
     },
     "related": [
+      "uk-ai-incident-reporting-canadian-lawyers",
       "law-firm-cyber-incidents-remote-access",
       "california-sb-574-lawyers-generative-ai-law",
       "westlaw-ross-ai-copyright-ruling-third-circuit"
@@ -1962,6 +1966,7 @@
       }
     ],
     "related": [
+      "uk-ai-incident-reporting-canadian-lawyers",
       "bell-ai-data-centre-first-nation-consultation-regina",
       "openai-david-robinson-resignation-ai-safety-governance",
       "sam-altman-ai-risk-regulation-who-bears-harm"
@@ -2149,6 +2154,89 @@
     "social": {
       "title": "Arizona Judge Bars AI Drafting of Amended Complaint After 67-Page Filing",
       "description": "An Arizona judge ordered a plaintiff to rewrite a 67-page complaint without AI, highlighting pleading clarity, verification and drafting judgment.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "uk-ai-incident-reporting-canadian-lawyers",
+    "headline": "UK AI Oversight Moves Toward Incident Reporting and Independent Verification",
+    "seoTitle": "UK AI Incident Reporting: What Canadian Lawyers Should Watch",
+    "metaDescription": "Britain is considering AI incident and near-miss reporting, stronger verification and agent response plans. What should Canadian technology counsel watch?",
+    "excerpt": "An AI system fails, but a human intervenes before anyone is harmed. Should that near miss disappear into an internal log—or become information that regulators need to see?",
+    "contentType": "analysis",
+    "category": "AI & Technology",
+    "jurisdiction": "United Kingdom; Canadian implications",
+    "tags": [
+      {
+        "name": "UK AI incident reporting",
+        "slug": "uk-ai-incident-reporting-canadian-lawyers"
+      }
+    ],
+    "related": [
+      "eu-ai-act-information-requests-governance",
+      "ai-agents-canadian-government-website-transluce-report"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-12T15:55:00-04:00",
+    "modified": "2026-10-12T15:55:00-04:00",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "UK AI Oversight Moves Toward Incident Reporting and Independent Verification",
+      "description": "Britain is considering AI incident and near-miss reporting, stronger verification and agent response plans. What should Canadian technology counsel watch?",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "dentons-ai-junior-lawyer-hiring-training",
+    "headline": "Dentons Says AI Has Not Changed Junior Hiring—But the Law-Firm Pyramid May Shift",
+    "seoTitle": "Dentons AI Hiring: What It Means for Junior Lawyers",
+    "metaDescription": "Dentons says AI has not yet affected junior hiring. Its outlook raises questions about law-firm staffing, training and opportunities for new lawyers.",
+    "excerpt": "A law firm can maintain junior hiring today while reconsidering how many junior lawyers it will need tomorrow.",
+    "contentType": "analysis",
+    "category": "Business & Practice Development",
+    "jurisdiction": "Global; Canadian implications",
+    "tags": [
+      {
+        "name": "Dentons AI junior lawyer hiring",
+        "slug": "dentons-ai-junior-lawyer-hiring-training"
+      }
+    ],
+    "related": [
+      "ropes-gray-ai-training-hours",
+      "judge-ai-errors-junior-lawyer-training-concerns",
+      "att-legaledge-ai-outside-counsel"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-12T15:55:00-04:00",
+    "modified": "2026-10-12T15:55:00-04:00",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Dentons Says AI Has Not Changed Junior Hiring—But the Law-Firm Pyramid May Shift",
+      "description": "Dentons says AI has not yet affected junior hiring. Its outlook raises questions about law-firm staffing, training and opportunities for new lawyers.",
       "image": "/assets/the-legal-circle-social-card.png"
     },
     "correctionNote": ""
