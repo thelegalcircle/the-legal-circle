@@ -14,6 +14,9 @@
   .tlc-invitation-justice { position:static; top:auto; width:min(220px,70%); margin:36px 0 0 auto; }
 }
 /* Keep editorial content balanced on large monitors, without changing laptop layouts. */
+@media(max-width:760px) {
+  .tlc-invitation-justice { display:none; }
+}
 @media(min-width:1600px) {
   .tlc-hero, .tlc-hero-grid { min-height:min(calc(100vh - 84px),820px); }
   .tlc-hero-grid { max-width:1600px; margin-inline:auto; }
