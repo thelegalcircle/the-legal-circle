@@ -1027,6 +1027,7 @@
       "image": "/assets/the-legal-circle-social-card.png"
     },
     "related": [
+      "reddit-perplexity-proskauer-conflict-disqualification",
       "milbank-law-firm-rico-defence"
     ],
     "correctionNote": ""
@@ -1325,6 +1326,7 @@
       "image": "/assets/the-legal-circle-social-card.png"
     },
     "related": [
+      "grok-biometric-privacy-lawsuits-ai-selfies",
       "ai-agents-canadian-government-website-transluce-report",
       "california-sb-574-lawyers-generative-ai-law"
     ],
@@ -1433,6 +1435,7 @@
       "image": "/assets/the-legal-circle-social-card.png"
     },
     "related": [
+      "diggs-supreme-court-prison-lockdowns-habeas-corpus",
       "grace-mexico-ontario-arbitration-appeal-bar",
       "vabuolas-supreme-court-privacy-religious-freedom",
       "eu-esma-supervision-capital-markets"
@@ -1541,10 +1544,10 @@
       "image": "/assets/the-legal-circle-social-card.png"
     },
     "related": [
+      "banking-regulators-autonomous-ai-agent-controls",
       "uk-ai-incident-reporting-canadian-lawyers",
       "law-firm-cyber-incidents-remote-access",
-      "california-sb-574-lawyers-generative-ai-law",
-      "westlaw-ross-ai-copyright-ruling-third-circuit"
+      "california-sb-574-lawyers-generative-ai-law"
     ],
     "correctionNote": ""
   },
@@ -1591,7 +1594,9 @@
       "description": "Meet Ontario’s three new appellate judges and five new Superior Court appointees.",
       "image": "/assets/the-legal-circle-social-card.png"
     },
-    "related": [],
+    "related": [
+      "ontario-single-judge-case-management-criminal-pilot"
+    ],
     "correctionNote": ""
   },
   {
@@ -1692,6 +1697,7 @@
       "image": "/assets/the-legal-circle-social-card.png"
     },
     "related": [
+      "reddit-perplexity-proskauer-conflict-disqualification",
       "arceus-ai-supported-law-firm-17-million-funding"
     ],
     "correctionNote": ""
@@ -1761,6 +1767,7 @@
       }
     ],
     "related": [
+      "diggs-supreme-court-prison-lockdowns-habeas-corpus",
       "vabuolas-supreme-court-privacy-religious-freedom",
       "quebec-oath-law-constitutional-challenge",
       "bc-court-ai-filings-access-to-justice"
@@ -1803,6 +1810,7 @@
       }
     ],
     "related": [
+      "grok-biometric-privacy-lawsuits-ai-selfies",
       "canada-charity-regulation-consultation-cra",
       "supreme-court-canada-cross-border-bitcoin-restraint-case",
       "hamilton-encampment-charter-challenge-new-hearing"
@@ -1886,6 +1894,7 @@
       }
     ],
     "related": [
+      "banking-regulators-autonomous-ai-agent-controls",
       "sheppard-mullin-data-breach-social-engineering",
       "ai-agents-canadian-government-website-transluce-report"
     ],
@@ -2177,6 +2186,7 @@
       }
     ],
     "related": [
+      "banking-regulators-autonomous-ai-agent-controls",
       "eu-ai-act-information-requests-governance",
       "ai-agents-canadian-government-website-transluce-report"
     ],
@@ -2288,6 +2298,213 @@
       "client-communication-lawyers-tone-trust",
       "immigration-lawyer-marketing-human-communication"
     ],
+    "correctionNote": ""
+  },
+  {
+    "slug": "diggs-supreme-court-prison-lockdowns-habeas-corpus",
+    "headline": "Supreme Court Hears Diggs Appeal on Prison Lockdowns and Habeas Corpus",
+    "seoTitle": "Diggs Appeal: Supreme Court Reviews Prison Lockdown Challenges",
+    "metaDescription": "The Supreme Court of Canada hears Diggs, a case asking whether staffing-related prison lockdowns can be challenged through habeas corpus.",
+    "excerpt": "A person held in custody cannot leave the institution. But what happens when staffing shortages also restrict the freedom they retain inside it?",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "Nova Scotia, Canada",
+    "tags": [
+      {
+        "name": "Diggs habeas corpus",
+        "slug": "diggs-supreme-court-prison-lockdowns-habeas-corpus"
+      }
+    ],
+    "related": [
+      "ontario-single-judge-case-management-criminal-pilot",
+      "hamilton-encampment-charter-challenge-new-hearing",
+      "supreme-court-canada-cross-border-bitcoin-restraint-case"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-13T14:39:00-04:00",
+    "modified": "2026-10-13T14:39:00-04:00",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Supreme Court Hears Diggs Appeal on Prison Lockdowns and Habeas Corpus",
+      "description": "The Supreme Court of Canada hears Diggs, a case asking whether staffing-related prison lockdowns can be challenged through habeas corpus.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "grok-biometric-privacy-lawsuits-ai-selfies",
+    "headline": "Grok Biometric Privacy Lawsuit Raises Questions About AI Selfie Processing",
+    "seoTitle": "Grok Biometric Privacy Lawsuit Puts AI Selfies Under Scrutiny",
+    "metaDescription": "A proposed Grok class action alleges biometric privacy violations involving uploaded selfies. Explore the distinction between photos and facial analysis.",
+    "excerpt": "Uploading a photograph and authorizing every form of analysis performed on it are different questions.",
+    "contentType": "analysis",
+    "category": "AI & Technology",
+    "jurisdiction": "Illinois, United States; Canadian implications",
+    "tags": [
+      {
+        "name": "Grok biometric privacy lawsuits",
+        "slug": "grok-biometric-privacy-lawsuits-ai-selfies"
+      }
+    ],
+    "related": [
+      "minnesota-ai-nudification-law-xai-appeal",
+      "vabuolas-supreme-court-privacy-religious-freedom"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-13T14:39:00-04:00",
+    "modified": "2026-10-13T14:39:00-04:00",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Grok Biometric Privacy Lawsuit Raises Questions About AI Selfie Processing",
+      "description": "A proposed Grok class action alleges biometric privacy violations involving uploaded selfies. Explore the distinction between photos and facial analysis.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "reddit-perplexity-proskauer-conflict-disqualification",
+    "headline": "Reddit Seeks to Disqualify Proskauer in Perplexity AI Litigation",
+    "seoTitle": "Reddit–Perplexity Case Raises Proskauer Conflict Dispute",
+    "metaDescription": "Reddit seeks to disqualify Proskauer from representing Perplexity. The pending motion raises questions about prior mandates and disputed assurances.",
+    "excerpt": "Before a court resolves a dispute over AI’s use of online content, it may have to resolve who can represent one of the parties.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "United States; Canadian implications",
+    "tags": [
+      {
+        "name": "Reddit Proskauer conflict",
+        "slug": "reddit-perplexity-proskauer-conflict-disqualification"
+      }
+    ],
+    "related": [
+      "jackson-walker-disclosure-investigation-firm-governance",
+      "westlaw-ross-ai-copyright-ruling-third-circuit"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-13T14:39:00-04:00",
+    "modified": "2026-10-13T14:39:00-04:00",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Reddit Seeks to Disqualify Proskauer in Perplexity AI Litigation",
+      "description": "Reddit seeks to disqualify Proskauer from representing Perplexity. The pending motion raises questions about prior mandates and disputed assurances.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "banking-regulators-autonomous-ai-agent-controls",
+    "headline": "Banking Regulators Ask Whether Autonomous AI Agents Can Be Controlled",
+    "seoTitle": "Banking Regulators Scrutinize Autonomous AI Agent Controls",
+    "metaDescription": "Banking regulators are examining AI agent limits, monitoring and recovery. What evidence should financial-services counsel seek about delegated authority?",
+    "excerpt": "Giving an AI agent permission to act is one decision. Being able to reconstruct—and stop—its actions is another.",
+    "contentType": "analysis",
+    "category": "AI & Technology",
+    "jurisdiction": "United States and Europe; Canadian implications",
+    "tags": [
+      {
+        "name": "banking AI agent controls",
+        "slug": "banking-regulators-autonomous-ai-agent-controls"
+      }
+    ],
+    "related": [
+      "uk-ai-incident-reporting-canadian-lawyers",
+      "ai-agents-canadian-government-website-transluce-report",
+      "law-firm-cyber-incidents-remote-access"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-13T14:39:00-04:00",
+    "modified": "2026-10-13T14:39:00-04:00",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Banking Regulators Ask Whether Autonomous AI Agents Can Be Controlled",
+      "description": "Banking regulators are examining AI agent limits, monitoring and recovery. What evidence should financial-services counsel seek about delegated authority?",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "ontario-single-judge-case-management-criminal-pilot",
+    "headline": "Ontario Launches Single-Judge Case Management Pilot for Complex Criminal Cases",
+    "seoTitle": "Ontario Single-Judge Pilot for Complex Criminal Cases",
+    "metaDescription": "Ontario’s single-judge case-management pilot begins October 13. Learn how eligible complex criminal matters enter the stream and what counsel should prepare.",
+    "excerpt": "Complex criminal cases require sustained attention to disclosure, applications and scheduling. Ontario’s latest procedural pilot aims to provide more continuity in that work.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "Ontario, Canada",
+    "tags": [
+      {
+        "name": "Ontario single-judge case management",
+        "slug": "ontario-single-judge-case-management-criminal-pilot"
+      }
+    ],
+    "related": [
+      "ontario-court-appeal-appointments-myers-harris-nishikawa-2026",
+      "diggs-supreme-court-prison-lockdowns-habeas-corpus"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-13T14:39:00-04:00",
+    "modified": "2026-10-13T14:39:00-04:00",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Ontario Launches Single-Judge Case Management Pilot for Complex Criminal Cases",
+      "description": "Ontario’s single-judge case-management pilot begins October 13. Learn how eligible complex criminal matters enter the stream and what counsel should prepare.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
     "correctionNote": ""
   }
 ]
