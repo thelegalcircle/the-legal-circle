@@ -5,7 +5,9 @@
     const menu = dropdown.querySelector('.tlc-news-menu');
     const label = marketing ? 'Marketing & PR options' : dropdown.classList.contains('tlc-interviews-dropdown') ? 'Interviews options' : 'News categories';
     let touchOpened = false;
+    let closeTimer;
     const setOpen = open => {
+      clearTimeout(closeTimer);
       menu.hidden = !open;
       button.setAttribute('aria-expanded', String(open));
       if (!marketing) button.setAttribute('aria-label', `${open ? 'Collapse' : 'Expand'} ${label}`);
@@ -22,7 +24,7 @@
       if (event.pointerType === 'mouse' && matchMedia('(min-width: 1001px) and (hover: hover)').matches) setOpen(true);
     });
     dropdown.addEventListener('pointerleave', () => {
-      if (!dropdown.contains(document.activeElement)) setOpen(false);
+      if (!dropdown.contains(document.activeElement)) closeTimer = setTimeout(() => setOpen(false), 220);
     });
     dropdown.addEventListener('focusout', event => {
       if (!dropdown.contains(event.relatedTarget)) setOpen(false);
