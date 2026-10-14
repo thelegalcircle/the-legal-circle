@@ -271,6 +271,10 @@ function categoryDescription(category) {
 }
 
 function categoryPage(category, items) {
+  const siteHtml = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
+  const siteHeader = siteHtml.match(/<header class="tlc-header"[^>]*>[\s\S]*?<\/header>/)?.[0];
+  const siteFooter = siteHtml.match(/<footer class="tlc-footer"[^>]*>[\s\S]*?<\/footer>/)?.[0];
+  if (!siteHeader || !siteFooter) fail('Main site header/footer missing');
   const slug = categorySlugs[category];
   const canonical = `${SITE}/news/categories/${slug}/`;
   const description = categoryDescription(category);
@@ -304,9 +308,9 @@ ${indentJson(schema)}
   <!-- GENERATED_CATEGORY_ARCHIVE -->
   <div class="tlc-page">
     <a class="tlc-skip" href="#main-content">Skip to content</a>
-    <header class="tlc-header"><a class="tlc-brand" href="/" aria-label="The Legal Circle home"><span class="tlc-logo"><img src="/assets/the-legal-circle-logo.png" alt="The Legal Circle"></span></a><nav class="tlc-nav" aria-label="Community navigation"><a href="/#about">About</a><a href="/news/" aria-current="page">News</a><a href="/events/">Events</a><a href="/get-featured/">Get Featured</a><a href="/contact/">Contact</a><a href="https://magneo.ca/" target="_blank" rel="noopener noreferrer">Marketing &amp; PR <span aria-hidden="true">↗</span></a></nav><a class="tlc-button tlc-button-small" href="https://www.linkedin.com/groups/40976138/" target="_blank" rel="noopener noreferrer">Join LinkedIn group</a></header>
+    ${siteHeader}
     <main id="main-content" class="tlc-news-main"><section class="tlc-news-hero"><div><nav class="tlc-breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/news/">News &amp; Insights</a></nav><p class="tlc-eyebrow">Category</p><h1>${esc(category)}</h1><p>${esc(description)}</p></div></section><section class="tlc-news-latest" aria-labelledby="articles-title"><h2 class="tlc-news-list-heading" id="articles-title">Published articles</h2>${items.map(renderNewsCard).join('')}</section></main>
-    <footer class="tlc-footer"><span class="tlc-logo tlc-logo-footer"><img src="/assets/the-legal-circle-logo.png" alt="The Legal Circle"></span><p>Website built by <a href="https://magneo.ca/" target="_blank" rel="noopener noreferrer">Magneo.ca</a>.</p><nav aria-label="Legal Circle footer"><a href="/">Home</a><a href="/news/" aria-current="page">News</a><a href="/events/">Events</a><a href="/get-featured/">Get Featured</a><a href="/privacy-policy/">Privacy Policy</a><a href="/terms-of-use/">Website Terms of Use</a><a href="/contact/">Contact</a><a href="https://magneo.ca/" target="_blank" rel="noopener noreferrer">Marketing &amp; PR by Magneo <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/groups/40976138/" target="_blank" rel="noopener noreferrer">LinkedIn group</a></nav></footer>
+    ${siteFooter}
   </div>
 </body>
 </html>
