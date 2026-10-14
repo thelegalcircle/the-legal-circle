@@ -9,6 +9,7 @@ on:
       - scripts/build-interviews.mjs
       - scripts/render-interviews-hub.mjs
       - interviews/upcoming.json
+      - interviews/publication.json
       - scripts/build-adele-profile.mjs
       - scripts/build-news.mjs
       - scripts/build-test-home.mjs

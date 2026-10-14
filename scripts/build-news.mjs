@@ -404,6 +404,19 @@ function updateNavigation(dir) {
     fs.writeFileSync(file, html);
   }
 }
+// The approved hub is the destination for the main Interviews label.
+function linkInterviewHub(dir){
+ for(const entry of fs.readdirSync(dir,{withFileTypes:true})){
+  if(entry.name.startsWith('.')||entry.name==='_legal-drafts'||entry.name==='assets')continue;
+  const file=path.join(dir,entry.name);
+  if(entry.isDirectory())linkInterviewHub(file);
+  else if(entry.name.endsWith('.html')){
+   const html=fs.readFileSync(file,'utf8');
+   fs.writeFileSync(file,html.replace(/<nav class="tlc-nav"[\s\S]*?<\/nav>/g,nav=>nav.replace(/<span class="tlc-nav-label">Interviews<\/span>/g,'<a class="tlc-nav-label" href="/interviews/">Interviews</a>').replace(/<a([^>]*?)href="[^"]+"([^>]*?)>Interviews<\/a>/g,'<a$1href="/interviews/"$2>Interviews</a>')));
+  }
+ }
+}
 updateNavigation(ROOT);
+linkInterviewHub(ROOT);
 buildTestHome(ROOT, articles);
 buildInterviews(ROOT);
