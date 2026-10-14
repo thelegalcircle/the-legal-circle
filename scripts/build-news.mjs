@@ -4,12 +4,14 @@ import { fileURLToPath } from 'node:url';
 import { selectRelated } from './related-articles.mjs';
 import { articlePath } from './article-path.mjs';
 import { buildTestHome } from './build-test-home.mjs';
+import { buildAdeleProfile } from './build-adele-profile.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SITE = 'https://thelegalcircle.ca';
 const PUBLICATION = 'The Legal Circle';
 const manifestPath = path.join(ROOT, 'news', 'articles.json');
 const articles = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+buildAdeleProfile(ROOT, articles);
 const published = articles.filter((article) => article.status === 'published');
 const bySlug = new Map(published.map((article) => [article.slug, article]));
 const categorySlugs = {
