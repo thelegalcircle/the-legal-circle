@@ -7,6 +7,8 @@ on:
       - news/articles.json
       - interviews/interviews.json
       - scripts/build-interviews.mjs
+      - scripts/render-interviews-hub.mjs
+      - interviews/upcoming.json
       - scripts/build-adele-profile.mjs
       - scripts/build-news.mjs
       - scripts/build-test-home.mjs
