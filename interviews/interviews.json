@@ -1,7 +1,7 @@
 [
   {
     "slug": "dr-j-thomas-dalby",
-    "path": "/interviews/dr-j-thomas-dalby/",
+    "path": "/interviews/thomas-dalby-forensic-psychologist/",
     "status": "published",
     "contentType": "interview",
     "headline": "The Expert Is a Teacher, Not a Case-Cracker",
@@ -10,8 +10,19 @@
     "excerpt": "Six questions with forensic psychologist Dr. J. Thomas Dalby on psychological assessments, trustworthy expert reports and close to five decades of working with lawyers.",
     "published": "2026-10-14T10:04:00-04:00",
     "modified": "2026-10-14T10:04:00-04:00",
-    "interviewer": {"name": "Adele Salikhova", "url": "https://thelegalcircle.ca/about/adele-salikhova/"},
-    "author": {"name": "Adele Salikhova", "type": "Person", "url": "https://thelegalcircle.ca/about/adele-salikhova/"},
-    "guest": {"name": "Dr. J. Thomas Dalby", "role": "Forensic psychologist · Neuropsychology · Trial consulting", "portrait": "/assets/dr-j-thomas-dalby.jpg"}
+    "interviewer": {
+      "name": "Adele Salikhova",
+      "url": "https://thelegalcircle.ca/about/adele-salikhova/"
+    },
+    "author": {
+      "name": "Adele Salikhova",
+      "type": "Person",
+      "url": "https://thelegalcircle.ca/about/adele-salikhova/"
+    },
+    "guest": {
+      "name": "Dr. J. Thomas Dalby",
+      "role": "Forensic psychologist · Neuropsychology · Trial consulting",
+      "portrait": "/assets/dr-j-thomas-dalby.jpg"
+    }
   }
 ]
