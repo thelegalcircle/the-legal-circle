@@ -5,6 +5,7 @@ import { selectRelated } from './related-articles.mjs';
 import { articlePath } from './article-path.mjs';
 import { buildTestHome } from './build-test-home.mjs';
 import { buildAdeleProfile } from './build-adele-profile.mjs';
+import { buildInterviews } from './build-interviews.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SITE = 'https://thelegalcircle.ca';
@@ -401,3 +402,4 @@ function updateNavigation(dir) {
 }
 updateNavigation(ROOT);
 buildTestHome(ROOT, articles);
+buildInterviews(ROOT);
