@@ -412,7 +412,7 @@ function linkInterviewHub(dir){
   if(entry.isDirectory())linkInterviewHub(file);
   else if(entry.name.endsWith('.html')){
    const html=fs.readFileSync(file,'utf8');
-   fs.writeFileSync(file,html.replace(/<nav class="tlc-nav"[\s\S]*?<\/nav>/g,nav=>nav.replace(/<span class="tlc-nav-label">Interviews<\/span>/g,'<a class="tlc-nav-label" href="/interviews/">Interviews</a>').replace(/<a([^>]*?)href="[^"]+"([^>]*?)>Interviews<\/a>/g,'<a$1href="/interviews/"$2>Interviews</a>')));
+   fs.writeFileSync(file,html.replace(/(<a class="tlc-brand" href=")#top(")/g,'$1/$2').replace(/<nav class="tlc-nav"[\s\S]*?<\/nav>/g,nav=>nav.replace(/<span class="tlc-nav-label">Interviews<\/span>/g,'<a class="tlc-nav-label" href="/interviews/">Interviews</a>').replace(/<a([^>]*?)href="[^"]+"([^>]*?)>Interviews<\/a>/g,'<a$1href="/interviews/"$2>Interviews</a>')));
   }
  }
 }
