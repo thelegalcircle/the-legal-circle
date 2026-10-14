@@ -54,7 +54,7 @@ body { margin: 0; background: #f8f7f2; }
 @media(min-width:1001px) and (max-width:1100px) {
   .tlc-header { grid-template-columns:1fr auto; }
   .tlc-header > .tlc-brand, .tlc-header > .tlc-button { grid-row:1; }
-  .tlc-nav { grid-column:1/-1; grid-row:2; width:100%; flex-wrap:wrap; gap:8px 12px; }
+  .tlc-header > .tlc-nav { grid-column:1/-1; grid-row:2; width:100%; flex-wrap:wrap; gap:8px 12px; }
 }
 .tlc-nav > a, .tlc-news-dropdown > a, .tlc-news-dropdown > .tlc-nav-label { display:inline-flex; align-items:center; min-height:44px; padding:10px 6px; }
 .tlc-news-toggle { min-width:36px; min-height:44px; }
