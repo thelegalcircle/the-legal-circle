@@ -1,5 +1,55 @@
 [
   {
+    "slug": "legal-content-marketing-client-education",
+    "status": "published",
+    "headline": "The Lawyer Ruined Dessert. Your Next Client Should Thank Them.",
+    "seoTitle": "Legal Content Marketing: Help Clients Spot Problems Earlier",
+    "metaDescription": "Turn the problems clients overlook into useful legal content. Adele Salikhova shares a practical approach to client education and law firm marketing.",
+    "excerpt": "Why client education belongs at the centre of your law firm’s content marketing",
+    "contentType": "analysis",
+    "category": "Legal Marketing & PR",
+    "tags": [
+      {
+        "name": "Legal content marketing",
+        "slug": "legal-content-marketing"
+      },
+      {
+        "name": "Client education",
+        "slug": "client-education"
+      },
+      {
+        "name": "Law firm marketing",
+        "slug": "law-firm-marketing"
+      }
+    ],
+    "author": {
+      "name": "Adele Salikhova",
+      "type": "Person",
+      "url": "https://thelegalcircle.ca/about/adele-salikhova/"
+    },
+    "published": "2026-10-15T14:12:44Z",
+    "modified": "2026-10-15T14:12:44Z",
+    "jurisdiction": "Canada",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "The Lawyer Ruined Dessert. Your Next Client Should Thank Them.",
+      "description": "Turn the problems clients overlook into useful legal content. Adele Salikhova shares a practical approach to client education and law firm marketing.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "related": [
+      "law-firm-positioning-clear-client-services",
+      "client-communication-lawyers-tone-trust",
+      "law-firm-marketing-client-psychology-certainty"
+    ],
+    "correctionNote": ""
+  },
+  {
     "slug": "apple-taction-57-billion-patent-verdict-challenge",
     "headline": "Apple Challenges US$5.7 Billion Patent Verdict Over iPhone Haptics",
     "seoTitle": "Apple Challenges US$5.7 Billion Taction Patent Verdict",
@@ -1017,6 +1067,7 @@
       "image": "/assets/the-legal-circle-social-card.png"
     },
     "related": [
+      "legal-content-marketing-client-education",
       "law-firm-growth-personal-injury-practice-lessons",
       "law-firm-marketing-client-psychology-certainty"
     ],
@@ -1215,6 +1266,7 @@
       "image": "/assets/the-legal-circle-social-card.png"
     },
     "related": [
+      "legal-content-marketing-client-education",
       "law-firm-reels-engaging-video-marketing",
       "law-firm-marketing-client-psychology-certainty"
     ],
@@ -1560,7 +1612,9 @@
       "description": "The psychology behind better law firm marketing—and how clear, empathetic messaging can help clients understand what happens next.",
       "image": "/assets/law-firm-marketing-client-psychology-certainty.jpg"
     },
-    "related": [],
+    "related": [
+      "legal-content-marketing-client-education"
+    ],
     "correctionNote": ""
   },
   {
