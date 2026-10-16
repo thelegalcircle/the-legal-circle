@@ -1,0 +1,5 @@
+.tlc-back-to-top{position:fixed;right:max(20px,env(safe-area-inset-right));bottom:max(20px,env(safe-area-inset-bottom));z-index:900;display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;padding:12px 17px;border:1px solid #080908;border-radius:0;background:#080908;color:#fff;font:800 12px/1.4 Arial,sans-serif;letter-spacing:.04em;cursor:pointer;box-shadow:0 3px 14px #0002}
+.tlc-back-to-top[hidden]{display:none!important}
+.tlc-back-to-top:hover{background:#7cf000;color:#111}
+.tlc-back-to-top:focus-visible{outline:3px solid #4f9700;outline-offset:4px}
+@media(max-width:760px){.tlc-back-to-top{right:max(12px,env(safe-area-inset-right));bottom:max(12px,env(safe-area-inset-bottom));padding:11px 14px}}
