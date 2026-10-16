@@ -1,5 +1,325 @@
 [
   {
+    "slug": "fcc-usac-fifth-circuit-telecom-fund-ruling",
+    "headline": "Fifth Circuit Finds FCC Lacked Authority to Create Telecom Fund Administrator",
+    "seoTitle": "Fifth Circuit Finds FCC Lacked Authority to Establish USAC",
+    "metaDescription": "The Fifth Circuit vacated a telecom contribution factor after finding the FCC lacked authority to create USAC. The ruling does not order an immediate shutdown.",
+    "excerpt": "A public program can survive a constitutional challenge and still face a fundamental statutory problem: whether its administrator was lawfully created.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "United States; Canadian comparison",
+    "tags": [
+      {
+        "name": "FCC USAC ruling",
+        "slug": "fcc-usac-fifth-circuit-telecom-fund-ruling"
+      }
+    ],
+    "related": [
+      "ontario-place-supreme-court-crown-immunity"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-16T16:02:01Z",
+    "modified": "2026-10-16T16:02:01Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Fifth Circuit Finds FCC Lacked Authority to Create Telecom Fund Administrator",
+      "description": "The Fifth Circuit vacated a telecom contribution factor after finding the FCC lacked authority to create USAC. The ruling does not order an immediate shutdown.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "microsoft-uk-strategic-market-status-proposal",
+    "headline": "UK Proposes Strategic Market Status for Microsoft’s Business Software",
+    "seoTitle": "Microsoft Faces Proposed UK Strategic Market Status",
+    "metaDescription": "The CMA proposes strategic market status for Microsoft’s business-software ecosystem. Consultation closes November 13; designation and interventions remain pending.",
+    "excerpt": "Enterprise software contracts can shape an organization’s choices for years. Britain’s competition regulator is examining the market conditions surrounding those choices.",
+    "contentType": "analysis",
+    "category": "AI & Technology",
+    "jurisdiction": "United Kingdom; Canadian implications",
+    "tags": [
+      {
+        "name": "Microsoft strategic market status",
+        "slug": "microsoft-uk-strategic-market-status-proposal"
+      }
+    ],
+    "related": [
+      "tiktok-dma-gatekeeper-appeal-evidence-threshold"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-16T16:02:01Z",
+    "modified": "2026-10-16T16:02:01Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "UK Proposes Strategic Market Status for Microsoft’s Business Software",
+      "description": "The CMA proposes strategic market status for Microsoft’s business-software ecosystem. Consultation closes November 13; designation and interventions remain pending.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "air-canada-supreme-court-drip-pricing-remedies",
+    "headline": "Air Canada Pricing Appeal Puts Consumer Remedies Before Supreme Court",
+    "seoTitle": "Air Canada Supreme Court Appeal Examines Pricing Remedies",
+    "metaDescription": "The Supreme Court considers Quebec consumer remedies in Air Canada’s pricing case, including prejudice, price reductions and punitive damages.",
+    "excerpt": "A displayed price rises during booking. Even if that practice violates consumer law, what must the customer establish to obtain a price reduction?",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "Quebec, Canada",
+    "tags": [
+      {
+        "name": "Air Canada drip pricing appeal",
+        "slug": "air-canada-supreme-court-drip-pricing-remedies"
+      }
+    ],
+    "related": [
+      "ontario-place-supreme-court-crown-immunity"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-16T16:02:01Z",
+    "modified": "2026-10-16T16:02:01Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Air Canada Pricing Appeal Puts Consumer Remedies Before Supreme Court",
+      "description": "The Supreme Court considers Quebec consumer remedies in Air Canada’s pricing case, including prejudice, price reductions and punitive damages.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "us-bankruptcy-noticing-center-cyber-incident",
+    "headline": "Cyber Incident Halts U.S. Bankruptcy Notice Production",
+    "seoTitle": "Cyber Incident Halts U.S. Bankruptcy Court Notices",
+    "metaDescription": "A cybersecurity incident affecting BAE Systems disrupted the U.S. Bankruptcy Noticing Center. The judiciary has not confirmed information theft.",
+    "excerpt": "A cybersecurity incident can disrupt court proceedings without a confirmed theft of court files.",
+    "contentType": "analysis",
+    "category": "AI & Technology",
+    "jurisdiction": "United States; cross-border implications",
+    "tags": [
+      {
+        "name": "Bankruptcy Noticing Center cyber incident",
+        "slug": "us-bankruptcy-noticing-center-cyber-incident"
+      }
+    ],
+    "related": [
+      "sheppard-mullin-data-breach-social-engineering"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-16T16:02:01Z",
+    "modified": "2026-10-16T16:02:01Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Cyber Incident Halts U.S. Bankruptcy Notice Production",
+      "description": "A cybersecurity incident affecting BAE Systems disrupted the U.S. Bankruptcy Noticing Center. The judiciary has not confirmed information theft.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "deepfake-evidence-openai-meta-judicial-panel",
+    "headline": "OpenAI and Meta Warn Judicial Panel About Deepfake Evidence",
+    "seoTitle": "Deepfake Evidence: OpenAI and Meta Address Judicial Panel",
+    "metaDescription": "OpenAI and Meta warned a U.S. evidence committee about deepfakes. No new rule was adopted; provenance and authentication remain central practical concerns.",
+    "excerpt": "The courtroom challenge posed by synthetic media has two sides: identifying fabricated evidence and avoiding unsupported rejection of genuine recordings.",
+    "contentType": "analysis",
+    "category": "AI & Technology",
+    "jurisdiction": "United States; Canadian comparison",
+    "tags": [
+      {
+        "name": "deepfake evidence authentication",
+        "slug": "deepfake-evidence-openai-meta-judicial-panel"
+      }
+    ],
+    "related": [
+      "judge-ai-errors-junior-lawyer-training-concerns"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-16T16:02:01Z",
+    "modified": "2026-10-16T16:02:01Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "OpenAI and Meta Warn Judicial Panel About Deepfake Evidence",
+      "description": "OpenAI and Meta warned a U.S. evidence committee about deepfakes. No new rule was adopted; provenance and authentication remain central practical concerns.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "dno-yemen-eu-sanctions-indirect-payments",
+    "headline": "DNO Yemen Ruling Highlights Indirect Sanctions Risk in Award Payments",
+    "seoTitle": "DNO Yemen: EU Court Addresses Indirect Sanctions Payments",
+    "metaDescription": "The DNO Yemen ruling examines payments to unlisted entities and indirect benefit to sanctioned parties, highlighting practical access and supporting evidence.",
+    "excerpt": "A payment’s named recipient may be absent from a sanctions list. That does not necessarily end the inquiry.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "European Union; Canadian comparison",
+    "tags": [
+      {
+        "name": "DNO Yemen sanctions ruling",
+        "slug": "dno-yemen-eu-sanctions-indirect-payments"
+      }
+    ],
+    "related": [
+      "grace-mexico-ontario-arbitration-appeal-bar"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-16T16:02:01Z",
+    "modified": "2026-10-16T16:02:01Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "DNO Yemen Ruling Highlights Indirect Sanctions Risk in Award Payments",
+      "description": "The DNO Yemen ruling examines payments to unlisted entities and indirect benefit to sanctioned parties, highlighting practical access and supporting evidence.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "deviantart-crowell-disqualification-ai-copyright",
+    "headline": "DeviantArt Seeks Crowell’s Disqualification in AI Copyright Case",
+    "seoTitle": "DeviantArt Seeks Crowell Disqualification in AI Lawsuit",
+    "metaDescription": "DeviantArt challenges Crowell’s role for Evox in AI copyright litigation. The contested motion raises questions about client status and earlier advice.",
+    "excerpt": "When billable work stops, has the lawyer–client relationship ended?",
+    "contentType": "analysis",
+    "category": "Business & Practice Development",
+    "jurisdiction": "United States; Canadian comparison",
+    "tags": [
+      {
+        "name": "Crowell DeviantArt conflict",
+        "slug": "deviantart-crowell-disqualification-ai-copyright"
+      }
+    ],
+    "related": [
+      "arceus-ai-supported-law-firm-17-million-funding"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-16T16:02:01Z",
+    "modified": "2026-10-16T16:02:01Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "DeviantArt Seeks Crowell’s Disqualification in AI Copyright Case",
+      "description": "DeviantArt challenges Crowell’s role for Evox in AI copyright litigation. The contested motion raises questions about client status and earlier advice.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "3m-australia-pfas-lawsuit-threshold-defences",
+    "headline": "3M Plans Threshold Challenge to Australia’s PFAS Lawsuit",
+    "seoTitle": "3M Plans Legal Challenge to Australia’s PFAS Claim",
+    "metaDescription": "3M has outlined public-nuisance and limitation defences to Australia’s PFAS lawsuit. Neither liability nor the announced defences has been decided.",
+    "excerpt": "A large environmental claim must establish more than the existence of contamination. It must identify a legal route to recovery that survives challenge.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "Australia; Canadian comparison",
+    "tags": [
+      {
+        "name": "3M Australia PFAS lawsuit",
+        "slug": "3m-australia-pfas-lawsuit-threshold-defences"
+      }
+    ],
+    "related": [
+      "hamilton-encampment-charter-challenge-new-hearing"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-16T16:02:01Z",
+    "modified": "2026-10-16T16:02:01Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle — Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "3M Plans Threshold Challenge to Australia’s PFAS Lawsuit",
+      "description": "3M has outlined public-nuisance and limitation defences to Australia’s PFAS lawsuit. Neither liability nor the announced defences has been decided.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
     "slug": "ontario-place-supreme-court-crown-immunity",
     "headline": "Ontario Place Appeal Tests Limits on Government Protection From Lawsuits",
     "seoTitle": "Ontario Place Appeal Tests Limits on Crown Lawsuit Shields",
