@@ -26,7 +26,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   build-news-seo:
@@ -40,15 +40,20 @@ jobs:
         run: node scripts/check-news.mjs
       - name: Validate production homepage and Pressfeed
         run: node scripts/check-test-home.mjs && node scripts/check-pressfeed.mjs
-      - name: Commit generated changes
-        shell: bash
+      - name: Report generated changes for pull-request review
         run: |
-          if git diff --quiet; then
-            echo "Generated News files are current."
-            exit 0
+          if ! git diff --quiet; then
+            echo "::notice::Generated SEO changes are available in the workflow artifact. Publish them through a reviewed pull request; this job cannot write to production."
           fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add '*.html' news _templates sitemap.xml news-sitemap.xml robots.txt
-          git commit -m "Refresh generated News SEO files"
-          git push
+      - name: Save generated site for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-news-site
+          retention-days: 14
+          path: |
+            news/
+            interviews/
+            about/
+            index.html
+            sitemap.xml
+            news-sitemap.xml
