@@ -420,3 +420,5 @@ updateNavigation(ROOT);
 linkInterviewHub(ROOT);
 buildTestHome(ROOT, articles);
 buildInterviews(ROOT);
+const { addBackToTop } = await import('./add-back-to-top.mjs');
+addBackToTop();
