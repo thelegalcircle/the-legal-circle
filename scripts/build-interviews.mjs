@@ -9,10 +9,10 @@ export function buildInterviews(root){
  for(const interview of published){
   const file=path.join(root,interview.path,'index.html');
   const date=new Intl.DateTimeFormat('en-US',{month:'long',day:'numeric',year:'numeric',timeZone:'America/Toronto'}).format(new Date(interview.published));
-  let html=fs.readFileSync(file,'utf8').replace(/<p class="publication-date"[^>]*>[\s\S]*?<\/p>/,'').replace(/(?: · )?<time class="interview-publication"[^>]*>[\s\S]*?<\/time>/g,'');
+  let html=fs.readFileSync(file,'utf8').replace(/<p class="publication-date"[^>]*>[\s\S]*?<\/p>/,'').replace(/(?: · )?<time class="interview-publication(?: label)?"[^>]*>[\s\S]*?<\/time>/g,'');
   const labels=/(<div class="interview-labels">[\s\S]*?)(<\/div>)/;
   if(!labels.test(html))throw Error('Missing interview labels: '+interview.path);
-  html=html.replace(labels,`$1<time class="interview-publication" datetime="${esc(interview.published)}">Published ${date}</time>$2`);
+  html=html.replace(labels,`$1<time class="interview-publication label" datetime="${esc(interview.published)}">Published ${date}</time>$2`);
   let articleFound=false;
   html=html.replace(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g,(block,json)=>{
    const schema=JSON.parse(json);
@@ -21,6 +21,7 @@ export function buildInterviews(root){
   });
   if(!articleFound)throw Error('Missing article schema: '+interview.path);
   if(!html.includes('/interviews/dates.css'))html=html.replace('</head>','<link rel="stylesheet" href="/interviews/dates.css?v=20261018"></head>');
+  html=html.replace(/\/interviews\/dates\.css\?v=[^"]+/g,'/interviews/dates.css?v=20261018-match-eyebrow');
   fs.writeFileSync(file,html);
  }
  const hub=path.join(root,'interviews/index.html');
