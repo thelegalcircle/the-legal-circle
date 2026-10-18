@@ -10,7 +10,9 @@
   const video=a.format==='video',outer=element('article','hub-card'),picture=element('a','hub-image');picture.href=a.path;
   const image=element('img');image.src=a.guest.portrait;image.alt=a.guest.name;image.loading='lazy';picture.append(image);
   if(video){const play=element('span','play-mark','▶');play.setAttribute('aria-hidden','true');picture.append(play);if(a.video?.duration)picture.append(element('span','duration',a.video.duration));}
-  const copy=element('div','card-copy');copy.append(element('p','format-label',video?'Video interview':'Written interview'),element('p','guest-name',a.guest.name),element('p','guest-role',a.guest.role));
+  const copy=element('div','card-copy'),label=element('p','format-label',video?'Video interview':'Written interview');
+  const date=element('time',null,' · Published '+new Intl.DateTimeFormat('en-US',{month:'long',day:'numeric',year:'numeric',timeZone:'America/Toronto'}).format(new Date(a.published)));date.dateTime=a.published;label.append(date);
+  copy.append(label,element('p','guest-name',a.guest.name),element('p','guest-role',a.guest.role));
   const heading=element('h2'),link=element('a',null,a.headline);link.href=a.path;heading.append(link);copy.append(heading,element('p','card-excerpt',a.excerpt));
   const cta=element('a','read-interview',(video?'Watch':'Read')+' interview →');cta.href=a.path;copy.append(cta);outer.append(picture,copy);return outer;
  }
