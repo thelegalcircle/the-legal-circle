@@ -3,7 +3,6 @@
  if(!main||Number(main.dataset.publishedCount)<12)return;
  form.hidden=false;
  const grid=document.getElementById('hub-grid'),pager=document.getElementById('hub-pagination'),status=document.querySelector('.hub-results');
- const upcoming=[...grid.querySelectorAll('.upcoming-card')].map(card=>card.cloneNode(true));
  let items=null,currentPage=1,timer;
  const element=(tag,className,text)=>{const el=document.createElement(tag);if(className)el.className=className;if(text!==undefined)el.textContent=text;return el;};
  function card(a){
@@ -23,7 +22,6 @@
    const filtered=items.filter(a=>(format==='all'||a.format===format)&&[a.guest.name,a.guest.role,a.headline].some(s=>s.toLocaleLowerCase().includes(query)));
    const pages=Math.max(1,Math.ceil(filtered.length/12));currentPage=Math.min(currentPage,pages);
    grid.replaceChildren(...filtered.slice((currentPage-1)*12,currentPage*12).map(card));
-   if(!query&&format==='all'&&currentPage===1)grid.append(...upcoming.map(card=>card.cloneNode(true)));
    status.hidden=false;status.textContent=filtered.length+' published interview'+(filtered.length===1?'':'s')+(filtered.length?' · Page '+currentPage+' of '+pages: ' · No matches');
    pager.replaceChildren();
    if(pages>1){const nav=element('nav','hub-pagination');nav.setAttribute('aria-label','Interview pages');for(let n=1;n<=pages;n++){const button=element('button',null,String(n));button.type='button';button.dataset.page=n;if(n===currentPage)button.setAttribute('aria-current','page');button.addEventListener('click',()=>{currentPage=n;render(true);});nav.append(button);}pager.append(nav);if(focusPage)nav.querySelector('[data-page="'+currentPage+'"]').focus();}
