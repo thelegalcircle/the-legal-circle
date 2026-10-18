@@ -6,6 +6,23 @@ const esc=s=>String(s??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replac
 export function buildInterviews(root){
  const interviews=JSON.parse(fs.readFileSync(path.join(root,'interviews/interviews.json'),'utf8'));
  const published=selectPublishedInterviews(interviews);
+ for(const interview of published){
+  const file=path.join(root,interview.path,'index.html');
+  const date=new Intl.DateTimeFormat('en-US',{month:'long',day:'numeric',year:'numeric',timeZone:'America/Toronto'}).format(new Date(interview.published));
+  let html=fs.readFileSync(file,'utf8').replace(/<p class="publication-date"[^>]*>[\s\S]*?<\/p>/,'').replace(/(?: · )?<time class="interview-publication"[^>]*>[\s\S]*?<\/time>/g,'');
+  const labels=/(<div class="interview-labels">[\s\S]*?)(<\/div>)/;
+  if(!labels.test(html))throw Error('Missing interview labels: '+interview.path);
+  html=html.replace(labels,`$1<time class="interview-publication" datetime="${esc(interview.published)}">Published ${date}</time>$2`);
+  let articleFound=false;
+  html=html.replace(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g,(block,json)=>{
+   const schema=JSON.parse(json);
+   for(const item of schema['@graph']||[schema])if(['Article','NewsArticle','BlogPosting'].includes(item['@type'])){item.datePublished=interview.published;articleFound=true;}
+   return '<script type="application/ld+json">'+JSON.stringify(schema).replaceAll('<','\\u003c')+'</script>';
+  });
+  if(!articleFound)throw Error('Missing article schema: '+interview.path);
+  if(!html.includes('/interviews/dates.css'))html=html.replace('</head>','<link rel="stylesheet" href="/interviews/dates.css?v=20261018"></head>');
+  fs.writeFileSync(file,html);
+ }
  const hub=path.join(root,'interviews/index.html');
  const cards=published.map(a=>`<article class="interview-card"><a href="${esc(a.path)}"><img src="${esc(a.guest.portrait)}" alt="${esc(a.guest.name)}" width="445" height="445" loading="lazy"></a><div><p class="guest-name">${esc(a.guest.name)}</p><p class="guest-role">${esc(a.guest.role)}</p><h2><a href="${esc(a.path)}">${esc(a.headline)}</a></h2><p class="excerpt">${esc(a.excerpt)}</p><a class="read-link" href="${esc(a.path)}">Read the interview →</a></div></article>`).join('\n');
  const listing=published.length?`<section class="interview-grid" aria-label="Published interviews">${cards}</section>`:'<section><h2>Our first interviews are coming soon.</h2><p>We’re preparing conversations with experts whose experiences offer fresh perspectives on legal practice.</p></section>';
