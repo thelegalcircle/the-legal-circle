@@ -6,6 +6,14 @@ const esc=s=>String(s??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replac
 export function buildInterviews(root){
  const interviews=JSON.parse(fs.readFileSync(path.join(root,'interviews/interviews.json'),'utf8'));
  const published=selectPublishedInterviews(interviews);
+ for(const interview of published){
+  const file=path.join(root,interview.path,'index.html');
+  const date=new Intl.DateTimeFormat('en-US',{month:'long',day:'numeric',year:'numeric',timeZone:'America/Toronto'}).format(new Date(interview.published));
+  const credit=/(<strong>Interview by <a\b[^>]*>Adele Salikhova<\/a><\/strong>)(?: · <time class="interview-publication"[^>]*>[\s\S]*?<\/time>)?/;
+  const html=fs.readFileSync(file,'utf8');
+  if(!credit.test(html))throw Error('Missing interview byline: '+interview.path);
+  fs.writeFileSync(file,html.replace(/<p class="publication-date"[^>]*>[\s\S]*?<\/p>/,'').replace(credit,`$1 · <time class="interview-publication" datetime="${esc(interview.published)}">Published ${date}</time>`));
+ }
  const hub=path.join(root,'interviews/index.html');
  const cards=published.map(a=>`<article class="interview-card"><a href="${esc(a.path)}"><img src="${esc(a.guest.portrait)}" alt="${esc(a.guest.name)}" width="445" height="445" loading="lazy"></a><div><p class="guest-name">${esc(a.guest.name)}</p><p class="guest-role">${esc(a.guest.role)}</p><h2><a href="${esc(a.path)}">${esc(a.headline)}</a></h2><p class="excerpt">${esc(a.excerpt)}</p><a class="read-link" href="${esc(a.path)}">Read the interview →</a></div></article>`).join('\n');
  const listing=published.length?`<section class="interview-grid" aria-label="Published interviews">${cards}</section>`:'<section><h2>Our first interviews are coming soon.</h2><p>We’re preparing conversations with experts whose experiences offer fresh perspectives on legal practice.</p></section>';
