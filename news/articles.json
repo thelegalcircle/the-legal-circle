@@ -1,5 +1,125 @@
 [
   {
+    "slug": "us-russia-sanctions-waiver-60-day-review",
+    "headline": "U.S. Russia Sanctions Waiver Has No Automatic 60-Day Expiry",
+    "seoTitle": "U.S. Russia Sanctions Waiver Has No Automatic 60-Day Expiry",
+    "metaDescription": "Rubio’s 60-day review does not create an automatic expiry for the Graham Act waivers. Specified pre-existing Russia sanctions remain in place.",
+    "excerpt": "The review may take 60 days. The waiver does not automatically expire when that period ends.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "United States; Canadian implications",
+    "tags": [
+      {
+        "name": "U.S. Russia sanctions waiver",
+        "slug": "us-russia-sanctions-waiver-60-day-review"
+      }
+    ],
+    "related": [
+      "tiktok-dma-gatekeeper-appeal-evidence-threshold"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-18T18:04:08Z",
+    "modified": "2026-10-18T18:04:08Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "U.S. Russia Sanctions Waiver Has No Automatic 60-Day Expiry",
+      "description": "Rubio’s 60-day review does not create an automatic expiry for the Graham Act waivers. Specified pre-existing Russia sanctions remain in place.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "canada-bank-technology-investment-regulations-proposal",
+    "headline": "Canada Proposes Broader Technology-Investment Powers for Financial Institutions",
+    "seoTitle": "Canada Proposes Broader Bank Technology-Investment Rules",
+    "metaDescription": "Proposed Canadian regulations address financial institutions’ non-financial activities, fintech investments, aggregate limits and reporting requirements.",
+    "excerpt": "How far should a bank be allowed to move into technology businesses - and what should keep that expansion connected to financial services?",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "Canada",
+    "tags": [
+      {
+        "name": "Canada bank technology-investment regulations",
+        "slug": "canada-bank-technology-investment-regulations-proposal"
+      }
+    ],
+    "related": [
+      "banking-regulators-autonomous-ai-agent-controls"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-18T18:04:08Z",
+    "modified": "2026-10-18T18:04:08Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Canada Proposes Broader Technology-Investment Powers for Financial Institutions",
+      "description": "Proposed Canadian regulations address financial institutions’ non-financial activities, fintech investments, aggregate limits and reporting requirements.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "france-mass-arrests-pretrial-detention-safeguards",
+    "headline": "France’s Mass-Arrest Response Puts Individual Detention Decisions in Focus",
+    "seoTitle": "France Mass Arrests Put Pretrial Detention Safeguards in Focus",
+    "metaDescription": "France’s justice minister seeks a firm response after mass arrests. Detention requests remain distinct from judicial orders and findings of guilt.",
+    "excerpt": "A minister can call for a firm prosecutorial response. That does not make pretrial detention automatic.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "France; Canadian comparison",
+    "tags": [
+      {
+        "name": "France pretrial detention",
+        "slug": "france-mass-arrests-pretrial-detention-safeguards"
+      }
+    ],
+    "related": [
+      "diggs-supreme-court-prison-lockdowns-habeas-corpus"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-18T18:04:08Z",
+    "modified": "2026-10-18T18:04:08Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "France’s Mass-Arrest Response Puts Individual Detention Decisions in Focus",
+      "description": "France’s justice minister seeks a firm response after mass arrests. Detention requests remain distinct from judicial orders and findings of guilt.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
     "slug": "r-v-am-2026-scc-33-sexual-history-evidence",
     "headline": "Supreme Court Clarifies Sexual-History Evidence in Sexual-Services Prosecutions",
     "seoTitle": "R. v. A.M.: Supreme Court Clarifies Sexual-History Evidence",
