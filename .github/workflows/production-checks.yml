@@ -21,6 +21,7 @@ jobs:
         with:
           node-version: '22'
       - run: node scripts/build-news.mjs
+      - run: node scripts/check-short-hyphens.mjs
       - run: node scripts/check-news.mjs
       - run: node scripts/check-test-home.mjs
       - run: node scripts/check-pressfeed.mjs

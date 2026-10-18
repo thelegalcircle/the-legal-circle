@@ -21,7 +21,7 @@ const drafts = [
     body: `<p>Welcome to the October 2026 edition of The Legal Circle’s Canadian legal news roundup: court developments, changes affecting the profession and stories worth following across practice areas. This is a snapshot as of October 7, with earlier developments identified as background rather than presented as new October events.</p>
 <h2>1. Supreme Court of Canada opens its judicial year</h2>
 <p>Chief Justice Richard Wagner marked the ceremonial opening on October 5. His remarks emphasized the rule of law, judicial independence and public confidence in democratic institutions, while describing a busy fall session.</p>
-<p><strong>Why it matters:</strong> For litigation teams, the practical task is to follow the hearing calendar and decisions relevant to their files. A leave grant means the Court will consider an appeal, not that it has already settled the issue—as our ${link('/news/supreme-court-canada-cross-border-bitcoin-restraint-case/', 'report on the cross-border bitcoin restraint appeal')} explains.</p>
+<p><strong>Why it matters:</strong> For litigation teams, the practical task is to follow the hearing calendar and decisions relevant to their files. A leave grant means the Court will consider an appeal, not that it has already settled the issue - as our ${link('/news/supreme-court-canada-cross-border-bitcoin-restraint-case/', 'report on the cross-border bitcoin restraint appeal')} explains.</p>
 ${source('https://www.scc-csc.ca/about-apropos/judges-juges/list-liste/richard-wagner/sd-2026-10-05/', 'Chief Justice Wagner’s October 5 remarks')}
 <h2>2. B.C.’s single-regulator challenge moves toward an appeal</h2>
 <p>The Law Society of British Columbia’s constitutional challenge to the Legal Professions Act is not a newly launched September lawsuit. The trial took place in October 2025, and the challenge was dismissed on April 29, 2026. The Law Society appealed; its published timeline lists November 16 and 17, 2026 for the appeal hearing.</p>
@@ -40,7 +40,7 @@ ${source('https://flsc.ca/news/', 'Federation’s September 29 FATF statement')}
 <p><strong>Why it matters:</strong> This is a proposal, not a statement that the change is already law. Counsel assessing historical claims should follow the bill’s progress, final wording and commencement provisions. It does not establish the limitation rules in Ontario or another province.</p>
 ${source('https://news.gov.mb.ca/news/print%2Cindex.html?archive=&amp;item=75598', 'Manitoba government’s October 5 announcement')}
 <h2>6. Earlier case to revisit: R. v. Klayme</h2>
-<p>The Nova Scotia Court of Appeal’s decision in <em>R. v. Klayme</em>, 2026 NSCA 59, dates to July 23—not October. The court found Klayme factually innocent after an investigation followed the wrong account: the relevant usernames differed by one underscore.</p>
+<p>The Nova Scotia Court of Appeal’s decision in <em>R. v. Klayme</em>, 2026 NSCA 59, dates to July 23 - not October. The court found Klayme factually innocent after an investigation followed the wrong account: the relevant usernames differed by one underscore.</p>
 <p><strong>Why it matters:</strong> The case is a reminder to scrutinize the technical foundation of digital evidence. An identifier, account record or search result should be tested against the original evidence, not accepted because later records appear internally consistent.</p>
 ${source('https://www.canlii.org/en/ns/nsca/doc/2026/2026nsca59/2026nsca59.html', 'R. v. Klayme, 2026 NSCA 59')}
 <h2>7. Nortera and B&amp;G terminate the Green Giant Canada transaction</h2>
@@ -56,7 +56,7 @@ ${source('https://www.norterafoods.com/presse/bandg-foods-et-nortera-annoncent-l
     headline: 'Ontario Family Law Update: Key Changes in 2026',
     seoTitle: 'Ontario Family Law Update: Key Changes (2026)',
     metaDescription: 'Ontario family law changes in 2026: abusive proceedings, support arbitration awards, Toronto hearings and AI duties, with proposals distinguished from law.',
-    excerpt: 'A plain-English look at Ontario family procedure in 2026—and proposals that should not be mistaken for enacted law.',
+    excerpt: 'A plain-English look at Ontario family procedure in 2026 - and proposals that should not be mistaken for enacted law.',
     contentType: 'explainer', category: 'Legal Developments', jurisdiction: 'Ontario, Canada',
     tags: ['Family Law', 'Ontario Courts', 'Court Procedure'],
     related: ['canadian-legal-news-october-2026', 'judge-ai-errors-junior-lawyer-training-concerns'],
@@ -78,7 +78,7 @@ ${source('https://ontariocourtforms.on.ca/en/family-law-rules-forms/', 'Official
 <h2>3. Toronto short family motions are presumptively in person</h2>
 <p><strong>What changed:</strong> Starting April 2, short family motions at the Toronto Superior Court are heard in person unless the court orders otherwise.</p>
 <p>For an already scheduled matter, the official notice directs a virtual-hearing request through the Ontario Courts Public Portal <em>and</em> by email to the family trial office, copying all parties. Requests made within two weeks of the hearing will not be considered.</p>
-<p><strong>Who it affects:</strong> Toronto Superior Court family practitioners and parties—not every family hearing across Ontario.</p>
+<p><strong>Who it affects:</strong> Toronto Superior Court family practitioners and parties - not every family hearing across Ontario.</p>
 <p><strong>What to check:</strong> The current notice, hearing format and any order made in the individual case. Do not assume a past virtual appearance determines the next one.</p>
 ${source('https://www.ontariocourts.ca/scj/news/short-family-motions-to-be-heard-in-person-in-toronto-starting-april-2-2026/', 'Superior Court’s Toronto short-motion notice')}
 <h2>4. Toronto’s Integrated Domestic Violence Court has limited eligibility</h2>
@@ -90,12 +90,12 @@ ${source('https://www.ontariocourts.ca/ocj/family-court/integrated-domestic-viol
 <h2>5. AI verification duties apply province-wide in Superior Court family proceedings</h2>
 <p><strong>What changed:</strong> The Consolidated Provincial Practice Direction for Family Proceedings, updated March 17, addresses AI use and the responsibility of lawyers, family legal services providers and litigants for material presented to the court.</p>
 <p>Its sanctions section describes a range of possible responses to failures of duty, depending on the facts. It does not mean that every AI error automatically leads to dismissal.</p>
-<p><strong>Practical implication:</strong> Verify authorities and quotations, and review the reasoning—not only the formatting. Our ${link('/news/judge-ai-errors-junior-lawyer-training-concerns/', 'analysis of AI errors and junior-lawyer training')} explains why checking a filing and developing professional judgment are different tasks.</p>
+<p><strong>Practical implication:</strong> Verify authorities and quotations, and review the reasoning - not only the formatting. Our ${link('/news/judge-ai-errors-junior-lawyer-training-concerns/', 'analysis of AI errors and junior-lawyer training')} explains why checking a filing and developing professional judgment are different tasks.</p>
 ${source('https://www.ontariocourts.ca/scj/filing-procedures/provincial/consolidated-provincial-practice-direction-for-family-proceedings/', 'Provincial family practice direction')}
-<h2>Two proposals to watch—not enacted changes</h2>
+<h2>Two proposals to watch - not enacted changes</h2>
 <p><strong>Bill C-223:</strong> The federal <em>Keeping Children Safe Act</em> is a private member’s bill proposing amendments to the Divorce Act. Parliament’s status page lists it at committee consideration after second reading and referral on February 4. It is not law; check its progress and text before treating a proposed provision as a legal requirement.</p>
 ${source('https://www.parl.ca/legisinfo/en/bill/45-1/c-223', 'Parliament’s Bill C-223 status and text')}
-<p><strong>OBA spouse-definition submission:</strong> Dated February 13, 2026—not March—the Ontario Bar Association’s submission proposes broadening the Family Law Act support definition to include former spouses, particularly addressing standing after a foreign divorce. Eligibility to bring a claim would still be distinct from proving entitlement to support. This is an Ontario reform proposal, not a nationwide change.</p>
+<p><strong>OBA spouse-definition submission:</strong> Dated February 13, 2026 - not March - the Ontario Bar Association’s submission proposes broadening the Family Law Act support definition to include former spouses, particularly addressing standing after a foreign divorce. Eligibility to bring a claim would still be distinct from proving entitlement to support. This is an Ontario reform proposal, not a nationwide change.</p>
 ${source('https://oba.org/Our-Impact/Submissions/Proposed-Amendment-to-the-Definition-of-Spouse-in-the-Family-Law-Act', 'OBA’s proposed spouse-definition amendment')}
 <h2>The practical takeaway</h2>
 <p>Check the applicable rule, the hearing format, the court’s jurisdiction and the current documents before taking the next procedural step. Separate proposals from law and professional commentary from the operative source.</p>
@@ -112,78 +112,78 @@ ${source('https://oba.org/Our-Impact/Submissions/Proposed-Amendment-to-the-Defin
     related: ['law-firm-referral-marketing-tax-lawyers', 'personal-branding-lawyers-reputation-beyond-firm'],
     body: `<p>Every lawyer needs people who understand the work: peers to trade notes with, mentors who have seen a problem before and a place to discuss professional growth. This guide to 13 lawyer communities in Canada compares broad associations, focused networks and informal groups so you can choose by fit rather than prestige alone.</p>
 <p><strong>Editorial disclosure:</strong> The Legal Circle publishes this guide and operates the first community listed. “Best” describes possible fits for different needs, not an independent ranking, exhaustive survey or claim that one organization is objectively superior. The numbered order is a reading guide. Fees and benefits below reflect available official information checked October 7, 2026; confirm eligibility, taxes, current fees and event availability before joining.</p>
-<h2>1. The Legal Circle — open professional conversation</h2>
+<h2>1. The Legal Circle - open professional conversation</h2>
 <p><strong>Who it’s for:</strong> Lawyers, paralegals, notaries and other legal professionals interested in legal developments, visibility and practice growth.</p>
 <p><strong>Cost:</strong> Reading the website and joining the LinkedIn discussion group or newsletter are free. Any future ticketed gathering would have its own booking terms.</p>
 <p><strong>What it offers:</strong> Published news and analysis, a LinkedIn discussion space and opportunities to propose articles, expert commentary or interviews. Podcasts, webinars and speaking sessions are future possibilities, not established programmes presented as already running.</p>
 <p><strong>Consider:</strong> This is a developing community, not a regulator or substitute for accredited professional education. Do not assume participation earns CPD credit.</p>
 <p>${link('https://www.linkedin.com/groups/40976138/', 'Join the discussion')} · ${link('https://www.linkedin.com/newsletters/the-legal-circle-7512189166164549632/', 'Follow the newsletter')} · ${link('/get-featured/', 'Propose a contribution')}</p>
-<h2>2. Ontario Bar Association — Ontario-wide professional involvement</h2>
+<h2>2. Ontario Bar Association - Ontario-wide professional involvement</h2>
 <p><strong>Who it’s for:</strong> Ontario legal professionals seeking practice-area sections, professional development and opportunities to contribute to policy discussions.</p>
 <p><strong>Published fees:</strong> The official page lists $692.75 plus tax for experienced full-time practitioners, $374.75 plus tax for eligible part-time practitioners and $333.60 plus tax for lawyers in their first three years of call. Eligible law students and NCA candidates have a no-cost category.</p>
 <p><strong>Consider:</strong> Choose sections and events you will actually use. Access to programming does not mean every programme is included in the membership fee.</p>
 ${source('https://www.oba.org/membership/fee-and-benefits/', 'OBA membership fees and benefits')}
-<h2>3. Canadian Bar Association — a national network</h2>
+<h2>3. Canadian Bar Association - a national network</h2>
 <p><strong>Who it’s for:</strong> Lawyers looking for connections across jurisdictions, national sections, advocacy and professional resources.</p>
 <p><strong>Cost:</strong> Check the membership category and provincial or territorial branch. In Ontario, the OBA is the CBA’s branch: these are connected memberships, not two independent subscriptions you necessarily need to buy.</p>
 <p><strong>Consider:</strong> A broad network works best when you identify a section, committee or activity relevant to your practice.</p>
 ${source('https://www.cba.org/', 'Canadian Bar Association')}
-<h2>4. Inn Laws — curated discussions about running a practice</h2>
+<h2>4. Inn Laws - curated discussions about running a practice</h2>
 <p><strong>Who it’s for:</strong> Firm owners, partners and associates interested in practice-building, technology and peer problem-solving.</p>
 <p><strong>Published price:</strong> $130 per month, or $96 per month paid annually. Confirm tax, billing and cancellation terms directly.</p>
 <p><strong>What it offers:</strong> Curated peer groups, AI training and technology consulting. The community is built around running a practice rather than serving as a general legal research resource.</p>
 <p><strong>Consider:</strong> Ask about the application process, group fit and time commitment before paying.</p>
 ${source('https://innlaws.ca/', 'Inn Laws membership information')}
-<h2>5. Toronto Lawyers Association — local professional connections</h2>
+<h2>5. Toronto Lawyers Association - local professional connections</h2>
 <p><strong>Who it’s for:</strong> Lawyers whose work and professional relationships are centred in Toronto.</p>
 <p><strong>What it offers:</strong> A courthouse library, education, networking events and advocacy. Programmes and events can have separate prices.</p>
 <p><strong>Cost:</strong> Consult the association for the current membership category and any new-call or candidate concessions; this guide does not rely on an unverified 2026 fee.</p>
 <p><strong>Consider:</strong> Local access may be particularly useful if you regularly practise in Toronto. Location and actual participation matter more than membership alone.</p>
 ${source('https://www.tlaonline.ca/', 'Toronto Lawyers Association')}
-<h2>6. Canadian Defence Lawyers — civil-defence practice</h2>
+<h2>6. Canadian Defence Lawyers - civil-defence practice</h2>
 <p><strong>Who it’s for:</strong> Civil-defence counsel seeking a practice-focused professional network.</p>
 <p><strong>What it offers:</strong> Defence-oriented education, committees and opportunities to connect with colleagues working on similar disputes.</p>
 <p><strong>Cost:</strong> Check the organization’s current membership rates and the benefits included in your category.</p>
 <p><strong>Consider:</strong> Its subject focus is the advantage for defence practitioners; it is not a general community for every practice area.</p>
 ${source('https://www.cdlawyers.org/index.asp', 'Canadian Defence Lawyers')}
-<h2>7. Counselwell — an in-house community with free and paid tiers</h2>
+<h2>7. Counselwell - an in-house community with free and paid tiers</h2>
 <p><strong>Who it’s for:</strong> In-house lawyers interested in peer discussion, professional resources and events.</p>
 <p><strong>Published plans:</strong> Core is free; Premium is listed at $500 per year. The free tier has limits, including up to two standard events annually subject to availability. Special events can require tickets.</p>
 <p><strong>Consider:</strong> Compare the current plans rather than assuming that every event, mentoring feature or recording is free.</p>
 ${source('https://www.counselwell.ca/', 'Counselwell membership plans')}
-<h2>8. ITL Network — internationally trained legal professionals</h2>
+<h2>8. ITL Network - internationally trained legal professionals</h2>
 <p><strong>Who it’s for:</strong> Internationally trained lawyers and graduates at different career stages, alongside mentors and allies.</p>
 <p><strong>What it offers:</strong> Mentorship, licensing guidance, career resources and professional networking, including the ITL Conference.</p>
 <p><strong>Cost:</strong> Confirm the available plan during membership enquiry; an unconfirmed annual fee is not quoted here.</p>
 <p><strong>Consider:</strong> The network supports the licensing journey but does not make licensing decisions. Its stated audience also includes established practitioners, not only newcomers.</p>
 ${source('https://itlnetwork.ca/', 'ITL Network’s mission and membership information')}
-<h2>9. Federation of Asian Canadian Lawyers — chapter-based community</h2>
+<h2>9. Federation of Asian Canadian Lawyers - chapter-based community</h2>
 <p><strong>Who it’s for:</strong> Asian Canadian legal professionals interested in inclusion, advocacy, career support and community.</p>
 <p><strong>Ontario pricing:</strong> FACL Ontario lists a one-year full membership at $50 and student membership as free. Other chapters may have different fees and programmes.</p>
 <p><strong>What it offers:</strong> Mentorship, networking, member resources and reduced event pricing.</p>
 <p><strong>Consider:</strong> Check the relevant chapter rather than applying a British Columbia fee to an Ontario membership.</p>
 ${source('https://on.facl.ca/become-a-member/', 'FACL Ontario membership')}
-<h2>10. Toronto Legal Hackers — law and technology meetups</h2>
+<h2>10. Toronto Legal Hackers - law and technology meetups</h2>
 <p><strong>Who it’s for:</strong> Lawyers, technologists, academics and others interested in the intersection of law and technology.</p>
 <p><strong>What it offers:</strong> A self-organized meetup community with a history of discussions and workshops.</p>
 <p><strong>Cost and availability:</strong> Check the group and individual event listing. Its public page showed past events but no upcoming event in the listing reviewed, so this guide does not promise regular current in-person meetings.</p>
 <p><strong>Consider:</strong> An informal discussion group is different from a structured membership programme or accredited course.</p>
 ${source('https://www.meetup.com/toronto-legal-hackers/', 'Toronto Legal Hackers event listing')}
-<h2>11. NCA Network — connections along the licensing journey</h2>
+<h2>11. NCA Network - connections along the licensing journey</h2>
 <p><strong>Who it’s for:</strong> Internationally trained legal professionals building a Canadian career.</p>
 <p><strong>What it offers:</strong> The network describes support through mentorship, shared experiences and professional connections.</p>
 <p><strong>Cost:</strong> Confirm current membership and event terms directly; no unverified event fee is quoted here.</p>
 <p><strong>Consider:</strong> This community is separate from the National Committee on Accreditation. Use the NCA and relevant law society for authoritative assessment and licensing requirements.</p>
 ${source('https://ncanetwork.com/', 'NCA Network')}
-<h2>12. Lawyers Networking Society — career-path conversation</h2>
+<h2>12. Lawyers Networking Society - career-path conversation</h2>
 <p><strong>Who it’s for:</strong> Prospective practitioners and internationally trained lawyers exploring Canadian career pathways.</p>
 <p><strong>What is visible:</strong> Its public LinkedIn posts discuss routes such as articling and Ontario’s Law Practice Program.</p>
 <p><strong>Cost and availability:</strong> Contact the organizers for current activities and participation terms. This guide does not assert an unverified free-membership offer, founding date or event schedule.</p>
 <p><strong>Consider:</strong> Peer accounts can help you identify questions; they do not replace official licensing guidance.</p>
 ${source('https://www.linkedin.com/posts/lawyers-networking-society_lpp-articling-lawpracticeprogram-activity-7343312740402216960-oW20', 'Lawyers Networking Society’s career-path discussion')}
-<h2>13. CBA In-House Lawyers — the in-house professional network</h2>
+<h2>13. CBA In-House Lawyers - the in-house professional network</h2>
 <p><strong>Who it’s for:</strong> In-house and government counsel seeking a broader professional association and in-house-focused resources.</p>
-<p><strong>Membership:</strong> OBA’s in-house category lists $374.75–$692.75 plus tax and says CBA membership automatically includes the Canadian Corporate Counsel Association. Check the current CBA In-House offering and category rather than assuming a separate fee is necessary.</p>
+<p><strong>Membership:</strong> OBA’s in-house category lists $374.75-$692.75 plus tax and says CBA membership automatically includes the Canadian Corporate Counsel Association. Check the current CBA In-House offering and category rather than assuming a separate fee is necessary.</p>
 <p><strong>Consider:</strong> Compare the professional-development and association benefits with informal peer communities; they serve different needs.</p>
 ${source('https://www.oba.org/membership/fee-and-benefits/', 'OBA’s in-house membership category')}
 <h2>How to choose the right community</h2>
@@ -200,7 +200,7 @@ for (const draft of drafts) {
     tags: draft.tags.map(name => ({ name, slug: name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') })),
     author: { name: 'The Legal Circle', type: 'Organization', url: 'https://thelegalcircle.ca/editorial/' },
     published, modified: published,
-    featuredImage: { url: '/assets/the-legal-circle-social-card.png', alt: 'The Legal Circle — Connect. Contribute. Grow.', width: 1200, height: 630, showInArticle: false },
+    featuredImage: { url: '/assets/the-legal-circle-social-card.png', alt: 'The Legal Circle - Connect. Contribute. Grow.', width: 1200, height: 630, showInArticle: false },
     social: { title: draft.headline, description: draft.metaDescription, image: '/assets/the-legal-circle-social-card.png' },
     correctionNote: ''
   };

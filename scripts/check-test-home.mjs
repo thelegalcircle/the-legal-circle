@@ -7,7 +7,7 @@ assert(home.includes('class="tlc-news-dropdown tlc-marketing-dropdown"'));
 assert(home.includes('Special offer from Magneo'));
 assert.equal((home.match(/class="tlc-pressfeed-block"/g)||[]).length,4);
 assert(!fs.existsSync('home-test/index.html'), 'Removed test page must not be regenerated');
-assert(home.includes('News and insights that matter to lawyers—from legal developments and AI to marketing and practice growth.'));
+assert(home.includes('News and insights that matter to lawyers - from legal developments and AI to marketing and practice growth.'));
 assert(home.includes('data-feed-play>Pause updates'));
 assert(!fs.readFileSync('sitemap.xml','utf8').includes('/home-test/'));
 assert(!/noindex|nofollow/i.test(fs.readFileSync('magneo-website-offer/index.html','utf8')), 'Approved offer page must remain indexable');
