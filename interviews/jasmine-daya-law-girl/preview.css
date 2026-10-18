@@ -7,3 +7,6 @@
 .review-layout .bio{box-shadow:24px 0 #f0f1e9,-24px 0 #f0f1e9}@media(max-width:760px){.review-layout .bio{box-shadow:none}}
 .linkedin-button:hover,.linkedin-button:focus-visible{background:#7cf000;color:#111}
 .interview-labels{display:flex;flex-wrap:wrap;align-items:center;gap:12px 20px}.interview-labels .label{margin:0}.exclusive-badge{background:#7cf000;color:#111;font:900 10px/1.4 Arial,sans-serif;padding:9px 12px;letter-spacing:.08em;text-transform:uppercase}@media(max-width:760px){.interview-labels{gap:10px}.exclusive-badge{padding:8px 10px}}
+
+.interview-breadcrumbs{max-width:1200px;margin:0 auto;padding:24px 24px 0;font:12px/1.6 Arial,sans-serif;color:#62685d}.interview-breadcrumbs a{color:inherit}.tlc-page .review-layout{padding-top:28px}
+.tlc-page .linkedin-button{color:#fff!important}.tlc-page .linkedin-button:hover,.tlc-page .linkedin-button:focus-visible{color:#111!important}
