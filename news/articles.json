@@ -1,5 +1,58 @@
 [
   {
+    "slug": "lawyer-personal-branding-side-project",
+    "status": "published",
+    "headline": "The Lawyer Clients Remember: Why Your “Side Project” Could Become Your Best Marketing",
+    "seoTitle": "Lawyer Personal Branding: Build a Project Clients Remember",
+    "metaDescription": "A blog, video series or newsletter can make your expertise recognizable. Adele Salikhova shares a practical personal-branding playbook for lawyers.",
+    "excerpt": "A blog, video series or newsletter can give your expertise a public expression and help the right clients remember you.",
+    "contentType": "analysis",
+    "category": "Legal Marketing & PR",
+    "tags": [
+      {
+        "name": "lawyer personal branding",
+        "slug": "lawyer-personal-branding"
+      },
+      {
+        "name": "legal content marketing",
+        "slug": "legal-content-marketing"
+      },
+      {
+        "name": "marketing for lawyers",
+        "slug": "marketing-for-lawyers"
+      },
+      {
+        "name": "law firm marketing",
+        "slug": "law-firm-marketing"
+      }
+    ],
+    "author": {
+      "name": "Adele Salikhova",
+      "type": "Person",
+      "url": "https://thelegalcircle.ca/about/adele-salikhova/"
+    },
+    "published": "2026-10-20T20:55:16-04:00",
+    "modified": "2026-10-20T20:55:16-04:00",
+    "jurisdiction": "Canada",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "The Lawyer Clients Remember: Why Your “Side Project” Could Become Your Best Marketing",
+      "description": "A blog, video series or newsletter can make your expertise recognizable. Adele Salikhova shares a practical personal-branding playbook for lawyers.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "related": [
+      "personal-branding-lawyers-reputation-beyond-firm",
+      "legal-content-marketing-client-education"
+    ],
+    "correctionNote": ""
+  },
+  {
     "slug": "wshb-charlesbank-private-equity-law-firm-support",
     "headline": "Private Equity Backs WSHB’s Support Business: Who Controls the Modern Law Firm?",
     "seoTitle": "WSHB Private Equity Deal: Who Controls the Law Firm?",
