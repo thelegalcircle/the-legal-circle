@@ -34,7 +34,7 @@ function esc(value = '') { return String(value).replace(/&/g, '&amp;').replace(/
 function absolute(url) { return /^https?:\/\//i.test(url) ? url : `${SITE}${url.startsWith('/') ? '' : '/'}${url}`; }
 function articleUrl(article) { return `${SITE}${articlePath(article)}`; }
 function datePart(date) { return date.slice(0, 10); }
-function displayDate(date) { return new Intl.DateTimeFormat('en-CA', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(new Date(date)); }
+function displayDate(date) { return new Intl.DateTimeFormat('en-CA', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'America/Toronto' }).format(new Date(date)); }
 function clean(value) { return value.replace(/[ \t]+$/gm, '').replace(/\n{4,}/g, '\n\n\n'); }
 function replaceRequired(html, pattern, replacement, label) {
   if (!pattern.test(html)) fail(`Could not find ${label}`);
