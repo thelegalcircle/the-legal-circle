@@ -1,5 +1,409 @@
 [
   {
+    "slug": "meta-new-mexico-25-billion-privacy-penalty",
+    "headline": "Meta’s US$25 Billion New Mexico Penalty Puts Privacy Promises Under Pressure",
+    "seoTitle": "Meta’s $25 Billion New Mexico Privacy Penalty Explained",
+    "metaDescription": "New Mexico orders Meta to pay US$25 billion after a consumer-law verdict, highlighting the exposure created by repeated privacy representations.",
+    "excerpt": "A privacy representation can reach millions of people. New Mexico’s case against Meta shows how that scale can translate into extraordinary statutory exposure.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "New Mexico, United States; Canadian implications",
+    "tags": [
+      {
+        "name": "Meta New Mexico privacy penalty",
+        "slug": "meta-new-mexico-25-billion-privacy-penalty"
+      }
+    ],
+    "related": [
+      "clearview-ai-uk-privacy-jurisdiction-appeal-2026"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-22T21:38:50Z",
+    "modified": "2026-10-22T21:38:50Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Meta’s US$25 Billion New Mexico Penalty Puts Privacy Promises Under Pressure",
+      "description": "New Mexico orders Meta to pay US$25 billion after a consumer-law verdict, highlighting the exposure created by repeated privacy representations.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "new-zealand-puberty-blocker-regulations-judicial-review",
+    "headline": "New Zealand Court Sets Aside Puberty-Blocker Regulations Over Consultation and Discrimination",
+    "seoTitle": "New Zealand Court Sets Aside Puberty-Blocker Regulations",
+    "metaDescription": "New Zealand’s High Court finds consultation failures and discrimination in puberty-blocker regulations, offering a significant judicial-review decision.",
+    "excerpt": "A government’s decision to restrict medical treatment must satisfy the legal requirements governing how that decision is made.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "New Zealand; Canadian comparison",
+    "tags": [
+      {
+        "name": "New Zealand puberty blocker judgment",
+        "slug": "new-zealand-puberty-blocker-regulations-judicial-review"
+      }
+    ],
+    "related": [
+      "supreme-court-transgender-prisoner-injunction-kingdom"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-22T21:38:50Z",
+    "modified": "2026-10-22T21:38:50Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "New Zealand Court Sets Aside Puberty-Blocker Regulations Over Consultation and Discrimination",
+      "description": "New Zealand’s High Court finds consultation failures and discrimination in puberty-blocker regulations, offering a significant judicial-review decision.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "florida-lawyer-ai-filing-bar-referral",
+    "headline": "Florida Lawyer’s Bar Referral Shows Why AI Review Must Go Beyond Citations",
+    "seoTitle": "Florida AI Filing Referral Highlights Lawyers’ Review Duties",
+    "metaDescription": "A Florida court refers a lawyer to the Bar after rejecting her response over problematic filings, underscoring review beyond citation checks.",
+    "excerpt": "A lawyer can accept responsibility for a filing and still fail to explain why its contents were professionally defensible.",
+    "contentType": "analysis",
+    "category": "AI & Technology",
+    "jurisdiction": "Florida, United States; Canadian comparison",
+    "tags": [
+      {
+        "name": "Florida lawyer AI filing referral",
+        "slug": "florida-lawyer-ai-filing-bar-referral"
+      }
+    ],
+    "related": [
+      "bc-court-ai-filings-access-to-justice",
+      "judge-ai-errors-junior-lawyer-training-concerns"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-22T21:38:50Z",
+    "modified": "2026-10-22T21:38:50Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Florida Lawyer’s Bar Referral Shows Why AI Review Must Go Beyond Citations",
+      "description": "A Florida court refers a lawyer to the Bar after rejecting her response over problematic filings, underscoring review beyond citation checks.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "canadian-judicial-council-ai-deepfake-evidence-guidance",
+    "headline": "Canadian Judicial Council’s AI Guidance Confronts the Deepfake Evidence Problem",
+    "seoTitle": "Canadian Judicial Council Issues AI and Deepfake Guidance",
+    "metaDescription": "New Canadian judicial guidance addresses AI use, digital evidence, detection tools and the cost of proving whether media is authentic.",
+    "excerpt": "Courts face two digital-evidence risks: accepting fabricated material and rejecting authentic material because someone labels it fake.",
+    "contentType": "analysis",
+    "category": "AI & Technology",
+    "jurisdiction": "Canada",
+    "tags": [
+      {
+        "name": "Canadian Judicial Council AI guidelines",
+        "slug": "canadian-judicial-council-ai-deepfake-evidence-guidance"
+      }
+    ],
+    "related": [
+      "deepfake-evidence-openai-meta-judicial-panel",
+      "florida-lawyer-ai-filing-bar-referral"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-22T21:38:50Z",
+    "modified": "2026-10-22T21:38:50Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Canadian Judicial Council’s AI Guidance Confronts the Deepfake Evidence Problem",
+      "description": "New Canadian judicial guidance addresses AI use, digital evidence, detection tools and the cost of proving whether media is authentic.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "supreme-court-transgender-prisoner-injunction-kingdom",
+    "headline": "US Supreme Court Leaves Transgender Prisoner Injunction in Place While Litigation Continues",
+    "seoTitle": "Supreme Court Leaves Transgender Prisoner Injunction Intact",
+    "metaDescription": "The US Supreme Court denies an emergency stay in Trump v Kingdom, preserving interim protections while the underlying litigation continues.",
+    "excerpt": "The US Supreme Court has declined to suspend an injunction protecting access to gender-affirming care for transgender federal prisoners while litigation proceeds.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "United States; Canadian comparison",
+    "tags": [
+      {
+        "name": "Trump v Kingdom Supreme Court",
+        "slug": "supreme-court-transgender-prisoner-injunction-kingdom"
+      }
+    ],
+    "related": [
+      "new-zealand-puberty-blocker-regulations-judicial-review"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-22T21:38:50Z",
+    "modified": "2026-10-22T21:38:50Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "US Supreme Court Leaves Transgender Prisoner Injunction in Place While Litigation Continues",
+      "description": "The US Supreme Court denies an emergency stay in Trump v Kingdom, preserving interim protections while the underlying litigation continues.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "jackson-walker-fees-us-trustee-standing",
+    "headline": "Jackson Walker Fee Dispute: Judge Recommends Recognizing US Trustee’s Standing",
+    "seoTitle": "Jackson Walker Fee Case: US Trustee Standing Recommendation",
+    "metaDescription": "A bankruptcy judge recommends recognizing US Trustee standing in the Jackson Walker fee dispute, with the district-court decision still pending.",
+    "excerpt": "Who can pursue a law firm’s fees when the concern extends beyond an individual client’s willingness to act?",
+    "contentType": "analysis",
+    "category": "Business & Practice Development",
+    "jurisdiction": "Texas, United States; Canadian implications",
+    "tags": [
+      {
+        "name": "Jackson Walker fee dispute",
+        "slug": "jackson-walker-fees-us-trustee-standing"
+      }
+    ],
+    "related": [
+      "jackson-walker-disclosure-investigation-firm-governance"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-22T21:38:50Z",
+    "modified": "2026-10-22T21:38:50Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Jackson Walker Fee Dispute: Judge Recommends Recognizing US Trustee’s Standing",
+      "description": "A bankruptcy judge recommends recognizing US Trustee standing in the Jackson Walker fee dispute, with the district-court decision still pending.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "belo-sun-volta-grande-licence-suspension-brazil",
+    "headline": "Belo Sun’s Brazilian Licence Suspension Puts Consultation Risk at the Centre of Project Planning",
+    "seoTitle": "Belo Sun’s Volta Grande Licence Remains Suspended",
+    "metaDescription": "Brazil’s Supreme Federal Court restores a provisional suspension affecting Belo Sun’s Volta Grande project pending judicial approval of an agreement.",
+    "excerpt": "A resource project’s financing and construction timetable depend on the legal durability of its approvals.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "Brazil and Canada",
+    "tags": [
+      {
+        "name": "Belo Sun licence suspension",
+        "slug": "belo-sun-volta-grande-licence-suspension-brazil"
+      }
+    ],
+    "related": [
+      "bell-ai-data-centre-first-nation-consultation-regina",
+      "taranto-steelworks-court-review-environmental-shutdown"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-22T21:38:50Z",
+    "modified": "2026-10-22T21:38:50Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Belo Sun’s Brazilian Licence Suspension Puts Consultation Risk at the Centre of Project Planning",
+      "description": "Brazil’s Supreme Federal Court restores a provisional suspension affecting Belo Sun’s Volta Grande project pending judicial approval of an agreement.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "pension-trustees-hidden-ai-concentration-risk",
+    "headline": "UK Pension Guidance Warns That Diversified Portfolios Can Hide a Concentrated AI Bet",
+    "seoTitle": "UK Pension Regulator Warns of Hidden AI Investment Risk",
+    "metaDescription": "New UK guidance asks pension trustees to assess portfolio-wide AI exposure, stress-test diversification and challenge investment assumptions.",
+    "excerpt": "A portfolio can hold investments across several sectors and still depend heavily on the same economic story.",
+    "contentType": "analysis",
+    "category": "AI & Technology",
+    "jurisdiction": "United Kingdom; Canadian comparison",
+    "tags": [
+      {
+        "name": "AI concentration risk pensions",
+        "slug": "pension-trustees-hidden-ai-concentration-risk"
+      }
+    ],
+    "related": [
+      "banking-regulators-autonomous-ai-agent-controls"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-22T21:38:50Z",
+    "modified": "2026-10-22T21:38:50Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "UK Pension Guidance Warns That Diversified Portfolios Can Hide a Concentrated AI Bet",
+      "description": "New UK guidance asks pension trustees to assess portfolio-wide AI exposure, stress-test diversification and challenge investment assumptions.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "legora-550-million-series-e-legal-ai-valuation",
+    "headline": "Legora Raises US$550 Million: What the US$8.8 Billion Valuation Means for Legal Buyers",
+    "seoTitle": "Legora Raises $550m at $8.8bn Valuation: Buyer Questions",
+    "metaDescription": "Legora’s Series E adds US$550 million for expansion. For legal teams, procurement, supervision and measurable value remain the practical questions.",
+    "excerpt": "Legal-AI investment is reaching a scale that makes procurement a strategic decision for firms and corporate legal departments.",
+    "contentType": "analysis",
+    "category": "AI & Technology",
+    "jurisdiction": "International; Canadian legal buyers",
+    "tags": [
+      {
+        "name": "Legora funding",
+        "slug": "legora-550-million-series-e-legal-ai-valuation"
+      }
+    ],
+    "related": [
+      "arceus-ai-supported-law-firm-17-million-funding",
+      "att-legaledge-ai-outside-counsel"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-22T21:38:50Z",
+    "modified": "2026-10-22T21:38:50Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Legora Raises US$550 Million: What the US$8.8 Billion Valuation Means for Legal Buyers",
+      "description": "Legora’s Series E adds US$550 million for expansion. For legal teams, procurement, supervision and measurable value remain the practical questions.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "coinbase-ireland-safeguarding-outsourcing-sanction",
+    "headline": "Coinbase Ireland Accepts €3.25 Million Sanction Over Safeguarding and Outsourcing Failures",
+    "seoTitle": "Coinbase Ireland Accepts €3.25m Safeguarding Sanction",
+    "metaDescription": "Coinbase Ireland admits safeguarding and outsourcing breaches. Its €3.25 million penalty and reprimand remain subject to High Court confirmation.",
+    "excerpt": "The absence of customer losses does not establish that safeguarding controls worked as required.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "Ireland; Canadian comparison",
+    "tags": [
+      {
+        "name": "Coinbase Ireland fine",
+        "slug": "coinbase-ireland-safeguarding-outsourcing-sanction"
+      }
+    ],
+    "related": [
+      "banking-regulators-autonomous-ai-agent-controls"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-22T21:38:50Z",
+    "modified": "2026-10-22T21:38:50Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Coinbase Ireland Accepts €3.25 Million Sanction Over Safeguarding and Outsourcing Failures",
+      "description": "Coinbase Ireland admits safeguarding and outsourcing breaches. Its €3.25 million penalty and reprimand remain subject to High Court confirmation.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
     "slug": "canadian-tariffs-lawsuit-section-338-gellert",
     "headline": "Canadian Tariffs Face a New Court Challenge: What Section 338 Actually Authorizes",
     "seoTitle": "Canadian Tariff Lawsuit Tests Trump’s Section 338 Power",
