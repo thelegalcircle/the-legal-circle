@@ -31,7 +31,7 @@ export function buildInterviews(root){
  buildAdeleProfile(root,published);
  if(published.length){
   const a=published[0],home=path.join(root,'index.html');
-  const card=`<article class="tlc-feature-column"><h2>Interviews</h2><a href="${esc(a.path)}"><img src="${esc(a.guest.portrait)}" alt="${esc(a.guest.name)}" loading="lazy" style="width:100%;aspect-ratio:16/9;object-fit:contain;background:#f0f1e9"></a><h3><a href="${esc(a.path)}">${esc(a.headline)}</a></h3><p>${esc(a.excerpt)}</p><a class="tlc-card-link" href="${esc(a.path)}">Read interview <span aria-hidden="true">→</span></a></article>`;
+  const card=`<article class="tlc-feature-column"><h2>Interviews</h2><a href="${esc(a.path)}"><img src="${esc(a.guest.portrait)}" alt="${esc(a.guest.name)}" loading="lazy" style="width:100%;aspect-ratio:16/9;object-fit:cover;object-position:50% 29%;background:#f0f1e9"></a><h3><a href="${esc(a.path)}">${esc(a.headline)}</a></h3><p>${esc(a.excerpt)}</p><a class="tlc-card-link" href="${esc(a.path)}">Read interview <span aria-hidden="true">→</span></a></article>`;
   fs.writeFileSync(home,fs.readFileSync(home,'utf8').replace(/<article class="tlc-feature-column"><h2>Interviews<\/h2>[\s\S]*?<\/article>/,card));
  }
  const sitemap=path.join(root,'sitemap.xml');let xml=fs.readFileSync(sitemap,'utf8');
