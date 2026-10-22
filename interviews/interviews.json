@@ -54,5 +54,33 @@
       "role": "Personal injury lawyer · Law Girl podcast host",
       "portrait": "/assets/jasmine-daya.jpg"
     }
+  },
+  {
+    "slug": "yameena-ansari-before-the-first-meeting",
+    "path": "/interviews/yameena-ansari-before-the-first-meeting/",
+    "status": "published",
+    "contentType": "interview",
+    "format": "written",
+    "video": null,
+    "headline": "People Find You on Google. Trust Is What Makes Them Choose You.",
+    "seoTitle": "Interview: Yameena Ansari on Visibility and Client Trust | The Legal Circle",
+    "metaDescription": "Calgary immigration lawyer Yameena Ansari on why lawyers must explain the law before someone else tells the story, the trust her visibility builds with clients - and the price she pays for it, including death threats.",
+    "excerpt": "Yameena Ansari on public advocacy, building client trust before the first meeting and the realities of running an immigration practice.",
+    "published": "2026-10-22T14:24:10.231Z",
+    "modified": "2026-10-22T14:24:10.231Z",
+    "interviewer": {
+      "name": "Adele Salikhova",
+      "url": "https://thelegalcircle.ca/about/adele-salikhova/"
+    },
+    "author": {
+      "name": "Adele Salikhova",
+      "type": "Person",
+      "url": "https://thelegalcircle.ca/about/adele-salikhova/"
+    },
+    "guest": {
+      "name": "Yameena Ansari",
+      "role": "Immigration lawyer · Founder, Ansari Immigration Law",
+      "portrait": "/assets/yameena-ansari.webp"
+    }
   }
 ]
