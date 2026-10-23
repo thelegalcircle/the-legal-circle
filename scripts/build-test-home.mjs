@@ -41,12 +41,12 @@ export function buildTestHome(root, articles, now = new Date()) {
   const feed = `<section class="tlc-home-latest tlc-pressfeed" aria-labelledby="tlc-pressfeed-title"><div class="tlc-home-latest-inner"><div class="tlc-pressfeed-heading"><h2 id="tlc-pressfeed-title">Pressfeed</h2><div class="tlc-feed-update-control" hidden><button type="button" data-feed-play>Pause updates</button><span data-feed-status></span></div></div><div class="tlc-pressfeed-grid">${blocks}</div><a class="tlc-card-link tlc-home-view-all" href="/news/">View all articles <span aria-hidden="true">→</span></a></div></section>`;
   let home = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
   home = home.replace(/(src|href)="assets\//g, '$1="/assets/');
-  const scales = `<img class="tlc-justice-artwork" src="/assets/lady-justice-supplied.png" width="1254" height="1254" alt="" aria-hidden="true">`;
+  const scales = `<img class="tlc-justice-artwork" src="/assets/lady-justice-supplied.webp" width="1254" height="1254" alt="" aria-hidden="true">`;
   home = home.replace(/<span class="tlc-orbit-core">[\s\S]*?<\/span>/, `<span class="tlc-orbit-core">${scales}</span>`);
   home = home.replace('Animated circular paths moving around a bright green centre', 'Animated circular paths around a stationary Lady Justice illustration in a green centre');
   home = home.replace(/<!-- HOMEPAGE_ARTICLES_START -->[\s\S]*?<!-- HOMEPAGE_ARTICLES_END -->/, '<!-- HOMEPAGE_ARTICLES_START -->' + features + feed + '<!-- HOMEPAGE_ARTICLES_END -->');
   home = home.replace(/<link rel="stylesheet" href="\/home-test.css[^\"]*">\s*/g, '').replace(/<script src="\/pressfeed.js[^\"]*" defer><\/script>\s*/g, '');
-  home = home.replace('</head>', '<link rel="stylesheet" href="/home-test.css?v=20261009-phone-frame">\n<script src="/pressfeed.js?v=20261009-categories" defer></script>\n</head>');
+  home = home.replace('</head>', '<link rel="stylesheet" href="/home-test.css?v=20261022-webp">\n<script src="/pressfeed.js?v=20261009-categories" defer></script>\n</head>');
   fs.writeFileSync(path.join(root, 'index.html'), home);
   home = home.replace('<h2 id="tlc-pressfeed-title">Pressfeed</h2>', '<div class="tlc-pressfeed-introduction"><h2 id="tlc-pressfeed-title">Pressfeed</h2><p>News and insights that matter to lawyers - from legal developments and AI to marketing and practice growth.</p></div>');
   if (!home.includes('href="/home-preview.css')) home = home.replace('</head>', '<link rel="stylesheet" href="/home-preview.css?v=20261009-white-justice">\n</head>');
