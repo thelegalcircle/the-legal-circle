@@ -1,5 +1,367 @@
 [
   {
+    "slug": "supreme-court-emergencies-act-appeals-canada",
+    "headline": "Supreme Court Will Hear Emergencies Act Appeals: What Comes Next?",
+    "seoTitle": "Supreme Court to Hear Canada’s Emergencies Act Appeals",
+    "metaDescription": "The Supreme Court grants leave in the Emergencies Act litigation, opening review of emergency powers, Charter rights and financial-account freezes.",
+    "excerpt": "The legal challenge to Canada’s first use of the Emergencies Act is heading to the Supreme Court.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "Canada",
+    "tags": [
+      {
+        "name": "Supreme Court Emergencies Act appeal",
+        "slug": "supreme-court-emergencies-act-appeals-canada"
+      }
+    ],
+    "related": [
+      "toronto-bike-lanes-supreme-court-leave-charter"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-23T23:21:56Z",
+    "modified": "2026-10-23T23:21:56Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Supreme Court Will Hear Emergencies Act Appeals: What Comes Next?",
+      "description": "The Supreme Court grants leave in the Emergencies Act litigation, opening review of emergency powers, Charter rights and financial-account freezes.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "mississippi-dei-ai-judicial-errors-reassignment",
+    "headline": "AI Errors in Judicial Orders Lead to Reassignment in Mississippi DEI Case",
+    "seoTitle": "AI Errors Lead to Reassignment in Mississippi DEI Case",
+    "metaDescription": "The Fifth Circuit vacates a DEI injunction and orders reassignment after identifying AI-related errors and deficiencies in judicial reasoning.",
+    "excerpt": "Unverified AI material in a judicial order can affect far more than the court’s reputation. In a Mississippi case, the consequences now include reassignment and the loss of preliminary relief.",
+    "contentType": "analysis",
+    "category": "AI & Technology",
+    "jurisdiction": "Mississippi, United States; Canadian comparison",
+    "tags": [
+      {
+        "name": "AI judicial order errors",
+        "slug": "mississippi-dei-ai-judicial-errors-reassignment"
+      }
+    ],
+    "related": [
+      "judge-ai-errors-junior-lawyer-training-concerns",
+      "canadian-judicial-council-ai-deepfake-evidence-guidance"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-23T23:21:56Z",
+    "modified": "2026-10-23T23:21:56Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "AI Errors in Judicial Orders Lead to Reassignment in Mississippi DEI Case",
+      "description": "The Fifth Circuit vacates a DEI injunction and orders reassignment after identifying AI-related errors and deficiencies in judicial reasoning.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "cjeu-access-lawyer-questioning-waiting-periods",
+    "headline": "CJEU Rules That Waiting Periods Cannot Replace Effective Access to Counsel",
+    "seoTitle": "CJEU Rejects Waiting-Period Exceptions to Access to Counsel",
+    "metaDescription": "The CJEU finds Hungarian and Czech questioning rules incompatible with EU law, emphasizing effective participation and safeguards for waiver.",
+    "excerpt": "A lawyer’s failure to arrive within a prescribed period does not, by itself, authorize questioning without counsel under EU law.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "European Union; Canadian comparison",
+    "tags": [
+      {
+        "name": "CJEU right to counsel",
+        "slug": "cjeu-access-lawyer-questioning-waiting-periods"
+      }
+    ],
+    "related": [
+      "supreme-court-school-admissions-discrimination-evidence"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-23T23:21:56Z",
+    "modified": "2026-10-23T23:21:56Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "CJEU Rules That Waiting Periods Cannot Replace Effective Access to Counsel",
+      "description": "The CJEU finds Hungarian and Czech questioning rules incompatible with EU law, emphasizing effective participation and safeguards for waiver.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "fca-private-markets-conflicts-interest-review",
+    "headline": "FCA Review Puts Private-Market Conflicts Controls Under Scrutiny",
+    "seoTitle": "FCA Review Highlights Private-Market Conflicts Weaknesses",
+    "metaDescription": "The FCA’s private-market review calls for stronger conflicts governance as funds, transactions and investor relationships become more complex.",
+    "excerpt": "As private-market businesses become more complex, their conflicts systems need to keep pace.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "United Kingdom; Canadian comparison",
+    "tags": [
+      {
+        "name": "FCA private market conflicts",
+        "slug": "fca-private-markets-conflicts-interest-review"
+      }
+    ],
+    "related": [
+      "coinbase-ireland-safeguarding-outsourcing-sanction"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-23T23:21:56Z",
+    "modified": "2026-10-23T23:21:56Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "FCA Review Puts Private-Market Conflicts Controls Under Scrutiny",
+      "description": "The FCA’s private-market review calls for stronger conflicts governance as funds, transactions and investor relationships become more complex.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "stelco-cleveland-cliffs-15-day-undertakings-deadline",
+    "headline": "Ottawa Gives Cleveland-Cliffs 15 Days Over Stelco Employment Commitments",
+    "seoTitle": "Stelco Dispute: Ottawa Gives Cleveland-Cliffs 15 Days",
+    "metaDescription": "Ottawa alleges planned Stelco layoffs breach acquisition undertakings and sets a 15-day deadline, while Cleveland-Cliffs disputes non-compliance.",
+    "excerpt": "The Stelco employment dispute has moved to a formal deadline.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "Canada",
+    "tags": [
+      {
+        "name": "Stelco employment undertakings",
+        "slug": "stelco-cleveland-cliffs-15-day-undertakings-deadline"
+      }
+    ],
+    "related": [
+      "stelco-layoffs-investment-canada-act-undertakings"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-23T23:21:56Z",
+    "modified": "2026-10-23T23:21:56Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Ottawa Gives Cleveland-Cliffs 15 Days Over Stelco Employment Commitments",
+      "description": "Ottawa alleges planned Stelco layoffs breach acquisition undertakings and sets a 15-day deadline, while Cleveland-Cliffs disputes non-compliance.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "louisiana-court-local-ai-servers-pilot",
+    "headline": "Louisiana Court Buys Local AI Servers to Test New Court Tools",
+    "seoTitle": "Louisiana Court Tests AI Tools on Local Servers",
+    "metaDescription": "A Louisiana appellate court buys local AI servers for an experimental court-tools project, raising questions about testing, control and oversight.",
+    "excerpt": "A Louisiana appellate court is testing what happens when AI infrastructure sits inside the courthouse.",
+    "contentType": "analysis",
+    "category": "AI & Technology",
+    "jurisdiction": "Louisiana, United States; Canadian comparison",
+    "tags": [
+      {
+        "name": "Louisiana court AI servers",
+        "slug": "louisiana-court-local-ai-servers-pilot"
+      }
+    ],
+    "related": [
+      "mississippi-dei-ai-judicial-errors-reassignment",
+      "canadian-judicial-council-ai-deepfake-evidence-guidance"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-23T23:21:56Z",
+    "modified": "2026-10-23T23:21:56Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Louisiana Court Buys Local AI Servers to Test New Court Tools",
+      "description": "A Louisiana appellate court buys local AI servers for an experimental court-tools project, raising questions about testing, control and oversight.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "fifth-circuit-switchblade-second-amendment-bruen",
+    "headline": "Fifth Circuit Applies Second Amendment Framework to Federal Switchblade Restrictions",
+    "seoTitle": "Fifth Circuit Applies Bruen to Switchblade Restrictions",
+    "metaDescription": "The Fifth Circuit rejects federal interstate switchblade restrictions under the Second Amendment while preserving dismissal of a separate challenge.",
+    "excerpt": "The US constitutional framework governing weapons regulation reaches beyond firearms.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "United States; Canadian comparison",
+    "tags": [
+      {
+        "name": "Fifth Circuit switchblade ruling",
+        "slug": "fifth-circuit-switchblade-second-amendment-bruen"
+      }
+    ],
+    "related": [
+      "supreme-court-transgender-prisoner-injunction-kingdom"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-23T23:21:56Z",
+    "modified": "2026-10-23T23:21:56Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Fifth Circuit Applies Second Amendment Framework to Federal Switchblade Restrictions",
+      "description": "The Fifth Circuit rejects federal interstate switchblade restrictions under the Second Amendment while preserving dismissal of a separate challenge.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "florida-safe-screens-act-social-media-ai-proposal",
+    "headline": "Florida’s Safe Screens Proposal Targets Teen Social-Media Design and AI Companionship",
+    "seoTitle": "Florida Safe Screens Proposal Targets Social Media and AI",
+    "metaDescription": "Florida’s proposed Safe Screens Act would regulate teen account design, age checks and AI chatbot features. The measures are not yet law.",
+    "excerpt": "Florida’s attorney general is proposing youth-safety restrictions that reach into the design of social platforms and AI chatbots.",
+    "contentType": "analysis",
+    "category": "AI & Technology",
+    "jurisdiction": "Florida, United States; Canadian implications",
+    "tags": [
+      {
+        "name": "Florida Safe Screens Act",
+        "slug": "florida-safe-screens-act-social-media-ai-proposal"
+      }
+    ],
+    "related": [
+      "meta-new-mexico-25-billion-privacy-penalty"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-23T23:21:56Z",
+    "modified": "2026-10-23T23:21:56Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Florida’s Safe Screens Proposal Targets Teen Social-Media Design and AI Companionship",
+      "description": "Florida’s proposed Safe Screens Act would regulate teen account design, age checks and AI chatbot features. The measures are not yet law.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "weil-willkie-merger-talks-end-partner-departures",
+    "headline": "Weil-Willkie Merger Talks Reportedly End as Senior Departures Continue",
+    "seoTitle": "Weil-Willkie Merger Talks Reportedly End Amid Departures",
+    "metaDescription": "Bloomberg and WSJ report that Weil and Willkie ended merger discussions as further senior departures raise law-firm governance questions.",
+    "excerpt": "Weil’s reported merger discussions have taken a material turn.",
+    "contentType": "analysis",
+    "category": "Business & Practice Development",
+    "jurisdiction": "United States; Canadian law-firm comparison",
+    "tags": [
+      {
+        "name": "Weil Willkie merger talks",
+        "slug": "weil-willkie-merger-talks-end-partner-departures"
+      }
+    ],
+    "related": [
+      "kirkland-ellis-financial-reporting-big-law"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-23T23:21:56Z",
+    "modified": "2026-10-23T23:21:56Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Weil-Willkie Merger Talks Reportedly End as Senior Departures Continue",
+      "description": "Bloomberg and WSJ report that Weil and Willkie ended merger discussions as further senior departures raise law-firm governance questions.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
     "slug": "meta-new-mexico-25-billion-privacy-penalty",
     "headline": "Meta’s US$25 Billion New Mexico Penalty Puts Privacy Promises Under Pressure",
     "seoTitle": "Meta’s $25 Billion New Mexico Privacy Penalty Explained",
