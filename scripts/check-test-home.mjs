@@ -8,6 +8,14 @@ assert(home.includes('Special offer from Magneo'));
 assert.equal((home.match(/class="tlc-pressfeed-block"/g)||[]).length,4);
 assert(!fs.existsSync('home-test/index.html'), 'Removed test page must not be regenerated');
 assert(home.includes('News and insights that matter to lawyers - from legal developments and AI to marketing and practice growth.'));
+for (const name of ['the-legal-circle-logo', 'lady-justice-supplied', 'finance-law-networking-event-v2']) {
+  assert(home.includes(`/assets/${name}.webp`), `Homepage must use the optimized ${name}`);
+  const webp = fs.readFileSync(`assets/${name}.webp`);
+  assert(webp.subarray(0, 4).toString() === 'RIFF' && webp.subarray(8, 12).toString() === 'WEBP', `Invalid WebP: ${name}`);
+  assert(webp.length < fs.statSync(`assets/${name}.png`).size, `WebP must be smaller: ${name}`);
+}
+assert(home.includes('/assets/the-legal-circle-favicon-32.png'));
+assert(fs.statSync('assets/the-legal-circle-favicon-32.png').size < 10000, 'Favicon should not download the full-size logo');
 assert(home.includes('data-feed-play>Pause updates'));
 assert(!fs.readFileSync('sitemap.xml','utf8').includes('/home-test/'));
 assert(!/noindex|nofollow/i.test(fs.readFileSync('magneo-website-offer/index.html','utf8')), 'Approved offer page must remain indexable');

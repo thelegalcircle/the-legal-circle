@@ -287,7 +287,7 @@ function categoryPage(category, items) {
   <title>${esc(category)} | The Legal Circle</title>
   <meta name="description" content="${esc(description)}">
   <link rel="canonical" href="${canonical}">
-  <link rel="icon" type="image/png" href="/assets/the-legal-circle-logo.png">
+  <link rel="icon" type="image/png" href="/assets/the-legal-circle-favicon-32.png">
   <meta property="og:title" content="${esc(category)} | The Legal Circle">
   <meta property="og:description" content="${esc(description)}">
   <meta property="og:type" content="website">
