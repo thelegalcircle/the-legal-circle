@@ -1,5 +1,165 @@
 [
   {
+    "slug": "new-york-archdiocese-800-million-abuse-settlement",
+    "headline": "New York Archdiocese’s US$800 Million Abuse Settlement Wins Survivors’ Agreement",
+    "seoTitle": "New York Archdiocese’s $800M Abuse Settlement Explained",
+    "metaDescription": "Approximately 1,300 survivors agree to the New York archdiocese’s US$800 million settlement. Further steps remain before payments can begin.",
+    "excerpt": "A US$800 million settlement can mark a major breakthrough without ending every legal dispute connected to it.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "New York, United States; Canadian litigation comparison",
+    "tags": [
+      {
+        "name": "New York archdiocese abuse settlement",
+        "slug": "new-york-archdiocese-800-million-abuse-settlement"
+      }
+    ],
+    "related": [
+      "whittaker-talc-settlement-claims-ownership"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-25T22:32:18Z",
+    "modified": "2026-10-25T22:32:18Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "New York Archdiocese’s US$800 Million Abuse Settlement Wins Survivors’ Agreement",
+      "description": "Approximately 1,300 survivors agree to the New York archdiocese’s US$800 million settlement. Further steps remain before payments can begin.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "california-ballot-dispute-doj-ninth-circuit",
+    "headline": "California Ballot Dispute: A “Likely Noncitizen” List Is Not a Citizenship Finding",
+    "seoTitle": "California Ballot Dispute: DOJ Faces Ninth Circuit Questions",
+    "metaDescription": "Ninth Circuit judges question DOJ’s request to separate California ballots linked to a disputed eligibility list. No ruling was reported after argument.",
+    "excerpt": "Can a disputed government list justify separating voters’ ballots before their eligibility has been established?",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "California, United States; Canadian public-law comparison",
+    "tags": [
+      {
+        "name": "California ballot dispute",
+        "slug": "california-ballot-dispute-doj-ninth-circuit"
+      }
+    ],
+    "related": [
+      "doj-alaska-senate-certification-lawsuit"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-25T22:32:18Z",
+    "modified": "2026-10-25T22:32:18Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "California Ballot Dispute: A “Likely Noncitizen” List Is Not a Citizenship Finding",
+      "description": "Ninth Circuit judges question DOJ’s request to separate California ballots linked to a disputed eligibility list. No ruling was reported after argument.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "immigration-judge-bond-rulings-independence-allegations",
+    "headline": "Former U.S. Immigration Judge Alleges Pressure to Reverse Bond Decisions",
+    "seoTitle": "Former Immigration Judge Alleges Pressure Over Bond Rulings",
+    "metaDescription": "Karen Donoso Stevens alleges pressure to reverse immigration bond decisions. The reported account raises questions about adjudicative independence.",
+    "excerpt": "When the government disagrees with an adjudicator, the route it takes to challenge the decision matters.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "United States; Canadian administrative-law comparison",
+    "tags": [
+      {
+        "name": "immigration judge independence",
+        "slug": "immigration-judge-bond-rulings-independence-allegations"
+      }
+    ],
+    "related": [
+      "fifth-circuit-immigration-detention-bond-hearings"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-25T22:32:18Z",
+    "modified": "2026-10-25T22:32:18Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Former U.S. Immigration Judge Alleges Pressure to Reverse Bond Decisions",
+      "description": "Karen Donoso Stevens alleges pressure to reverse immigration bond decisions. The reported account raises questions about adjudicative independence.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
+    "slug": "cornell-lawsuit-plaintiff-anonymity-ruling",
+    "headline": "Cornell Lawsuit: Judge Allows Plaintiff to Remain Anonymous Over Safety Concerns",
+    "seoTitle": "Cornell Lawsuit: Judge Permits Plaintiff’s Anonymity",
+    "metaDescription": "A New York judge allows the Cornell lawsuit plaintiff to use a pseudonym over safety concerns. The ruling does not decide the assault allegations.",
+    "excerpt": "Public scrutiny of litigation does not always require public identification of the person bringing it.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "New York, United States; Canadian litigation comparison",
+    "tags": [
+      {
+        "name": "Cornell lawsuit plaintiff anonymity",
+        "slug": "cornell-lawsuit-plaintiff-anonymity-ruling"
+      }
+    ],
+    "related": [
+      "r-v-am-2026-scc-33-sexual-history-evidence"
+    ],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-10-25T22:32:18Z",
+    "modified": "2026-10-25T22:32:18Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Cornell Lawsuit: Judge Allows Plaintiff to Remain Anonymous Over Safety Concerns",
+      "description": "A New York judge allows the Cornell lawsuit plaintiff to use a pseudonym over safety concerns. The ruling does not decide the assault allegations.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": ""
+  },
+  {
     "slug": "hemmings-padmore-scc-medical-negligence-causation",
     "headline": "Hemmings v. Padmore: SCC Separates Factual Causation from Remoteness in Medical Negligence",
     "seoTitle": "Hemmings v Padmore: SCC on Medical Negligence Causation",
