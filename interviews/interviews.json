@@ -82,5 +82,33 @@
       "role": "Immigration lawyer · Founder, Ansari Immigration Law",
       "portrait": "/assets/yameena-ansari-optimized.webp"
     }
+  },
+  {
+    "slug": "evgeniy-kharam-why-clients-choose-you",
+    "path": "/interviews/evgeniy-kharam-why-clients-choose-you/",
+    "status": "published",
+    "contentType": "interview",
+    "format": "written",
+    "video": null,
+    "headline": "You Have the Expertise. Why Doesn't the Client Choose You?",
+    "seoTitle": "Interview: Evgeniy Kharam on Soft Skills and Client Trust | The Legal Circle",
+    "metaDescription": "Soft-skills author and cybersecurity architect Evgeniy Kharam on what clients decide in the first 30 seconds, why experts talk clients out of hiring them, and the grocery-store practice that teaches connection.",
+    "excerpt": "Seven questions with Evgeniy Kharam on soft skills, first impressions, trust and why clients choose the expert who connects.",
+    "published": "2026-10-28T16:56:51Z",
+    "modified": "2026-10-28T16:56:51Z",
+    "interviewer": {
+      "name": "Adele Salikhova",
+      "url": "https://thelegalcircle.ca/about/adele-salikhova/"
+    },
+    "author": {
+      "name": "Adele Salikhova",
+      "type": "Person",
+      "url": "https://thelegalcircle.ca/about/adele-salikhova/"
+    },
+    "guest": {
+      "name": "Evgeniy Kharam",
+      "role": "Soft-skills author · TEDx speaker · Cybersecurity advisor",
+      "portrait": "/assets/evgeniy-kharam.png"
+    }
   }
 ]
