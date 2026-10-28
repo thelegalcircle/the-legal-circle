@@ -1,5 +1,69 @@
 [
   {
+    "slug": "legal-marketing-build-audience-before-clients-need-you",
+    "status": "published",
+    "headline": "Your Next Client Doesn’t Need You. Yet.",
+    "seoTitle": "Legal Marketing: Build an Audience Before Clients Need You",
+    "metaDescription": "Why lawyers should build an audience before clients face a crisis, with five content formats that make legal expertise memorable.",
+    "excerpt": "Why lawyers need to stop marketing only to people in crisis and start building an audience before the crisis happens.",
+    "contentType": "analysis",
+    "category": "Legal Marketing & PR",
+    "tags": [
+      {
+        "name": "social media marketing for lawyers",
+        "slug": "social-media-marketing-for-lawyers"
+      },
+      {
+        "name": "law firm content marketing",
+        "slug": "law-firm-content-marketing"
+      },
+      {
+        "name": "lawyer personal branding",
+        "slug": "lawyer-personal-branding"
+      },
+      {
+        "name": "legal marketing strategy",
+        "slug": "legal-marketing-strategy"
+      },
+      {
+        "name": "audience building for lawyers",
+        "slug": "audience-building-for-lawyers"
+      }
+    ],
+    "author": {
+      "name": "Adele Salikhova",
+      "type": "Person",
+      "url": "https://thelegalcircle.ca/about/adele-salikhova/"
+    },
+    "published": "2026-10-28T23:10:54Z",
+    "modified": "2026-10-28T23:10:54Z",
+    "jurisdiction": "Canada",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Your Next Client Doesn’t Need You. Yet.",
+      "description": "Why lawyers should build an audience before clients face a crisis, with five content formats that make legal expertise memorable.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "related": [
+      "lawyer-personal-branding-side-project",
+      "legal-content-marketing-client-education"
+    ],
+    "correctionNote": "",
+    "primaryKeyword": "social media marketing for lawyers",
+    "secondaryKeywords": [
+      "law firm content marketing",
+      "lawyer personal branding",
+      "legal marketing strategy",
+      "audience building for lawyers"
+    ]
+  },
+  {
     "slug": "la-rose-canada-youth-climate-charter-trial",
     "headline": "Canada’s Youth Climate Case Reaches Trial: What Is at Stake in La Rose v. Canada?",
     "seoTitle": "La Rose v. Canada: Youth Climate Charter Trial Begins",
