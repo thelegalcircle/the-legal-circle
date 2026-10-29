@@ -110,5 +110,33 @@
       "role": "Soft-skills author · TEDx speaker · Cybersecurity advisor",
       "portrait": "/assets/evgeniy-kharam.png"
     }
+  },
+  {
+    "slug": "simon-pelsmakher-employment-law",
+    "path": "/interviews/simon-pelsmakher-employment-law/",
+    "status": "published",
+    "contentType": "interview",
+    "format": "written",
+    "video": null,
+    "headline": "Understanding Both Sides of the Table - Simon Pelsmakher",
+    "seoTitle": "Interview: Simon Pelsmakher on Employment Law and Building a Firm | The Legal Circle",
+    "metaDescription": "Employment lawyer Simon Pelsmakher on founding his own firm, advising employees and employers, building trust through a severance calculator and writing useful case commentary.",
+    "excerpt": "Six questions with Simon Pelsmakher on employment law, starting a firm, client trust and building a practice.",
+    "published": "2026-10-29T23:21:22Z",
+    "modified": "2026-10-29T23:21:22Z",
+    "interviewer": {
+      "name": "Adele Salikhova",
+      "url": "https://thelegalcircle.ca/about/adele-salikhova/"
+    },
+    "author": {
+      "name": "Adele Salikhova",
+      "type": "Person",
+      "url": "https://thelegalcircle.ca/about/adele-salikhova/"
+    },
+    "guest": {
+      "name": "Simon Pelsmakher",
+      "role": "Employment lawyer · Founder, Pelsmakher Law",
+      "portrait": "/assets/simon-pelsmakher.webp"
+    }
   }
 ]
