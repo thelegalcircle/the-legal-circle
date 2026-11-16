@@ -1,5 +1,127 @@
 [
   {
+    "slug": "canada-public-colleges-universities-bia-ccaa-exclusion",
+    "headline": "Canada Proposes Excluding Public Colleges and Universities From Federal Insolvency Proceedings",
+    "seoTitle": "Canada Proposes BIA and CCAA Exclusion for Public Colleges",
+    "metaDescription": "Canada proposes excluding prescribed public colleges and universities from BIA and CCAA proceedings. Learn what would change and what remains unresolved.",
+    "excerpt": "If a public college or university runs into serious financial trouble, what happens if it cannot restructure under Canada’s federal insolvency laws? Ottawa has proposed rules that would take those proceedings off the table for institutions covered by the new definition. The proposals do not establish a replacement process.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "Canada",
+    "tags": [
+      {
+        "name": "public post-secondary insolvency Canada",
+        "slug": "public-post-secondary-insolvency-canada"
+      },
+      {
+        "name": "BIA and CCAA exclusion",
+        "slug": "bia-and-ccaa-exclusion"
+      },
+      {
+        "name": "university restructuring",
+        "slug": "university-restructuring"
+      },
+      {
+        "name": "public college insolvency",
+        "slug": "public-college-insolvency"
+      },
+      {
+        "name": "Canada Gazette consultation",
+        "slug": "canada-gazette-consultation"
+      }
+    ],
+    "related": [],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-11-16T16:40:10Z",
+    "modified": "2026-11-16T16:40:10Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Canada Proposes Excluding Public Colleges and Universities From Federal Insolvency Proceedings",
+      "description": "Canada proposes excluding prescribed public colleges and universities from BIA and CCAA proceedings. Learn what would change and what remains unresolved.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": "",
+    "primaryKeyword": "public post-secondary insolvency Canada",
+    "secondaryKeywords": [
+      "BIA and CCAA exclusion",
+      "university restructuring",
+      "public college insolvency",
+      "Canada Gazette consultation"
+    ]
+  },
+  {
+    "slug": "tax-court-canada-proposed-email-service-redaction-motion-rules",
+    "headline": "Tax Court of Canada Proposes Email Service, Redaction and Longer Motion Deadlines",
+    "seoTitle": "Tax Court Proposes Email Service and New Motion Deadlines",
+    "metaDescription": "Proposed Tax Court of Canada rules address consent to email service, redaction and longer motion lead times. The changes are open for comment.",
+    "excerpt": "Three routine tasks in a Tax Court appeal could change under proposed rules: serving documents by email, checking filings for private information and counting back from a motion hearing.",
+    "contentType": "analysis",
+    "category": "Legal Developments",
+    "jurisdiction": "Canada",
+    "tags": [
+      {
+        "name": "Tax Court of Canada proposed rules",
+        "slug": "tax-court-of-canada-proposed-rules"
+      },
+      {
+        "name": "Tax Court email service",
+        "slug": "tax-court-email-service"
+      },
+      {
+        "name": "General Procedure Rules",
+        "slug": "general-procedure-rules"
+      },
+      {
+        "name": "motion deadlines",
+        "slug": "motion-deadlines"
+      },
+      {
+        "name": "court filing redaction",
+        "slug": "court-filing-redaction"
+      }
+    ],
+    "related": [],
+    "status": "published",
+    "author": {
+      "name": "The Legal Circle",
+      "type": "Organization",
+      "url": "https://thelegalcircle.ca/editorial/"
+    },
+    "published": "2026-11-16T16:40:10Z",
+    "modified": "2026-11-16T16:40:10Z",
+    "featuredImage": {
+      "url": "/assets/the-legal-circle-social-card.png",
+      "alt": "The Legal Circle - Connect. Contribute. Grow.",
+      "width": 1200,
+      "height": 630,
+      "showInArticle": false
+    },
+    "social": {
+      "title": "Tax Court of Canada Proposes Email Service, Redaction and Longer Motion Deadlines",
+      "description": "Proposed Tax Court of Canada rules address consent to email service, redaction and longer motion lead times. The changes are open for comment.",
+      "image": "/assets/the-legal-circle-social-card.png"
+    },
+    "correctionNote": "",
+    "primaryKeyword": "Tax Court of Canada proposed rules",
+    "secondaryKeywords": [
+      "Tax Court email service",
+      "General Procedure Rules",
+      "motion deadlines",
+      "court filing redaction"
+    ]
+  },
+  {
     "slug": "eu-court-poland-fit-for-55-climate-judgments",
     "headline": "EU Court Dismisses Poland’s Seven Challenges to the Fit for 55 Climate Package",
     "seoTitle": "EU Court Rejects Poland’s Fit for 55 Climate Challenges",
